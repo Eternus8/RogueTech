@@ -84,7 +84,9 @@
 			"AccuracyModifier" : -2.0,
 			"EvasivePipsIgnored" : 2,
 			"DamageOnJamming": true,
-			"FlatJammingChance": 0.15
+			"FlatJammingChance": 0.15,
+			"GunneryJammingMult": 0.02,
+			"GunneryJammingBase": 5,
 		},
 		{
 			"Id":"OverCharge",
@@ -94,6 +96,8 @@
 			"DamagePerShot": 20,
 			"DamageOnJamming": true,
 			"FlatJammingChance": 0.15,
+			"GunneryJammingMult": 0.02,
+			"GunneryJammingBase": 5,
 			"FireTerrainChance": 0.0875
 		}		
 	],
@@ -152,6 +156,7 @@
     ],
     "ComponentTags": {
         "items": [
+ "OmniRestriction.{location}",
             "component_type_stock",
             "range_standard",
 			"wr-reverse_variance_by_distance-125"

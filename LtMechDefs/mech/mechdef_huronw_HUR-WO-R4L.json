@@ -1,24 +1,30 @@
 {
     "MechTags": {
-        "items": [
+ "items": [
             "unit_jumpOK",
             "unit_mech",
             "unit_medium",
             "unit_lance_vanguard",
             "unit_role_sniper",
+            "unit_bracket_med",
+            "unit_advanced",
             "unit_release",
 			"comstar",
 			"kurita",
-			"steiner",
-			"ives",
-			"locals",
 			"liao",
 			"marik",
-			"rasalhague",
-			"valkyrate",
-			"magistracyofcanopus",
-			"tortuga",
-			"auriganrestoration"
+      "auriganmercenaries",
+      "magistracyofcanopus",
+      "taurianconcordat",
+      "locals",
+	  "FlakJackals",
+"LocalsBrockwayRefugees",
+"SelfEmployed",
+"MasonsMarauders",
+"SteelBeast",
+"KellHounds",
+"RazorbackMercs",
+"HostileMercenaries"
         ],
         "tagSetSourceFile": ""
     },

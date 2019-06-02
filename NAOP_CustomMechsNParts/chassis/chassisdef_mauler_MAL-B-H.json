@@ -1,11 +1,38 @@
 {
   "Custom": {
-
+   "ChassisDefaults" : [
+		{
+                        "CategoryID" : "Armor",
+                        "DefID" : "emod_armorslots_hyperdiamond",
+                        "Location" : "CenterTorso",
+                        "Type" : "Upgrade"
+		}
+        ]
   },
   
   "FixedEquipment": [ {
 			"MountedLocation": "RightArm",
 			"ComponentDefID": "Gear_Actuator_Prototype_PowerMace",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}, {
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Actuator_Spiked_Pauldron",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}, {
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_Actuator_Spiked_Pauldron",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

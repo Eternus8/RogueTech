@@ -18,19 +18,13 @@
       "axumite",
       "auriganpirates",
       "locals",
-      "magistracyofcanopus",
       "marian",
-      "taurianconcordat",
-      "rasalhague",
-      "outworld",
       "elysia",
       "oberon",
       "valkyrate",
       "circinus",
       "illyrian",
-      "lothian",
-      "aurigandirectorate",
-      "auriganrestoration"
+      "lothian"
     ],
     "tagSetSourceFile": ""
   },
@@ -398,7 +392,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Rifle_Heavy",
+      "ComponentDefID": "Ammo_AmmunitionBox_Rifle_Heavy_APFSDS",
       "SimGameUID": null,
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,

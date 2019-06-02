@@ -31,17 +31,109 @@ unit_brutus,
 unit_pegasus,
 unit_zephyr,
 unit_hunter,
+unit_demolisher <- Literally every faction has these
 
 
 Changelog:
 
-0.0.0
+7.6.2
+
+Added Demon (PPC),
+Added Bandit medium hovers ( <3 Justin ),
+Minor tweaks
+
+7.5.1
+
+Rhino Fire Support Tank update
+    Added Rhino MG,
+    Added Rhino SL,
+    Added Base Rhino,
+    Tweaked Rhino Royal and Rhino Flamer
+
+7.4.7 <---- Corresponds to P11 release
+
+Fixed TBM20 carrier being undertonned,
+Tweaked a few techies to carry Generic_AP
+
+7.4.5 - 5/19/2019 <---- Corresponds to P11 A5
+
+Added Demolisher (Arrow IV) to arty folder,
+minor fixes
+
+7.4.3 - 5/15/2019
+
+Added Pirate Axel "Rose",
+Added Light Mortar Carrier with FASCAM,
+Added a second Clan LRM carrier with a different payload,
+Reworked Enhanced LRM Carrier,
+Reworked Extended LRM Carrier,
+Striker Light Tank Update:
+    Minor tweaks/fixes,
+    Added Striker (3061),
+    Added Striker (Ammo),
+    Added Striker (Narc),
+    Added Striker (Laser)
+
+7.3.3 - 5/14/2019 <---- Corresponds to P10 HF2
+
+Hunter Update
+    Added Hunter LPL,
+    Added Hunter ERL,
+    Added Hunter (Ammo),
+    Took overweight heavy flamers away from a couple Hunters,
+    Tweaked Hunter_LA because i goofed and it wasn't quite valid,
+    Adjusted some ammo
+
+7.2.7 - 5/13/2019
+
+Added Brutus (LRM), 
+Added Brutus (HPPC),
+Adjusted other Brutus ammo, tagging and + weapons,
+Fixed a misnamed manticore chassisdef,
+Added Manticore (LBX),
+Added Manticore (Command),
+Added Manticore (C3),
+Adjusted Manticore ammo, and tagging
+
+7.1.9
+
+Enabled blacklisted VBIEDs now that they have a self kill trigger,
+Added a new Pirate Marsden II
+
+7.1.7 - 5/3/2019
+
+Added Clan Gauss Demolisher,
+Fixed laser Morrigu having 4 engine cores LOL,
+
+7.1.5
+
+Added Clan ATM Carrier,
+Added missing CASE to Clan vehicles,
+Made "unit_demolisher" tag to enable special lances with them,
+minor fixes
+
+7.1.1
+
+Added MRM Demolisher
+
+7.1.0 - 4/30/2019
+
+Added Marksman Artilery Vehicle,
+Minor fixes for other arty vehicles
+
+Note that adding crit-able default internals, including motive systems, has been done to all vehicles on or about this date.
+
+7.0.9 - 4/27/2019
 
 Tweaked vehicle stealth to follow the current style of mech stealth,
 Removed LRM and SRM Artemis standin files that have long been unused.
 Tweaked the Bardiche,
 Found a couple tanks to give the double mg bin which otherwise was not used on *any* units,
 Fixed wrong ammo on Myrmimdon_INF
+Added Pirate Shepard
+Added Clan Oro (UAC5)
+Added Clan Oro (Gauss)
+minor fixes
 
 7.0.0 - 4/21/2019
 

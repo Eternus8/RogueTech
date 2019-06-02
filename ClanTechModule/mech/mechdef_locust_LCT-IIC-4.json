@@ -4,7 +4,7 @@
             "unit_mech",
             "unit_release",
             "unit_light",
-            "unit_lance_support",
+            "unit_lance_vanguard",
             "unit_role_scout",
             "unit_bracket_low",
             "unit_littlefriend",
@@ -413,7 +413,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftArm",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Laser_HeavySmallLaser_CLAN",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
@@ -435,7 +435,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightArm",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_HeavySmallLaser_CLAN",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",

@@ -6,19 +6,12 @@
             "unit_medium",
             "unit_lance_vanguard",
             "unit_role_sniper",
+            "unit_indirectFire",
+	    "unit_bracket_med",
+            "unit_advanced",
             "unit_release",
-			"comstar",
-			"kurita",
-			"steiner",
-			"ives",
-			"locals",
-			"liao",
-			"marik",
-			"rasalhague",
-			"valkyrate",
-			"magistracyofcanopus",
-			"tortuga",
-			"auriganrestoration"
+            "unit_totem",
+	    "liao"
         ],
         "tagSetSourceFile": ""
     },
@@ -478,7 +471,7 @@
         },
         {
             "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID" : "Ammo_AmmunitionBox_Thunder_LRM",
             "SimGameUID" : "",
             "ComponentDefType" : "AmmunitionBox",
             "HardpointSlot" : -1,
@@ -488,7 +481,7 @@
         },
         {
             "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefID" : "Ammo_AmmunitionBox_Clearance_LRM",
             "SimGameUID" : "",
             "ComponentDefType" : "AmmunitionBox",
             "HardpointSlot" : -1,

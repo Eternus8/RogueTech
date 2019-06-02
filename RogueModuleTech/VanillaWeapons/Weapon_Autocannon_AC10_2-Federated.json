@@ -41,6 +41,8 @@
     "AttackRecoil": 3,
     "Instability": 15,
 	"FlatJammingChance": 0.15,
+	"GunneryJammingMult": 0.04,
+	"GunneryJammingBase": 3,
 	"FireTerrainChance": 0.05,
     "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
     "Description": {
@@ -69,6 +71,7 @@
     "statusEffects": [],
     "ComponentTags": {
         "items": [
+ "OmniRestriction.{location}",
             "component_type_variant",
             "component_type_variant2",
             "range_long",

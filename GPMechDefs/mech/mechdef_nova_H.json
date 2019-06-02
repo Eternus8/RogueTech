@@ -39,7 +39,7 @@
     "UIName": "Nova",
     "Id": "mechdef_nova_H",
     "Name": "Nova",
-    "Details": "A sleek, mobile, and versatile design, the Clan Nova was long suspected to be one of the first OmniMechs produced by the Clans.   <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
+    "Details": "A sleek, mobile, and versatile design, the Clan Nova was long suspected to be one of the first OmniMechs produced by the Clans.   <b><color=#53ff1a>Restricted Actuators- Omni</color></b>",
     "Icon": "uixTxrIcon_nova"
   },
   "simGameMechPartCost": 1210000,
@@ -458,28 +458,6 @@
       "prefabName": null,
       "hasPrefabName": false
     },
-	  {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "emod_arm_omni_lower",
-      "SimGameUID": "",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "emod_arm_omni_hand",
-      "SimGameUID": "",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
     {
       "MountedLocation": "RightArm",
       "ComponentDefID": "emod_arm_part_shoulder",
@@ -494,28 +472,6 @@
     {
       "MountedLocation": "RightArm",
       "ComponentDefID": "emod_arm_part_upper",
-      "SimGameUID": "",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-	  {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "emod_arm_omni_lower",
-      "SimGameUID": "",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "emod_arm_omni_hand",
       "SimGameUID": "",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,

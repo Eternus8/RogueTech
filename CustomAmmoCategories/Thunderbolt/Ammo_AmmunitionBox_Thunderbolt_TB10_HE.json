@@ -11,21 +11,20 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-                "TboltDamage: -40",
-                "AreaOfEffect: 70",
-                "AreaOfEffectDmg: 35",
-                "ArmorDmgMod: -25%",
-                "StructureDmgMod: +25%",
-                "Crits: +50%",
+                "WpnAccuracy: +2",
+                "AreaOfEffectDmg: 40",
+                "AreaOfEffect: 80",
+                "WeaponDamage: -40",
+                "MineClearanceBoom: 2",
                 "StabDamage: +7",
-                "ThermoBOLT10Ammo: 6"
+                "TBOLT10Ammo: 6"
             ]
         },
         "InventorySorter": {
             "SortKey": "000047"
         }
     },
-    "AmmoID": "Ammunition_TBOLT10_Thermo",
+    "AmmoID": "Ammunition_TBOLT10_HE",
     "Capacity": 6,
     "Description": {
         "Cost": 30000,

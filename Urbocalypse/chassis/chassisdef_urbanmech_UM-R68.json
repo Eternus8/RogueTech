@@ -14,14 +14,14 @@
     "UIName": "UrbanMech",
     "Id": "chassisdef_urbanmech_UM-R68",
     "Name": "UrbanMech",
-    "Details": "Don't let the stubby 'Urbie' fool youÔÇöit may look like a walking trash can. Eschewing the autocannon, this Draconis Combine variant carries an MRM-30 with two tons of ammo. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
+    "Details": "Don't let the stubby 'Urbie' fool you, it may look like a walking trash can. Eschewing the autocannon, this Draconis Combine variant carries an MRM-30 with two tons of ammo. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_urbanmech"
   },
   "MovementCapDefID": "movedef_urbanmech_UM-R60",
   "PathingCapDefID": "pathingdef_light",
-  "HardpointDataDefID": "hardpointdatadef_urbanmech",
-  "PrefabIdentifier": "chrPrfMech_urbanmechBase-001",
-  "PrefabBase": "urbanmech",
+  "HardpointDataDefID": "hardpointdatadef_urbie",
+    "PrefabIdentifier": "chrprfmech_urbiebase-001",
+    "PrefabBase": "urbie",
   "Tonnage": 30,
   "InitialTonnage": 3,
   "weightClass": "LIGHT",
@@ -222,5 +222,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Defender",
-  "YangsThoughts": "Don't let the stubby 'Urbie' fool youÔÇöit may look like a walking trash can. Eschewing the autocannon, this Draconis Combine variant carries an MRM-30 with two tons of ammo. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>"
+  "YangsThoughts": "Don't let the stubby 'Urbie' fool you, it may look like a walking trash can. Eschewing the autocannon, this Draconis Combine variant carries an MRM-30 with two tons of ammo. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>"
 }

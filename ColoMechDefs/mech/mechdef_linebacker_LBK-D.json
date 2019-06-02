@@ -8,23 +8,13 @@
             "unit_role_sniper",
             "unit_bracket_high",
             "unit_advanced",
-            "clansgeneric",
             "clanwolf",
-            "clanfiremandrill",
-            "clanstaradder",
             "clancoyote",
             "clanjadefalcon",
             "clansteelviper",
-            "clanicehellion",
-            "clangoliathscorpion",
-            "clandiamondshark",
             "clanhellshorses",
             "clansnowraven",
-            "clanghostbear",
-            "clansmokejaguar",
-            "clancloudcobra",
-            "clannovacat",
-            "clanburrock"
+            "clancloudcobra"
         ],
         "tagSetSourceFile": ""
     },
@@ -39,7 +29,7 @@
         "UIName": "Linebacker",
         "Id": "mechdef_linebacker_LBK-D",
         "Name": "Linebacker",
-        "Details": "The Linebacker D is a committed close-combat configuration with four highly accurate Streak SRM-6 launchers providing an overwhelming close range missile barrage. The launchers are backed up by two ER Medium Lasers and a rear-mounted ER Small Laser, making this configuration a ferocious short-range brawler - until its three ammunition bins run dry. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
+        "Details": "The Linebacker D is a committed close-combat configuration with four highly accurate Streak SRM-6 launchers providing an overwhelming close range missile barrage. The launchers are backed up by two ER Medium Lasers and a rear-mounted ER Small Laser, making this configuration a ferocious short-range brawler - until its three ammunition bins run dry. <b><color=#53ff1a>Restricted Actuators- Omni</color></b>",
         "Icon": "uixTxrIcon_linebacker"
     },
     "simGameMechPartCost": 970000,

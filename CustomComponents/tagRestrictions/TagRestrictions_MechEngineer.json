@@ -15,13 +15,24 @@
 					"OmniMech",
 				],
 			"RequiredAnyTags": [
-			"emod_arm_omni_lower",
-			"ArmLowerActuator"
+			"emod_arm_omni_lower"
 			],
             "IncompatibleTags" : [
                 "ArmHandActuator"
             ]
         },
+		{
+			"Tag": "OmniActuator.LeftArm",
+			"IncompatibleTags":[
+				"OmniRestriction.LeftArm"
+			]
+		},
+		{
+			"Tag": "OmniActuator.RightArm",
+			"IncompatibleTags":[
+				"OmniRestriction.RightArm"
+			]
+		},
 		{
             "Tag" : "Gear_Cockpit_SolarisCage",
             "IncompatibleTags" : [
@@ -90,7 +101,6 @@
 			{
 				"Tag": "ArrowIV",
 				"IncompatibleTags": [
-					"ArtemisTTS",
 					"TTSComp",
 					"CLANTTS",
 					"Gear_FCS_Athena",
@@ -192,6 +202,22 @@
 				]
 			},
 			{
+				"Tag": "HMRMARTIVAmmo",
+				"IncompatibleTags": [
+				],
+				"RequiredTags": [
+					"ArtemisTTS"
+				]
+			},
+			{
+				"Tag": "MRMARTIVAmmo",
+				"IncompatibleTags": [
+				],
+				"RequiredTags": [
+					"ArtemisTTS"
+				]
+			},
+			{
 				"Tag": "LRMARTIVAmmo",
 				"IncompatibleTags": [
 				],
@@ -283,21 +309,6 @@
 				]
 			},
 			{
-				"Tag": "Gear_armorslots_VoidSignatureSystem",
-				"IncompatibleTags": [
-					"C3Slave",
-					"C3Master",
-					"Gear_Cockpit_CommandConsole",
-					"TTSComp",
-					"Gear_FCS_AdvancedTC",
-					"Gear_FCS_AdvancedTC_Clan",
-					"Gear_FCS_Clan_ARTEMISIV",
-					"Gear_FCS_ARTIV",
-					"Gear_Pirate_AdvancedTC",
-					"Gear_FCS_ARTV"
-				]
-			},
-			{
 				"Tag": "Superheavy",
 				"IncompatibleTags": [
 					"Gear_Myomer_TSM",
@@ -332,7 +343,9 @@
 					"emod_armorslots_clanHeatDissipating",
 					"emod_armorslots_impactresistant",
 					"emod_armorslots_NullSignatureSystem_CLAN",
-					"emod_armorslots_stealth_CLAN"
+					"emod_armorslots_stealth_CLAN",
+					"emod_structure_wheeled_conversiongear",
+					"StealthArmor"
 				]
 			},
 			{

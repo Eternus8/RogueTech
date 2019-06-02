@@ -11,11 +11,17 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "SuicideBomb",
-                "1shot",
-                "AreaOfEffect: 250",
-                "AreaOfEffectDmg: 200",
-                "WpnCrits: 50%"
+                "AOEOnly",
+                "AreaOfEffect: 200",
+                "WpnCrits: +50%",
+                "MineClearanceBoom: 2"
             ]
+        },
+        "CriticalEffects": {
+            "DeathMethod": "EngineDestroyed"
+        },
+        "VehicleCriticalEffects": {
+            "DeathMethod": "EngineDestroyed"
         },
         "InventorySorter": {
             "SortKey": "04001"
@@ -25,7 +31,7 @@
     "Type": "Autocannon",
     "WeaponSubType": "AC20",
     "MinRange": 0,
-    "MaxRange": 90,
+    "MaxRange": 120,
     "RangeSplit": [
         90,
         90,
@@ -33,8 +39,8 @@
     ],
     "AmmoCategory": "Flamer",
     "StartingAmmoCapacity": 1,
-    "HeatGenerated": 20,
-    "Damage": 100,
+    "HeatGenerated": 25,
+    "Damage": 300,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 5,
@@ -43,8 +49,9 @@
     "AccuracyModifier": -10,
     "CriticalChanceMultiplier": 1.5,
     "AOECapable": true,
-    "AOERange": 250,
-    "AOEDamage": 200,
+    "AOEDamage": 0,
+    "AOEHeatDamage": 0,
+    "AOERange": 200,
     "IndirectFireCapable": false,
     "RefireModifier": 0,
     "ShotsWhenFired": 1,
@@ -52,8 +59,8 @@
     "AttackRecoil": 0,
     "Instability": 50,
     "DamageOnJamming": true,
-    "FlatJammingChance": 2.0,
-    "FireTerrainChance": 0.5,
+    "FlatJammingChance": 3.0,
+    "FireTerrainChance": 0.1,
     "AdditionalImpactVFX": "WFX_Nuke",
     "AdditionalImpactVFXScaleX": 10,
     "AdditionalImpactVFXScaleY": 10,
@@ -63,6 +70,7 @@
     "FireOnSuccessHit": true,
     "AlwaysIndirectVisuals": true,
     "AMSImmune": true,
+    "ClearMineFieldRadius": 60,
     "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
     "Description": {
         "Cost": 1120000,
@@ -70,7 +78,7 @@
         "Purchasable": true,
         "Manufacturer": "Scraphead",
         "Model": "Load of Explosive",
-        "UIName": " ",
+        "UIName": "Suspicious Cargo",
         "Id": "Weapon_Suspicious_Cargo",
         "Name": "Load of Explosive",
         "Details": "This is nothing but several tons of explosive strapped together",

@@ -2,20 +2,15 @@
     "MechTags": {
         "items": [
       "unit_legendary",
-      "unit_bracket_high",,
+      "unit_bracket_high",
       "unit_mech",
       "unit_heavy",
       "unit_release",
       "unit_lance_support",
       "unit_role_sniper",
       "unit_predator",
-      "comstar",
-      "steiner",
-      "marik",
-      "kurita",
-      "davion",
-      "liao",
-      "locals"
+      "unit_totem",
+      "comstar"
         ],
         "tagSetSourceFile": ""
     },
@@ -50,7 +45,7 @@
             "Location": "LeftArm",
             "CurrentArmor": 100,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 55,
+            "CurrentInternalStructure": 50,
             "AssignedArmor": 100,
             "AssignedRearArmor": -1
         },
@@ -59,7 +54,7 @@
             "Location": "LeftTorso",
             "CurrentArmor": 115,
             "CurrentRearArmor": 55,
-            "CurrentInternalStructure": 75,
+            "CurrentInternalStructure": 70,
             "AssignedArmor": 115,
             "AssignedRearArmor": 55
         },
@@ -68,7 +63,7 @@
             "Location": "CenterTorso",
             "CurrentArmor": 160,
             "CurrentRearArmor": 60,
-            "CurrentInternalStructure": 110,
+            "CurrentInternalStructure": 100,
             "AssignedArmor": 160,
             "AssignedRearArmor": 60
         },
@@ -77,7 +72,7 @@
             "Location": "RightTorso",
             "CurrentArmor": 115,
             "CurrentRearArmor": 55,
-            "CurrentInternalStructure": 75,
+            "CurrentInternalStructure": 70,
             "AssignedArmor": 115,
             "AssignedRearArmor": 55
         },
@@ -86,7 +81,7 @@
             "Location": "RightArm",
             "CurrentArmor": 100,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 55,
+            "CurrentInternalStructure": 50,
             "AssignedArmor": 100,
             "AssignedRearArmor": -1
         },
@@ -95,7 +90,7 @@
             "Location": "LeftLeg",
             "CurrentArmor": 90,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 75,
+            "CurrentInternalStructure": 70,
             "AssignedArmor": 90,
             "AssignedRearArmor": -1
         },
@@ -104,7 +99,7 @@
             "Location": "RightLeg",
             "CurrentArmor": 90,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 75,
+            "CurrentInternalStructure": 70,
             "AssignedArmor": 90,
             "AssignedRearArmor": -1
         }

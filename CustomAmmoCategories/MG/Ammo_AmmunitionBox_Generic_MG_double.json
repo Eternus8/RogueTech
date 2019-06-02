@@ -7,13 +7,12 @@
         },
         "ComponentExplosion": {
             "ExplosionDamagePerAmmo": 4,
-            "StabilityDamagePerAmmo": 1
+            "StabilityDamagePerAmmo": 0.5
         },
         "BonusDescriptions": {
             "Bonuses": [
                 "Doubled",
-                "BonusAmmo: 25%",
-				"MGAmmo: 450"
+                "MGAmmo: 450"
             ]
         },
         "InventorySorter": {

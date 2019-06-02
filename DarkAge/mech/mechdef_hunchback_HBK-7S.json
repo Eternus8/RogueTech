@@ -10,12 +10,9 @@
             "unit_legendary",
       "unit_bracket_med",
             "unit_predator",
-            "comstar",
-            "steiner",
-            "marik",
-            "kurita",
-            "davion",
-            "liao"
+            "unit_totem",
+            "steiner"
+
         ],
         "tagSetSourceFile": ""
     },
@@ -493,7 +490,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_AMS_SRM",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,

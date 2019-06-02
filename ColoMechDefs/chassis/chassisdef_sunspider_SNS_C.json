@@ -80,7 +80,7 @@
     "UIName": "Sun Spider",
     "Id": "chassisdef_sunspider_SNS_C",
     "Name": "Sun Spider",
-    "Details": "The C configuration is a classic LRM Missile Boat, fitted with a pair of LRM-15s in each arm and supported by an LRM-20 in each side torso. Carrying six tons of LRM missiles, an extra double heat sink strives to try and keep the Sun Spider firing. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
+    "Details": "The C configuration is a classic LRM Missile Boat, fitted with a pair of LRM-15s in each arm and supported by an LRM-20 in each side torso. Carrying six tons of LRM missiles, an extra double heat sink strives to try and keep the Sun Spider firing. <b><color=#53ff1a>Restricted Actuators- Omni</color></b>",
     "Icon": "uixTxrIcon_sunspider"
   },
   "MovementCapDefID": "movedef_sunspider",
@@ -121,9 +121,7 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -134,11 +132,27 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -152,7 +166,27 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -164,9 +198,7 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 220,
@@ -177,7 +209,23 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -191,11 +239,27 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -207,9 +271,7 @@
     },
     {
       "Location": "LeftLeg",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 150,
@@ -218,9 +280,7 @@
     },
     {
       "Location": "RightLeg",
-      "Hardpoints": [
-
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 150,
@@ -281,5 +341,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Lurm Boat",
-  "YangsThoughts": "The C configuration is a classic LRM Missile Boat, fitted with a pair of LRM-15s in each arm and supported by an LRM-20 in each side torso. Carrying six tons of LRM missiles, an extra double heat sink strives to try and keep the Sun Spider firing. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>"
+  "YangsThoughts": "The C configuration is a classic LRM Missile Boat, fitted with a pair of LRM-15s in each arm and supported by an LRM-20 in each side torso. Carrying six tons of LRM missiles, an extra double heat sink strives to try and keep the Sun Spider firing. <b><color=#53ff1a>Restricted Actuators- Omni</color></b>"
 }

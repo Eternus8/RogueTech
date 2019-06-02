@@ -45,7 +45,7 @@
 		"UIName": "Clint CLNT-P",
 		"Id": "mechdef_clint_CLNT-P",
 		"Name": "Clint",
-		"Details": "This was once a Clint mech, but now it has spikes all over and it's current weapons, that either fire or blow up in your face. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
+		"Details": "This was once a Clint mech, but now it has spikes all over and it's current weapons, that either fire or blow up in your face. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
 		"Icon": "Clint"
 	},
 	"simGameMechPartCost": 360000,
@@ -74,7 +74,7 @@
 			"Location": "LeftTorso",
 			"CurrentArmor": 60,
 			"CurrentRearArmor": 25,
-			"CurrentInternalStructure": 40,
+			"CurrentInternalStructure": 50,
 			"AssignedArmor": 60,
 			"AssignedRearArmor": 25
 		},
@@ -83,7 +83,7 @@
 			"Location": "CenterTorso",
 			"CurrentArmor": 70,
 			"CurrentRearArmor": 35,
-			"CurrentInternalStructure": 55,
+			"CurrentInternalStructure": 60,
 			"AssignedArmor": 70,
 			"AssignedRearArmor": 35
 		},
@@ -92,7 +92,7 @@
 			"Location": "RightTorso",
 			"CurrentArmor": 60,
 			"CurrentRearArmor": 25,
-			"CurrentInternalStructure": 40,
+			"CurrentInternalStructure": 50,
 			"AssignedArmor": 60,
 			"AssignedRearArmor": 25
 		},
@@ -110,7 +110,7 @@
 			"Location": "LeftLeg",
 			"CurrentArmor": 60,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 40,
+			"CurrentInternalStructure": 50,
 			"AssignedArmor": 60,
 			"AssignedRearArmor": -1
 		},
@@ -119,7 +119,7 @@
 			"Location": "RightLeg",
 			"CurrentArmor": 60,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 40,
+			"CurrentInternalStructure": 50,
 			"AssignedArmor": 60,
 			"AssignedRearArmor": -1
 		}
@@ -285,17 +285,6 @@
       "prefabName": null,
       "hasPrefabName": false
     },	
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "emod_arm_part_hand",
-      "SimGameUID": "",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
     {
       "MountedLocation": "LeftLeg",
       "ComponentDefID": "emod_leg_hip",
