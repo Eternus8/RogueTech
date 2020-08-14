@@ -10,70 +10,70 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Improved_Targeting_Long",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_340",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Gyro_Omnimech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_340",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engineslots_cxl_center",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "emod_engineslots_size2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "emod_engineslots_size2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Improved_Targeting_Long",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 10229174.0,
+    "Cost": 10229174,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -81,9 +81,19 @@
     "UIName": "Warhawk",
     "Id": "chassisdef_warhawk_WHK-F",
     "Name": "Warhawk",
-    "Details": "__/Base_3061.chassisdef_warhawk_WHK-F.Details/__",
+    "Details": "Apparently designed to reduce heat, this configuration of the Warhawk carries a single ER PPC in each arm backed up by an LRM-20 and LRM-10. A torso-mounted Ultra AC/2 rounds out the weapons. Like most Warhawk variants, this version carries an advanced Targeting Computer.",
     "Icon": "uixTxrIcon_warhawk"
   },
+  "VariantName": "WHK-F",
+  "ChassisTags": {
+    "items": [
+      "ClanMech",
+      "OmniMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fast Assault",
+  "YangsThoughts": "Apparently designed to reduce heat, this configuration of the Warhawk carries a single ER PPC in each arm backed up by an LRM-20 and LRM-10. A torso-mounted Ultra AC/2 rounds out the weapons. Like most Warhawk variants, this version carries an advanced Targeting Computer.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_warhawk",
@@ -119,6 +129,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 85,
   "DFAInstability": 43,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -342,18 +355,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "WHK-F",
-  "ChassisTags": {
-    "items": [
-      "ClanMech",
-      "OmniMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_warhawk_WHK-F.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_warhawk_WHK-F.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

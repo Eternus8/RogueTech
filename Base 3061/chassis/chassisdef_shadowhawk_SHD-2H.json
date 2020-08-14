@@ -5,10 +5,10 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -20,9 +20,16 @@
     "UIName": "Shadow Hawk",
     "Id": "chassisdef_shadowhawk_SHD-2H",
     "Name": "Shadow Hawk",
-    "Details": "__/Base_3061.chassisdef_shadowhawk_SHD-2H.Details/__",
+    "Details": "The Shadow Hawk 2H is the perfect example of a 'jack-of-all-trades.' It supports weaponry for all ranges, has respectable speed and jump capability, and mounts decent armor. This comes at the cost of excelling at nothing in particular.",
     "Icon": "uixTxrIcon_shadowhawk"
   },
+  "VariantName": "SHD-2H",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Skirmisher & Cavalry",
+  "YangsThoughts": "The Shadow Hawk 2H is the perfect example of a 'jack-of-all-trades.' It supports weaponry for all ranges, has respectable speed and jump capability, and mounts decent armor. This comes at the cost of excelling at nothing in particular.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_shadowhawk",
@@ -217,12 +224,5 @@
       "y": 6,
       "z": 2.5
     }
-  ],
-  "VariantName": "SHD-2H",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_shadowhawk_SHD-2H.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_shadowhawk_SHD-2H.YangsThoughts/__"
+  ]
 }

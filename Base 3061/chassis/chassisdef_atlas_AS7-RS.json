@@ -5,9 +5,9 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -19,9 +19,16 @@
     "UIName": "Atlas",
     "Id": "chassisdef_atlas_AS7-RS",
     "Name": "Atlas",
-    "Details": "__/Base_3061.chassisdef_atlas_AS7-RS.Details/__",
+    "Details": "A Succession Wars era attempt at recreating the Atlas II's loadout, the AS7-RS downgrades the AutoCannon, LRMs and SRMs while trading out the Medium Lasers for a pair of arm mounted Large Lasers.",
     "Icon": "uixTxrIcon_atlas"
   },
+  "VariantName": "AS7-RS",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Close Assault",
+  "YangsThoughts": "A Succession Wars era attempt at recreating the Atlas II's loadout, the AS7-RS downgrades the AutoCannon, LRMs and SRMs while trading out the Medium Lasers for a pair of arm mounted Large Lasers.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_atlas",
@@ -91,10 +98,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -106,6 +109,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -219,12 +226,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "AS7-RS",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_atlas_AS7-RS.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_atlas_AS7-RS.YangsThoughts/__"
+  ]
 }

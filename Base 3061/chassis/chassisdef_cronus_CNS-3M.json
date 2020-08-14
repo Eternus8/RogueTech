@@ -13,13 +13,13 @@
       "ComponentDefID": "Special_Easy_To_Maintain",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1227830,
+    "Cost": 1216589.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -27,9 +27,16 @@
     "UIName": "Cronus",
     "Id": "chassisdef_cronus_CNS-3M",
     "Name": "Cronus",
-    "Details": "__/Base_3061.chassisdef_cronus_CNS-3M.Details/__",
+    "Details": "The Cronus was designed by Angus Gilmour to be a cost-effective 'Mech for use by mercenaries and small Periphery units using scrapped military equipment. After retiring from service with the Free Worlds League Military in the 3rd Succession War, Gilmour and many ex-technicians he recruited began working for the family business, Gilmour MilTech, on his home planet Talitha. While Gilmour MilTech would spend much of its time rebuilding/restoring wrecked equipment, technicians with free time constructed small numbers of the Cronus. An inexpensive, hand-built design, the Cronus combines design aspects of many different 55-ton BattleMechs seen on the modern battlefield.",
     "Icon": "Cronus"
   },
+  "VariantName": "CNS-3M",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Skirmisher",
+  "YangsThoughts": "An older variant of the Cronus, the 3M uses all standard technologies that have been available to the Inner Sphere in 3031. As its primary weapon, the 3M has a Large Laser which is backed up by three Medium Lasers and a SRM-4 launcher. The 3M is slightly slower than the 5M, with a top speed of 86.4 km/h and it carries a price tag of 4,896,656 C-Bills, which is less than the 5M by of 7,754,522. ",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_hunchback",
@@ -65,10 +72,18 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 55,
   "DFAInstability": 28,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -78,10 +93,6 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -157,6 +168,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -227,15 +242,5 @@
       "y": 4.5,
       "z": 2
     }
-  ],
-  "VariantName": "CNS-3M",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_cronus_CNS-3M.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_cronus_CNS-3M.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

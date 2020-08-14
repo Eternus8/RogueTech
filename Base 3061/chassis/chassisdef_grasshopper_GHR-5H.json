@@ -5,10 +5,10 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -20,9 +20,16 @@
     "UIName": "Grasshopper",
     "Id": "chassisdef_grasshopper_GHR-5H",
     "Name": "Grasshopper",
-    "Details": "__/Base_3061.chassisdef_grasshopper_GHR-5H.Details/__",
+    "Details": "Don't be fooled by its whimsical name, the Grasshopper is a killer that specializes in hunting down light and medium 'Mechs. Its superb jump ability and good armor allow it to get behind foes easily to bring its all-Energy weapons to bear.",
     "Icon": "uixTxrIcon_grasshopper"
   },
+  "VariantName": "GHR-5H",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Skirmisher & Cavalry",
+  "YangsThoughts": "Don't be fooled by its whimsical name, the Grasshopper is a killer that specializes in hunting down light and medium 'Mechs. Its superb jump ability and good armor allow it to get behind foes easily to bring its all-Energy weapons to bear.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_grasshopper",
@@ -93,10 +100,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -110,6 +113,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -225,12 +232,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "GHR-5H",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_grasshopper_GHR-5H.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_grasshopper_GHR-5H.YangsThoughts/__"
+  ]
 }

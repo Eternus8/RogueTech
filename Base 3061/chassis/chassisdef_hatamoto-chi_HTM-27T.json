@@ -11,13 +11,13 @@
       "ComponentDefID": "Special_Easy_To_Maintain",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2144048,
+    "Cost": 2124057.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -25,9 +25,16 @@
     "UIName": "Hatamoto-Chi",
     "Id": "chassisdef_hatamoto-chi_HTM-27T",
     "Name": "Hatamoto-Chi",
-    "Details": "__/Base_3061.chassisdef_hatamoto-chi_HTM-27T.Details/__",
+    "Details": "Constructed with an Earthwerks VOL Endo Steel chassis, fitted with CASE protected ammo bins and clad in fifteen and a half tons of Mitchell Argon armor, the Hatamoto-Chi shared the features which made its parent design a nearly indestructible zombie 'Mech. The main area that Combine was unable to replicate the Thug was the older design's advanced Double Heat Sinks, eighteen standard Heat Sinks giving the Hatamoto-Chi a high heat curve in heavy combat.",
     "Icon": "uixTxrIcon_Hatamoto-chiG"
   },
+  "VariantName": "HTM-27T",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Sniper & Defender",
+  "YangsThoughts": "Constructed with an Earthwerks VOL Endo Steel chassis, fitted with CASE protected ammo bins and clad in fifteen and a half tons of Mitchell Argon armor, the Hatamoto-Chi shared the features which made its parent design a nearly indestructible zombie 'Mech. The main area that Combine was unable to replicate the Thug was the older design's advanced Double Heat Sinks, eighteen standard Heat Sinks giving the Hatamoto-Chi a high heat curve in heavy combat.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_hatamotochi",
@@ -66,7 +73,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -93,10 +105,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -108,6 +116,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -221,12 +233,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "HTM-27T",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_hatamoto-chi_HTM-27T.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_hatamoto-chi_HTM-27T.YangsThoughts/__"
+  ]
 }

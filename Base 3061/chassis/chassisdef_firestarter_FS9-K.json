@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Ubiquitous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 638208,
+    "Cost": 638208.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,16 @@
     "UIName": "Firestarter",
     "Id": "chassisdef_firestarter_FS9-K",
     "Name": "Firestarter",
-    "Details": "__/Base_3061.chassisdef_firestarter_FS9-K.Details/__",
+    "Details": "Originally designed as a companion model for the Firestarter FS9-H, the FS9-K has proved popular in its own right with the Large Laser giving the FS9-K the reach that its companion lacked. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
     "Icon": "uixTxrIcon_firestarter"
   },
+  "VariantName": "FS9-K",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Scout & Disabler",
+  "YangsThoughts": "Originally designed as a companion model for the Firestarter FS9-H, the FS9-K has proved popular in its own right with the Large Laser giving the FS9-K the reach that its companion lacked. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_firestarter",
@@ -225,12 +232,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "FS9-K",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_firestarter_FS9-K.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_firestarter_FS9-K.YangsThoughts/__"
+  ]
 }

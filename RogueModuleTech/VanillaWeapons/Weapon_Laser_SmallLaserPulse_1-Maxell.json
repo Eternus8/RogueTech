@@ -9,6 +9,7 @@
       "Bonuses": [
         "Pulse",
         "MultiLaser",
+        "DoesCluster",
         "MaxellLaser",
         "LosTech"
       ]
@@ -39,7 +40,7 @@
   "AccuracyModifier": -1,
   "CriticalChanceMultiplier": 1,
   "APArmorShardsMod": 0.1,
-  "APMaxArmorThickness": 9.6,
+  "APMaxArmorThickness": 10,
   "APCriticalChanceMultiplier": 0.016,
   "AOECapable": false,
   "IndirectFireCapable": false,
@@ -50,6 +51,8 @@
   "Instability": 0.9,
   "FireTerrainChance": 0.015,
   "ImprovedBallistic": true,
+  "HitGenerator": "Cluster",
+  "ClusteringModifier": 10,
   "FireDelayMultiplier": 0.08,
   "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Small",
   "Description": {
@@ -69,7 +72,7 @@
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "Laser",
-  "BattleValue": 0,
+  "BattleValue": 12,
   "InventorySize": 1,
   "Tonnage": 1,
   "AllowedLocations": "All",

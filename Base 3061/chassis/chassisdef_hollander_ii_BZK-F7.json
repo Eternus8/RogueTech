@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Stable_Weapons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 765741,
+    "Cost": 786905.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,18 @@
     "UIName": "Hollander II",
     "Id": "chassisdef_hollander_ii_BZK-F7",
     "Name": "Hollander II",
-    "Details": "__/Base_3061.chassisdef_hollander_ii_BZK-F7.Details/__",
+    "Details": "The F7, debuting in 3061 is a modification of the F5 that takes advantage of the Hollander II's larger weapons payload to mount the Lyran Alliance's new Heavy Gauss Rifle, which is capable of causing a great deal of damage at short to medium ranges. While improving upon the firepower of the variant, the removal of backup weaponry to fit these massive weapon leaves it with the same problems as the original Hollander.",
     "Icon": "HollanderII"
   },
+  "VariantName": "BZK-F7",
+  "ChassisTags": {
+    "items": [
+      "MR-Resize-1.15"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper",
+  "YangsThoughts": "The F7, debuting in 3061 is a modification of the F5 that takes advantage of the Hollander II's larger weapons payload to mount the Lyran Alliance's new Heavy Gauss Rifle, which is capable of causing a great deal of damage at short to medium ranges. While improving upon the firepower of the variant, the removal of backup weaponry to fit these massive weapon leaves it with the same problems as the original Hollander.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_hollander",
@@ -57,12 +66,17 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 45,
   "DFAInstability": 23,
+  "AssemblyVariant": {
+    "PrefabID": "HollanderII",
+    "Exclude": false,
+    "Include": true
+  },
   "Locations": [
     {
       "Location": "Head",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -75,10 +89,6 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -95,10 +105,6 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -151,10 +157,6 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -228,19 +230,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "BZK-F7",
-  "ChassisTags": {
-    "items": [
-      "MR-Resize-1.15"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_hollander_ii_BZK-F7.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_hollander_ii_BZK-F7.YangsThoughts/__",
-  "AssemblyVariant": {
-    "PrefabID": "HollanderII",
-    "Exclude": false,
-    "Include": true
-  }
+  ]
 }

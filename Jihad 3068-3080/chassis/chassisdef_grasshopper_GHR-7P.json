@@ -5,14 +5,15 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "GUID": null,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1431250,
+    "Cost": 1496963.0,
     "Rarity": 7,
     "Purchasable": true,
     "Manufacturer": "Arc-Royal MechWorks",
@@ -23,6 +24,15 @@
     "Details": "The production version of Arc-Royal MechWorks' GHR-7X prototype, the 7P uses a Torso Mounted Cockpit, Endo Steel and  a Light Fusion Engine, and mounts four Improved Jump Jets. The Type VI Bloodhound Active Probe was also retained. It carries 2 X-Pulse LL, and 3 ER ML.",
     "Icon": "uixTxrIcon_grasshopper"
   },
+  "VariantName": "GHR-7P",
+  "ChassisTags": {
+    "items": [
+      "unit_mechtool"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Skirmisher & Cavalry",
+  "YangsThoughts": "The production version of Arc-Royal MechWorks' GHR-7X prototype, the 7P uses a Torso Mounted Cockpit, Endo Steel and  a Light Fusion Engine, and mounts four Improved Jump Jets. The Type VI Bloodhound Active Probe was also retained. It carries 2 X-Pulse LL, and 3 ER ML.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_grasshopper",
@@ -58,13 +68,17 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 70,
   "DFAInstability": 35,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
+  "AlwaysPunchIfPossible": false,
   "Locations": [
     {
       "Location": "Head",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": "Energy"
         }
       ],
       "Tonnage": 0,
@@ -77,12 +91,12 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": "Energy"
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": "Energy"
         }
       ],
       "Tonnage": 0,
@@ -93,20 +107,7 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 150,
@@ -117,24 +118,28 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": "Energy"
         },
         {
-          "WeaponMountID": "Special",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": "AntiPersonnel"
         },
         {
-          "WeaponMountID": "Special",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": "Special"
         },
         {
-          "WeaponMountID": "SpecialMelee",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": "Special"
         },
         {
-          "WeaponMountID": "SpecialMelee",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": "SpecialMelee"
+        },
+        {
+          "Omni": false,
+          "WeaponMountID": "SpecialMelee"
         }
       ],
       "Tonnage": 0,
@@ -145,20 +150,7 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 150,
@@ -169,12 +161,12 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": "Energy"
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+          "Omni": false,
+          "WeaponMountID": "Energy"
         }
       ],
       "Tonnage": 0,
@@ -245,12 +237,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "GHR-7P",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Heavy Skirmisher & Cavalry",
-  "YangsThoughts": "The production version of Arc-Royal MechWorks' GHR-7X prototype, the 7P uses a Torso Mounted Cockpit, Endo Steel and  a Light Fusion Engine, and mounts four Improved Jump Jets. The Type VI Bloodhound Active Probe was also retained. It carries 2 X-Pulse LL, and 3 ER ML."
+  ]
 }

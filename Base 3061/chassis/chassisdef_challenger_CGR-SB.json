@@ -5,9 +5,9 @@
       "ComponentDefID": "Special_Barrel_Fist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -19,9 +19,16 @@
     "UIName": "Charger",
     "Id": "chassisdef_challenger_CGR-SB",
     "Name": "Charger",
-    "Details": "__/Base_3061.chassisdef_challenger_CGR-SB.Details/__",
+    "Details": "This radical modification looks to turn the Charger into a traditional assault 'Mech by reducing the 'Mechs speed to 54 km/h, which allows the use of a smaller engine (incidentally, the commonplace Pitban 240 reactor). The 'Mech is armored with fifteen and a half tons of armor and is armed with four Large Lasers, one in each arm and side torso, and a Medium Laser in its head; twenty-eight heat sinks kept the 'Mech cool.",
     "Icon": "uixTxrIcon_charger"
   },
+  "VariantName": "CGR-SB",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Assault & Brawler",
+  "YangsThoughts": "Called Challenger by its designers, the -SB modification is not remarkable because it is not particularly difficult to apply.  Using a common and well-know reactor in the refit and essentially only upgrading the existing lasers to heavier versions, in turn requiring the Targeting-Tracking System to be tampered with.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_charger",
@@ -92,10 +99,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -107,6 +110,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -220,12 +227,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "CGR-SB",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_challenger_CGR-SB.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_challenger_CGR-SB.YangsThoughts/__"
+  ]
 }

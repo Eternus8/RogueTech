@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 858333,
+    "Cost": 850472.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Hunchback",
     "Id": "chassisdef_hunchback_HBK-5A",
     "Name": "Hunchback",
-    "Details": "__/Base_3061.chassisdef_hunchback_HBK-5A.Details/__",
+    "Details": "Developed during the Clan Invasion, the 5A takes advantage of the newly reintroduced Arrow IV and an Artemis IV FCS. Intended to operate in support of a lance or as part of a dedicated battery, the 5A carries a mix of homing missiles and utility ammo; enabling it to bombard targets that have been tagged by supporting forces or deploying FASCAM and other speciality ammo as and when needed. Guardian ECM confuses and blinds enemy sensors, vastly reducing the chances of accurate counter battery fire, whilst the use of CASE protects against catastrophic ammunition explosions. Sold to any interested buyer as part of Kali Yama’s contribution to the war effort, the design has been seen all across the Inner Sphere and is increasingly found in the Periphery, where reliable and cheap Artillery assets are in high demand. ",
     "Icon": "uixTxrIcon_hunchback"
   },
+  "VariantName": "HBK-5A",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Arrow IV Boat",
+  "YangsThoughts": "Combining elements of the 4H and 4J 'Swaybacks', the HBK-4N uses an AC5 and two LRM-5s to give it range, while the four Medium Lasers give it punch up close.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_hunchback",
@@ -57,16 +64,15 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 50,
   "DFAInstability": 25,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
       "Hardpoints": [
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -92,7 +98,12 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 120,
@@ -128,6 +139,10 @@
     {
       "Location": "RightTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Missile",
           "Omni": false
@@ -215,15 +230,5 @@
       "y": 4.5,
       "z": 2
     }
-  ],
-  "VariantName": "HBK-5A",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_hunchback_HBK-5A.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_hunchback_HBK-5A.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

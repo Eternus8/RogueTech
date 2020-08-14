@@ -12,9 +12,9 @@
       "ComponentDefID": "Special_Command_Mech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -26,9 +26,18 @@
     "UIName": "King Crab",
     "Id": "chassisdef_king_crab_KGC-010",
     "Name": "King Crab",
-    "Details": "__/Base_3061.chassisdef_king_crab_KGC-010.Details/__",
+    "Details": "This version of the King Crab was created by the Star League to be a command 'Mech and introduced alongside the original 000 model in 2743. Conceived in secret between Cosara and the Terran Hegemony, it was an attempt to produce a deadly command 'Mech by mounting a pair of newly-developed Hellstar Magna PPCs in either side torso backed by bya pair of SRM-6's. A pair of newly developed LBX/10's replaced the standard autocannon. The 010 model was more than capable of taking down an Atlas, but the entire line left with Kerensky during the Exodus and even knowledge of the design's existence became lost during the Succession Wars.",
     "Icon": "uixTxrIcon_kingcrab"
   },
+  "VariantName": "KGC-010",
+  "ChassisTags": {
+    "items": [
+      "SLDFMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Command Mech",
+  "YangsThoughts": "This version of the King Crab was created by the Star League to be a command 'Mech and introduced alongside the original 000 model in 2743. Conceived in secret between Cosara and the Terran Hegemony, it was an attempt to produce a deadly command 'Mech by mounting a pair of newly-developed Hellstar Magna PPCs in either side torso backed by bya pair of SRM-6's. A pair of newly developed LBX/10's replaced the standard autocannon. The 010 model was more than capable of taking down an Atlas, but the entire line left with Kerensky during the Exodus and even knowledge of the design's existence became lost during the Succession Wars.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_kingcrab",
@@ -64,6 +73,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 100,
   "DFAInstability": 50,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -98,10 +110,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -113,6 +121,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -230,17 +242,5 @@
       "y": 5.5,
       "z": -1
     }
-  ],
-  "VariantName": "KGC-010",
-  "ChassisTags": {
-    "items": [
-      "SLDFMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_king_crab_KGC-010.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_king_crab_KGC-010.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

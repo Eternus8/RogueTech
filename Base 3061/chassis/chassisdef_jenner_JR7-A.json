@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Improved_Lifesupport",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 650000,
+    "Cost": 644048.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,16 @@
     "UIName": "Jenner",
     "Id": "chassisdef_jenner_JR7-A",
     "Name": "Jenner",
-    "Details": "__/Base_3061.chassisdef_jenner_JR7-A.Details/__",
+    "Details": "The original Jenner model mounted a Large Laser with a pair of Medium Lasers in a torso mounted turret.  While it was a solid fast moving 'Mech, its Argra 27C Medium Lasers suffered from a targetting defect. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_jenner"
   },
+  "VariantName": "JR7-A",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fast Striker Cavalry",
+  "YangsThoughts": "I like the idea of mounting the Large Laser - those old Drac techs had the right idea, but they executed it poorly.  We should yank out the extra Medium Lasers and replace them with Heat Sinks. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_jenner",
@@ -76,7 +83,12 @@
     },
     {
       "Location": "LeftArm",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 60,
@@ -216,12 +228,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "JR7-A",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_jenner_JR7-A.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_jenner_JR7-A.YangsThoughts/__"
+  ]
 }

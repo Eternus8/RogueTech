@@ -10,8 +10,8 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-				"PlasmaAmmo: 25",
-                "PlasmaNoBoom"
+				"PlasmaAmmo: 24",
+                "InertAmmo"
             ]
         },
         "InventorySorter": {
@@ -19,7 +19,7 @@
         }
     },
     "AmmoID": "Ammunition_Plasma",
-    "Capacity": 25,
+    "Capacity": 24,
     "Description": {
         "Cost": 50000,
         "Rarity": 1,

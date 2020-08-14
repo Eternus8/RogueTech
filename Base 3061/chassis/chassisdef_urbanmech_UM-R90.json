@@ -11,15 +11,19 @@
     },
     "ChassisDefaults": []
   },
+  "CustomParts": {
+    "FiringArc": 360,
+    "CustomParts": []
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Extreme_Torso_Twist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -31,9 +35,16 @@
     "UIName": "UrbanMech",
     "Id": "chassisdef_urbanmech_UM-R90",
     "Name": "UrbanMech",
-    "Details": "__/Base_3061.chassisdef_urbanmech_UM-R90.Details/__",
+    "Details": "The UM-R90 'SuburbanMech' adapts the traditional UrbanMech R60 into an energy weapon platform for higher performance. Because its weapons aren't limited by ammunition concerns, the R90 is better-suited to longer engagements.",
     "Icon": "uixTxrIcon_urbanmech"
   },
+  "VariantName": "UM-R90",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Defender",
+  "YangsThoughts": "This is an UrbanMech variant I've never even heard of before. It's got the same armor as a standard R60, but this R90 is armed entirely with energy weapons, including a PPC for long-range power. I'm not sure why nobody thought of this sooner.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_urbanmech",
@@ -226,16 +237,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "UM-R90",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_urbanmech_UM-R90.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_urbanmech_UM-R90.YangsThoughts/__",
-  "CustomParts": {
-    "FiringArc": 360,
-    "CustomParts": []
-  }
+  ]
 }

@@ -17,13 +17,13 @@
       "ComponentDefID": "Special_Accurate_Category_Ballistics",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 850472,
+    "Cost": 850472.0,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -31,9 +31,16 @@
     "UIName": "Blitzkrieg",
     "Id": "chassisdef_blitzkrieg_BTZ-3F",
     "Name": "Blitzkrieg",
-    "Details": "__/Base_3061.chassisdef_blitzkrieg_BTZ-3F.Details/__",
+    "Details": "Taking its name from a term meaning 'Lightning War' the Blitzkrieg completely lives up to the name. The Blitzkrieg is built on a lightweight Coventry BTZ-VII Endo Steel chassis and is powered by a Magna 350 XL engine that weighs half as much as a standard fusion engine while giving the 'Mech a top speed of 118.8 km/h. <b><color=#53ff1a>Restricted Actuators- Lower</color></b>",
     "Icon": "Blitzkrieg"
   },
+  "VariantName": "BTZ-3F",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fast Raider",
+  "YangsThoughts": "Taking its name from a term meaning 'Lightning War' the Blitzkrieg completely lives up to the name. The Blitzkrieg is built on a lightweight Coventry BTZ-VII Endo Steel chassis and is powered by a Magna 350 XL engine that weighs half as much as a standard fusion engine while giving the 'Mech a top speed of 118.8 km/h. <b><color=#53ff1a>Restricted Actuators- Lower</color></b>",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_blitzkrieg",
@@ -72,7 +79,16 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -81,7 +97,12 @@
     },
     {
       "Location": "LeftArm",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 80,
@@ -105,6 +126,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -213,12 +238,5 @@
       "y": 5,
       "z": 2
     }
-  ],
-  "VariantName": "BTZ-3F",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_blitzkrieg_BTZ-3F.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_blitzkrieg_BTZ-3F.YangsThoughts/__"
+  ]
 }

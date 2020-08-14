@@ -11,13 +11,13 @@
       "ComponentDefID": "Special_Variable_Range_Targeting",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 702570,
+    "Cost": 708962.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -25,9 +25,16 @@
     "UIName": "Clint",
     "Id": "chassisdef_clint_CLNT-P",
     "Name": "Clint",
-    "Details": "__/Base_3061.chassisdef_clint_CLNT-P.Details/__",
+    "Details": "This was once a Clint mech, but now it has spikes all over and it's current weapons, that either fire or blow up in your face. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
     "Icon": "Clint"
   },
+  "VariantName": "CLNT-P",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Pirate Mech",
+  "YangsThoughts": "This was once a Clint mech, but now it has spikes all over and it's current weapons, that either fire or blow up in your face. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_clint",
@@ -105,11 +112,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -229,12 +232,5 @@
       "y": 4,
       "z": 0.5
     }
-  ],
-  "VariantName": "CLNT-P",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_clint_CLNT-P.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_clint_CLNT-P.YangsThoughts/__"
+  ]
 }

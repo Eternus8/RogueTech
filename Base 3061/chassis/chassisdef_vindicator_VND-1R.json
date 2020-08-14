@@ -11,9 +11,9 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -25,9 +25,16 @@
     "UIName": "Vindicator",
     "Id": "chassisdef_vindicator_VND-1R",
     "Name": "Vindicator",
-    "Details": "__/Base_3061.chassisdef_vindicator_VND-1R.Details/__",
+    "Details": "Vindicator 1Rs tend to deal their damage at range while moving in for closer attacks. Typically well armored, they're capable of some surprise attacks due to their jump capability and above-average heat efficiency. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
     "Icon": "uixTxrIcon_vindicator"
   },
+  "VariantName": "VND-1R",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fire Support & Brawler",
+  "YangsThoughts": "Vindicator 1Rs tend to deal their damage at range while moving in for closer attacks. Typically well armored, they're capable of some surprise attacks due to their jump capability and above-average heat efficiency. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_vindicator",
@@ -98,10 +105,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -138,7 +141,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 110,
@@ -221,12 +229,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "VND-1R",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_vindicator_VND-1R.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_vindicator_VND-1R.YangsThoughts/__"
+  ]
 }

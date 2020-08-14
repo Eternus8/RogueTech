@@ -10,61 +10,61 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Improved_Sensors",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_clanendosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Gyro_Omnimech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engine_175",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "emod_engineslots_size2",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "emod_engineslots_size2",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engineslots_cxl_center",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_engineslots_size2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_engineslots_size2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Improved_Sensors",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -76,9 +76,19 @@
     "UIName": "Mist Lynx",
     "Id": "chassisdef_mist_lynx_MLX-C",
     "Name": "Mist Lynx",
-    "Details": "__/Base_3061.chassisdef_mist_lynx_MLX-C.Details/__",
+    "Details": "The C configuration of the Mist Lynx is armed with a single ER Large Laser as its primary weapon backed up by an ER Medium Laser for close combat. For added protection, the Mist Lynx C has an Anti-Missile System for protection from missile fire and an ECM Suite to protect it from enemy electronic warfare systems.",
     "Icon": "uixTxrIcon_mistlynx"
   },
+  "VariantName": "MLX-C",
+  "ChassisTags": {
+    "items": [
+      "ClanMech",
+      "OmniMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Scout & Disabler",
+  "YangsThoughts": "The C configuration of the Mist Lynx is armed with a single ER Large Laser as its primary weapon backed up by an ER Medium Laser for close combat. For added protection, the Mist Lynx C has an Anti-Missile System for protection from missile fire and an ECM Suite to protect it from enemy electronic warfare systems.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_mistlynx",
@@ -156,24 +166,24 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Special",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "Special",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "SpecialMelee",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "SpecialMelee",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Ballistic",
           "Omni": true
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "SpecialMelee",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "SpecialMelee",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -276,15 +286,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "MLX-C",
-  "ChassisTags": {
-    "items": [
-      "ClanMech",
-      "OmniMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_mist_lynx_MLX-C.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_mist_lynx_MLX-C.YangsThoughts/__"
+  ]
 }

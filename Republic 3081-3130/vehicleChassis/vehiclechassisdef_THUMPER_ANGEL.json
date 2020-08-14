@@ -1,15 +1,16 @@
 {
-  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "Description": {
     "Id": "vehiclechassisdef_THUMPER_ANGEL",
-    "Name": "__/Artillery_Units.vehiclechassisdef_THUMPER_ANGEL.Name/__",
+    "Name": "Self Propelled Artillery",
     "Details": "",
     "Icon": "MANTICORE",
-    "Cost": 993,
+    "Cost": 5951400,
     "Rarity": 0,
     "Purchasable": false
   },
+  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "MovementCapDefID": "movedef_4-6cv",
+  "movementType": "Wheeled",
   "PathingCapDefID": "pathingdef_heavy_wheeled",
   "HardpointDataDefID": "hardpointdatadef_marksman",
   "PrefabIdentifier": "chrprfvhcl_marksmanbase",
@@ -19,7 +20,6 @@
   "BattleValue": 993,
   "TopSpeed": 85,
   "TurnRadius": 90,
-  "movementType": "Wheeled",
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
@@ -71,6 +71,10 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -92,7 +96,7 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 250,
+      "MaxArmor": 240,
       "InternalStructure": 30
     },
     {
@@ -109,7 +113,7 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 250,
+      "MaxArmor": 240,
       "InternalStructure": 30
     },
     {
@@ -117,15 +121,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 200,
-      "InternalStructure": 30
-    },
-    {
-      "Location": "Turret",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 0,
-      "MaxArmor": 185,
+      "MaxArmor": 180,
       "InternalStructure": 30
     }
   ]

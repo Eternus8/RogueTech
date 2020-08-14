@@ -12,9 +12,9 @@
       "ComponentDefID": "Special_Narrow_Low_Profile",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -26,9 +26,18 @@
     "UIName": "Ostroc",
     "Id": "chassisdef_ostroc_OSR-2CB",
     "Name": "Ostroc",
-    "Details": "__/Base_3061.chassisdef_ostroc_OSR-2CB.Details/__",
+    "Details": "This upgrade of the 2C was used by the SLDF Royals starting in 2729. The large lasers are upgraded to ER Large Lasers, and the SRM-4 is replaced with a pair of Streak SRM-2s. Fourteen double heat sinks keep this 'Mech cool, while Ferro-Fibrous armor gives it additional protection.",
     "Icon": "uixTxrIcon_ostroc"
   },
+  "VariantName": "OSR-2Cb",
+  "ChassisTags": {
+    "items": [
+      "SLDFMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Striker Cavalry",
+  "YangsThoughts": "This upgrade of the 2C was used by the SLDF Royals starting in 2729. The large lasers are upgraded to ER Large Lasers, and the SRM-4 is replaced with a pair of Streak SRM-2s. Fourteen double heat sinks keep this 'Mech cool, while Ferro-Fibrous armor gives it additional protection.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_ostroc",
@@ -97,10 +106,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -112,6 +117,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -228,14 +237,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "OSR-2Cb",
-  "ChassisTags": {
-    "items": [
-      "SLDFMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_ostroc_OSR-2CB.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_ostroc_OSR-2CB.YangsThoughts/__"
+  ]
 }

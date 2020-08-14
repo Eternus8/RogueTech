@@ -9,71 +9,71 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Accurate_Weapon_Autocannon",
+      "ComponentDefID": "emod_armorslots_clanferrosfibrous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_clanendosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_Actuator_Friedhof_CompensatorPlus",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Actuator_Friedhof_CompensatorPlus",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_Actuator_Coventry_X75-Standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_Actuator_Friedhof_CompensatorPlus",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightArm",
       "ComponentDefID": "Gear_Actuator_Coventry_X75-Standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_armorslots_clanferrosfibrous",
+      "ComponentDefID": "Special_Accurate_Weapon_Autocannon",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "IsFixed": false
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2879845,
+    "Cost": 3382095.0,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -84,6 +84,16 @@
     "Details": "This custom Mad Cat MkII is the personal ride of IlKhan Morphyum Kerensky, made infamous when he 'accidentally' fragged an allied BattleMech because he 'needed a hole to shoot the enemy through'. As could be imagined, the Lady Killer is an Autocannon specialist.",
     "Icon": "LadyKiller"
   },
+  "VariantName": "MC-MKII-M",
+  "ChassisTags": {
+    "items": [
+      "EliteMech",
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "DAKKA",
+  "YangsThoughts": "This custom Mad Cat MkII is the personal ride of IlKhan Morphyum Kerensky, made infamous when he 'accidentally' fragged an allied BattleMech because he 'needed a hole to shoot the enemy through'. As could be imagined, the Lady Killer is an Autocannon specialist.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_madcatmkii",
@@ -157,10 +167,6 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -173,20 +179,8 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": true
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": true
         },
         {
           "WeaponMountID": "Special",
@@ -217,6 +211,10 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -238,6 +236,10 @@
         },
         {
           "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -309,14 +311,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "MC-MKII-M",
-  "ChassisTags": {
-    "items": [
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "DAKKA",
-  "YangsThoughts": "This custom Mad Cat MkII is the personal ride of IlKhan Morphyum Kerensky, made infamous when he 'accidentally' fragged an allied BattleMech because he 'needed a hole to shoot the enemy through'. As could be imagined, the Lady Killer is an Autocannon specialist."
+  ]
 }

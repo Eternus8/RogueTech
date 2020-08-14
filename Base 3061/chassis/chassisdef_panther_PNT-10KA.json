@@ -5,10 +5,10 @@
       "ComponentDefID": "Special_JumpAttack",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -20,9 +20,16 @@
     "UIName": "Panther",
     "Id": "chassisdef_panther_PNT-10KA",
     "Name": "Panther",
-    "Details": "__/Base_3061.chassisdef_panther_PNT-10KA.Details/__",
+    "Details": "The 10KA Panther is a field refit of the Panther 10K. It removes the ER PPC and replaces it with a standard PPC to alleviate some heat problems.",
     "Icon": "uixTxrIcon_panther"
   },
+  "VariantName": "PNT-10KA",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper & Light Brawler",
+  "YangsThoughts": "The 10KA Panther is a field refit of the Panther 10K. It removes the ER PPC and replaces it with a standard PPC to alleviate some heat problems.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_panther",
@@ -58,6 +65,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 35,
   "DFAInstability": 18,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -70,12 +80,7 @@
     },
     {
       "Location": "LeftArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 60,
@@ -96,6 +101,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -206,15 +215,5 @@
       "y": 4,
       "z": 0.5
     }
-  ],
-  "VariantName": "PNT-10KA",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_panther_PNT-10KA.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_panther_PNT-10KA.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

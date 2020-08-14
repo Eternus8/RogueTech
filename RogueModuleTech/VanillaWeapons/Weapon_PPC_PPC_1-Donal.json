@@ -8,10 +8,11 @@
     "BonusDescriptions": {
       "Bonuses": [
         "DonalPPC",
-        "PPCDEBUFF: 3",
+        "PPCDEBUFF: 2",
         "AreaOfEffect: 60",
         "WpnRecoil: 2",
-        "MineClearanceBoom: 4"
+        "MineClearanceBoom: 1",
+        "ModesCanMisfire"
       ]
     },
     "InventorySorter": {
@@ -43,6 +44,7 @@
   "APMaxArmorThickness": 58.5,
   "APCriticalChanceMultiplier": 0.113,
   "AOECapable": true,
+  "AOEDamage": 0.2,
   "AOERange": 60,
   "AOEInstability": 2,
   "IndirectFireCapable": false,
@@ -69,13 +71,13 @@
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "PPC",
-  "BattleValue": 0,
+  "BattleValue": 176,
   "InventorySize": 3,
   "Tonnage": 7,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
-  "ClearMineFieldRadius": 4,
+  "ClearMineFieldRadius": 8,
   "Modes": [
     {
       "Id": "FION",
@@ -130,13 +132,14 @@
       "statisticData": {
         "statName": "LV_ECM_JAMMED",
         "operation": "Int_Add",
-        "modValue": "3",
+        "modValue": "2",
         "modType": "System.Int32"
       }
     }
   ],
   "ComponentTags": {
     "items": [
+      "OmniRestriction.{location}",
       "component_type_variant",
       "component_type_variant1",
       "range_very-long"

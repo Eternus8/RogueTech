@@ -12,14 +12,14 @@
       "ComponentDefID": "Special_Command_Mech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2537087,
+    "Cost": 2470000.0,
     "Rarity": 10,
     "Purchasable": true,
     "Manufacturer": "",
@@ -30,6 +30,15 @@
     "Details": "This is a ClanTech Upgraded Black Knight.",
     "Icon": "uixTxrIcon_blackknight"
   },
+  "VariantName": "BL-IIC",
+  "ChassisTags": {
+    "items": [
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Clan BattleMech",
+  "YangsThoughts": "This is a ClanTech Upgraded Black Knight.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_blackknight",
@@ -72,6 +81,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -108,10 +121,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -123,6 +132,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -168,7 +181,15 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -240,14 +261,5 @@
       "y": 6,
       "z": 0
     }
-  ],
-  "VariantName": "BL-IIC",
-  "ChassisTags": {
-    "items": [
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Clan BattleMech",
-  "YangsThoughts": "This is a ClanTech Upgraded Black Knight."
+  ]
 }

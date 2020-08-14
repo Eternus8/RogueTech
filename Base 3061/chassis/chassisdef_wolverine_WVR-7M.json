@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Improved_Comms",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1227830,
+    "Cost": 1216589.0,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Wolverine",
     "Id": "chassisdef_wolverine_WVR-7M",
     "Name": "Wolverine",
-    "Details": "__/Base_3061.chassisdef_wolverine_WVR-7M.Details/__",
+    "Details": "The 7M variant of the Wolverine has aspects of both the 7D and the 7K versions but is much closer to the original model. Introduced by FWDI in 3050 the 'Mech uses an XL engine, which is augmented with MASC, so as to push the machine up to 108 km/h in bursts. The 7M has twelve double heat sinks and, for a weapons package, it carries two Diverse Optics Sunbeam ER Large Lasers in the right arm and two Magna 400P medium pulse lasers in the head mount while retaining the SRM-6 for close range work.",
     "Icon": "uixTxrIcon_wolverine"
   },
+  "VariantName": "WVR-7M",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Skirmisher",
+  "YangsThoughts": "The 7M variant of the Wolverine has aspects of both the 7D and the 7K versions but is much closer to the original model. Introduced by FWDI in 3050 the 'Mech uses an XL engine, which is augmented with MASC, so as to push the machine up to 108 km/h in bursts. The 7M has twelve double heat sinks and, for a weapons package, it carries two Diverse Optics Sunbeam ER Large Lasers in the right arm and two Magna 400P medium pulse lasers in the head mount while retaining the SRM-6 for close range work.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_wolverine",
@@ -57,12 +64,19 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 55,
   "DFAInstability": 28,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -74,12 +88,7 @@
     },
     {
       "Location": "LeftArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 90,
@@ -143,6 +152,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -220,15 +233,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "WVR-7M",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_wolverine_WVR-7M.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_wolverine_WVR-7M.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

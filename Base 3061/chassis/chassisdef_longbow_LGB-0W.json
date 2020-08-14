@@ -12,9 +12,9 @@
       "ComponentDefID": "Special_Anti_Air_Targeting",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -26,14 +26,21 @@
     "UIName": "Longbow",
     "Id": "chassisdef_longbow_LGB-0W",
     "Name": "Longbow",
-    "Details": "__/Base_3061.chassisdef_longbow_LGB-0W.Details/__",
+    "Details": "To add some speed to the Longbow, the OW variant removes two Medium Lasers and five and a half tons of armor. This allowed the 255 Fusion Engine to be replaced with a larger 340, increasing the top speed of the Longbow to 64 km/h, allowing the 'Mech to keep up with most heavy 'Mechs. The -0W is otherwise the same as the -7Q variant. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_longbow"
   },
+  "VariantName": "LGB-0W",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Hail of Missiles",
+  "YangsThoughts": "To add some speed to the Longbow, the OW variant removes two Medium Lasers and five and a half tons of armor. This allowed the 255 Fusion Engine to be replaced with a larger 340, increasing the top speed of the Longbow to 64 km/h, allowing the 'Mech to keep up with most heavy 'Mechs. The -0W is otherwise the same as the -7Q variant. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_longbow",
-  "PrefabIdentifier": "chrprfmech_longbowbase-001",
-  "PrefabBase": "longbow",
+  "HardpointDataDefID": "hardpointdatadef_ionlongbow",
+  "PrefabIdentifier": "chrprfmech_ionlongbowbase-001",
+  "PrefabBase": "ionlongbow",
   "Tonnage": 85,
   "InitialTonnage": 8.5,
   "weightClass": "ASSAULT",
@@ -94,10 +101,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -109,6 +112,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -222,12 +229,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "LGB-0W",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_longbow_LGB-0W.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_longbow_LGB-0W.YangsThoughts/__"
+  ]
 }

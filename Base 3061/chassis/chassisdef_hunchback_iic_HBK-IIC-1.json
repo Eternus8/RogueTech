@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1085741,
+    "Cost": 1115833.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,18 @@
     "UIName": "Hunchback IIC",
     "Id": "chassisdef_hunchback_iic_HBK-IIC-1",
     "Name": "Hunchback IIC",
-    "Details": "__/Base_3061.chassisdef_hunchback_iic_HBK-IIC-1.Details/__",
+    "Details": "The Hunchback IIC is a ClanTech refit of the venerable Hunchback. Its meager armor, coupled with paltry ammunition and lack of long-range weapons, led Inner Sphere observers to conclude that this 'Mech was a last-ditch effort for failed warriors to die with glory. In truth, the assignment of a Hunchback IIC was essentially a death sentence. Warriors given this machine were not expected to survive their next battle.  ",
     "Icon": "uixTxrIcon_hunchbackiic"
   },
+  "VariantName": "HBK-IIC-1",
+  "ChassisTags": {
+    "items": [
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Sniper",
+  "YangsThoughts": "The Hunchback IIC is a ClanTech refit of the venerable Hunchback. Its meager armor, coupled with paltry ammunition and lack of long-range weapons, led Inner Sphere observers to conclude that this 'Mech was a last-ditch effort for failed warriors to die with glory. In truth, the assignment of a Hunchback IIC was essentially a death sentence. Warriors given this machine were not expected to survive their next battle.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_hunchbackiic",
@@ -98,18 +107,6 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -227,14 +224,5 @@
       "y": 4.5,
       "z": 2
     }
-  ],
-  "VariantName": "HBK-IIC-1",
-  "ChassisTags": {
-    "items": [
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_hunchback_iic_HBK-IIC-1.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_hunchback_iic_HBK-IIC-1.YangsThoughts/__"
+  ]
 }

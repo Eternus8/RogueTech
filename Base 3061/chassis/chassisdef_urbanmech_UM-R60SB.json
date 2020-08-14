@@ -11,19 +11,23 @@
     },
     "ChassisDefaults": []
   },
+  "CustomParts": {
+    "FiringArc": 360,
+    "CustomParts": []
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Extreme_Torso_Twist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 389078,
+    "Cost": 385577.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -31,9 +35,16 @@
     "UIName": "UrbanMech",
     "Id": "chassisdef_urbanmech_UM-R60SB",
     "Name": "UrbanMech",
-    "Details": "__/Base_3061.chassisdef_urbanmech_UM-R60SB.Details/__",
+    "Details": "This UrbanMech has been extensively modified by an apparently madman for reasons unknown. In place of its usual weaponry are a pair of gauss weapons: the Silver Bullet Gauss Rifle providing the main punch and a lone Magshot Gauss Rifle providing quiet backup. To make these weapons possible on the chassis, this Urbie has been made with an Endo-Steel structure and Ferro-Fibrous armor. Truly, the mind that created this was quite unhinged. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_urbanmech"
   },
+  "VariantName": "UM-R60SB",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Defender",
+  "YangsThoughts": "This UrbanMech has been extensively modified by an apparently madman for reasons unknown. In place of its usual weaponry are a pair of gauss weapons: the Silver Bullet Gauss Rifle providing the main punch and a lone Magshot Gauss Rifle providing quiet backup. To make these weapons possible on the chassis, this Urbie has been made with an Endo-Steel structure and Ferro-Fibrous armor. Truly, the mind that created this was quite unhinged.  <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_urbanmech",
@@ -69,6 +80,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 30,
   "DFAInstability": 15,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -84,6 +98,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -218,19 +236,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "UM-R60SB",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_urbanmech_UM-R60SB.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_urbanmech_UM-R60SB.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0,
-  "CustomParts": {
-    "FiringArc": 360,
-    "CustomParts": []
-  }
+  ]
 }

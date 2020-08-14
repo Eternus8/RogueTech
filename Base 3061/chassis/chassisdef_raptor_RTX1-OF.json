@@ -15,61 +15,61 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Easy_To_Maintain",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_endosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_175",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Gyro_Omnimech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_175",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engineslots_xl_center",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "emod_engineslots_size3",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "emod_engineslots_size3",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Easy_To_Maintain",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -81,9 +81,19 @@
     "UIName": "Raptor",
     "Id": "chassisdef_raptor_RTX1-OF",
     "Name": "Raptor",
-    "Details": "__/Base_3061.chassisdef_raptor_RTX1-OF.Details/__",
+    "Details": "Similar to the C configuration, the F configuration of the Raptor carries five ER Medium Lasers and adds three additional double heat sinks. The Raptor F has added maneuverability with the addition of seven jump jets, allowing it to jump up to two hundred and ten meters. ",
     "Icon": "raptor"
   },
+  "VariantName": "RTX1-OF",
+  "ChassisTags": {
+    "items": [
+      "OmniMech",
+      "mr-resize-0.9-0.7-0.5"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Proto OmniMech",
+  "YangsThoughts": "Similar to the C configuration, the F configuration of the Raptor carries five ER Medium Lasers and adds three additional double heat sinks. The Raptor F has added maneuverability with the addition of seven jump jets, allowing it to jump up to two hundred and ten meters. ",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_cicada",
@@ -280,15 +290,5 @@
       "y": 6,
       "z": 0
     }
-  ],
-  "VariantName": "RTX1-OF",
-  "ChassisTags": {
-    "items": [
-      "OmniMech",
-      "mr-resize-0.9-0.7-0.5"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_raptor_RTX1-OF.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_raptor_RTX1-OF.YangsThoughts/__"
+  ]
 }

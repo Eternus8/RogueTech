@@ -5,14 +5,14 @@
       "ComponentDefID": "Special_Command_Mech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
+      "SimGameUID": "",
       "prefabName": "",
       "hasPrefabName": true,
-      "SimGameUID": ""
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2200926,
+    "Cost": 2161364.0,
     "Rarity": 5,
     "Purchasable": false,
     "Manufacturer": "Unknown",
@@ -20,9 +20,16 @@
     "UIName": "BattleMaster",
     "Id": "chassisdef_battlemaster_BLR-1CX",
     "Name": "BattleMaster",
-    "Details": "__/Base_3061.chassisdef_battlemaster_BLR-1CX.Details/__",
+    "Details": "A upgrade Battlemaster 1DC Command refit, carrying advanced Technologies and Hardened Armour to stay in the fight as long as possible.",
     "Icon": "uixTxrIcon_battlemasterh"
   },
+  "VariantName": "BLR-1CX",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Command 'Mech, Heavy Brawler, & Close Assault",
+  "YangsThoughts": "A upgrade Battlemaster 1DC Command refit, carrying advanced Technologies and Hardened Armour to stay in the fight as long as possible.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_battlemaster",
@@ -73,6 +80,14 @@
       "Hardpoints": [
         {
           "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -228,12 +243,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "BLR-1CX",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_battlemaster_BLR-1CX.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_battlemaster_BLR-1CX.YangsThoughts/__"
+  ]
 }

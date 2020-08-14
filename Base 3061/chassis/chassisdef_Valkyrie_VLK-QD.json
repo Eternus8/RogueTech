@@ -11,13 +11,13 @@
       "ComponentDefID": "Special_Improved_Comms",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 389078,
+    "Cost": 385577.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -25,9 +25,18 @@
     "UIName": "Valkyrie",
     "Id": "chassisdef_Valkyrie_VLK-QD",
     "Name": "Valkyrie",
-    "Details": "__/Base_3061.chassisdef_Valkyrie_VLK-QD.Details/__",
+    "Details": "The Valkyrie is a heavily armored mobile light mech with long range support capability <b><color=#53ff1a>Restricted Actuators- Left: Lower</color></b>",
     "Icon": "valkyrie"
   },
+  "VariantName": "VLK-QD",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.8-0.8-0.9"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Armored Scout",
+  "YangsThoughts": "A nice heavily armored scout, not too bad.  Probably best to keep it at range however, out of harm's range.  But an easy mech to find parts for and keep running.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_valkyrie",
@@ -75,7 +84,12 @@
     },
     {
       "Location": "LeftArm",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 50,
@@ -87,10 +101,6 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -138,6 +148,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -211,14 +225,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "VLK-QD",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-0.8-0.8-0.9"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_Valkyrie_VLK-QD.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_Valkyrie_VLK-QD.YangsThoughts/__"
+  ]
 }

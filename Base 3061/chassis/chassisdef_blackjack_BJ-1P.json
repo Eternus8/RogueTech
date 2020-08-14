@@ -6,15 +6,19 @@
     },
     "ChassisDefaults": []
   },
+  "CustomParts": {
+    "FiringArc": 150,
+    "CustomParts": []
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Extended_Torso_Twist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -26,9 +30,16 @@
     "UIName": "Blackjack",
     "Id": "chassisdef_blackjack_BJ-1P",
     "Name": "Blackjack",
-    "Details": "__/Base_3061.chassisdef_blackjack_BJ-1P.Details/__",
+    "Details": "In The Periphery Maintaining Mechs Tends To Be A Problem, As A Result The 1P Was Designed Generally As A Downgrade From The Os, But Much Cheaper To Maintain And Repair, Pilots Often Complain About The Structure 'Making Strange Noises', These Remarks Were Usually Ignored. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_blackjack"
   },
+  "VariantName": "BJ-1P",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fire Support & Skirmisher",
+  "YangsThoughts": " Well Isnt This Just a Bucket of bolts, Look At These Weapons, If You Can Call Them That,The Lasers Are Out Of Alignment And The 'Rifles' Are Dented, They Even Took The Fusion Core Out! Barbarians.. At Least It's Cheap To Replace, Not Sure Why You'd Want To.. Commander <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_blackjack",
@@ -67,12 +78,7 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -118,6 +124,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -239,16 +249,5 @@
       "y": 6,
       "z": 2.5
     }
-  ],
-  "VariantName": "BJ-1P",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_blackjack_BJ-1P.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_blackjack_BJ-1P.YangsThoughts/__",
-  "CustomParts": {
-    "FiringArc": 150,
-    "CustomParts": []
-  }
+  ]
 }

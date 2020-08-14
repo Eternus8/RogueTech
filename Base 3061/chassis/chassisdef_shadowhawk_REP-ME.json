@@ -1,36 +1,46 @@
 {
-  "FixedEquipment": [
-    {
-      "ComponentDefID": "Special_Battle_Fists",
-      "ComponentDefType": "Upgrade",
-      "DamageLevel": "Functional",
-      "GUID": null,
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "MountedLocation": "CenterTorso",
-      "SimGameUID": "",
-      "hasPrefabName": false,
-      "prefabName": null
-    }
-  ],
   "Custom": {
     "ArmActuatorSupport": {
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
     }
   },
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Battle_Fists",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "GUID": null,
+      "IsFixed": false,
+      "prefabName": null,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    }
+  ],
   "Description": {
     "Cost": 2595755,
     "Rarity": 99,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "__/Base_3061.chassisdef_shadowhawk_REP-ME.UIName/__",
+    "UIName": "REPORT ME",
     "Id": "chassisdef_shadowhawk_REP-ME",
-    "Name": "__/Base_3061.chassisdef_shadowhawk_REP-ME.Name/__",
-    "Details": "__/Base_3061.chassisdef_shadowhawk_REP-ME.Details/__",
+    "Name": "REPORT ME",
+    "Details": "BRING THE LOG TO DISCORD SO WE CAN FIX THIS APPEARING OR GET REKTED AGAIN!",
     "Icon": "uixTxrIcon_shadowhawk"
   },
+  "VariantName": "FALLBACK",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-3",
+      "BLACKLISTED"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Striker Cavalry",
+  "YangsThoughts": "BRING THE LOG TO DISCORD SO WE CAN FIX THIS APPEARING OR GET REKTED AGAIN!",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_choochoo",
@@ -228,15 +238,5 @@
       "y": 6,
       "z": 2.5
     }
-  ],
-  "VariantName": "FALLBACK",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-3",
-      "BLACKLISTED"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_shadowhawk_REP-ME.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_shadowhawk_REP-ME.YangsThoughts/__"
+  ]
 }

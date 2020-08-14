@@ -5,9 +5,9 @@
       "ComponentDefID": "Special_Narrow_Low_Profile",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -19,9 +19,18 @@
     "UIName": "Commando",
     "Id": "chassisdef_commando_COM-1A",
     "Name": "Commando",
-    "Details": "__/Base_3061.chassisdef_commando_COM-1A.Details/__",
+    "Details": "The original Commando used prototype equipment that was similarly primitive to those found in the first BattleMech, the Mackie. This version was completely replaced by its successor. First constructed in 2463, the 'Mech was equipped with only an Odin Large Laser mounted in its right arm.",
     "Icon": "uixTxrIcon_commando"
   },
+  "VariantName": "COM-1A",
+  "ChassisTags": {
+    "items": [
+      "Primitive"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Sniper & Scout",
+  "YangsThoughts": "The original Commando used prototype equipment that was similarly primitive to those found in the first BattleMech, the Mackie. This version was completely replaced by its successor. First constructed in 2463, the 'Mech was equipped with only an Odin Large Laser mounted in its right arm.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_commando",
@@ -83,12 +92,7 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 60,
@@ -123,7 +127,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 60,
@@ -201,14 +210,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "COM-1A",
-  "ChassisTags": {
-    "items": [
-      "Primitive"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_commando_COM-1A.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_commando_COM-1A.YangsThoughts/__"
+  ]
 }

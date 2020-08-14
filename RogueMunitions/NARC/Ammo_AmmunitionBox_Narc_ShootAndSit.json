@@ -17,7 +17,7 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "DelayedImpact: 1",
-                "AreaOfEffect: 40",
+                "AreaOfEffect: 30",
                 "AreaOfEffectDmg: 40",
                 "AreaOfEffectSTABDmg: 40",
                 "NARCAmmo: 10"
@@ -34,7 +34,7 @@
     "AmmoID": "Ammunition_Narc_ShootAndSit",
     "Capacity": 10,
     "Description": {
-        "Cost": 20000,
+        "Cost": 22000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Doering",

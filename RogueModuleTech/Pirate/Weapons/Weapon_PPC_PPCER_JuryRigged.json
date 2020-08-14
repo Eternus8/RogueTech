@@ -10,12 +10,13 @@
     },
     "BonusDescriptions": {
       "Bonuses": [
-        "PPCDEBUFF: -1",
+        "PPCDEBUFF: 1",
         "PipsIgnored: 1",
         "VariableDmg: 15",
         "DmgFallOff: 40%",
         "WpnAccuracy: -1",
-        "WpnRecoil: 3"
+        "WpnRecoil: 3",
+        "MineClearanceBoom: 1"
       ]
     },
     "InventorySorter": {
@@ -91,12 +92,13 @@
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "PPC",
-  "BattleValue": 0,
+  "BattleValue": 205,
   "InventorySize": 4,
   "Tonnage": 8,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "ClearMineFieldRadius": 8,
   "statusEffects": [
     {
       "durationData": {

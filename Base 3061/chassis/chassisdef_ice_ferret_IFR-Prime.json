@@ -10,61 +10,61 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Improved_Sensors",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_clanendosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Gyro_Omnimech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engineslots_cxl_center",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engine_360",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engineslots_cxl_center",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "emod_engineslots_size2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "emod_engineslots_size2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Improved_Sensors",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -76,9 +76,19 @@
     "UIName": "Ice Ferret",
     "Id": "chassisdef_ice_ferret_IFR-Prime",
     "Name": "Ice Ferret",
-    "Details": "__/Base_3061.chassisdef_ice_ferret_IFR-Prime.Details/__",
+    "Details": "In its primary configuration, the Ice Ferret is capable of acting in a variety of roles. The Ice Ferret carries an Active Probe allowing the 'Mech to detect hidden enemy units. For close combat, the Ice Ferret prime has a Streak SRM-2 launcher and an ER Small Laser. For long range engagements, the 'Mech is armed with a single ER PPC, giving it excellent long range hitting power for its size.",
     "Icon": "uixTxrIcon_iceferret"
   },
+  "VariantName": "IFR-Prime",
+  "ChassisTags": {
+    "items": [
+      "OmniMech",
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fast Scout",
+  "YangsThoughts": "In its primary configuration, the Ice Ferret is capable of acting in a variety of roles. The Ice Ferret carries an Active Probe allowing the 'Mech to detect hidden enemy units. For close combat, the Ice Ferret prime has a Streak SRM-2 launcher and an ER Small Laser. For long range engagements, the 'Mech is armed with a single ER PPC, giving it excellent long range hitting power for its size.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_iceferret",
@@ -297,15 +307,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "IFR-Prime",
-  "ChassisTags": {
-    "items": [
-      "OmniMech",
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_ice_ferret_IFR-Prime.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_ice_ferret_IFR-Prime.YangsThoughts/__"
+  ]
 }

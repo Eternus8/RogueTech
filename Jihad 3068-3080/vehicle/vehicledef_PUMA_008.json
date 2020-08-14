@@ -1,15 +1,4 @@
 {
-  "Version": 1,
-  "Description": {
-    "Id": "vehicledef_PUMA_008",
-    "Name": "Puma PAT-008",
-    "Details": "",
-    "Icon": "Puma",
-    "Cost": 993,
-    "Rarity": 0,
-    "Purchasable": false
-  },
-  "ChassisID": "vehiclechassisdef_PUMA_008",
   "VehicleTags": {
     "items": [
       "mr-resize-2.67",
@@ -29,6 +18,17 @@
     ],
     "tagSetSourceFile": ""
   },
+  "ChassisID": "vehiclechassisdef_PUMA_008",
+  "Description": {
+    "Id": "vehicledef_PUMA_008",
+    "Name": "Puma PAT-008",
+    "Details": "",
+    "Icon": "Puma",
+    "Cost": 38995125,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Version": 1,
   "Locations": [
     {
       "Location": "Front",
@@ -68,95 +68,185 @@
   ],
   "inventory": [
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Weapon_AMS_Advanced",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Weapon_MML_9",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Weapon_POD_B",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Weapon_AMS",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Weapon_MML_9",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Weapon_POD_B",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Weapon_AMS",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Weapon_MML_9",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Weapon_POD_B",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
       "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
       "ComponentDefType": "Weapon",
-      "MountedLocation": "Turret",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_AMS_Advanced",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Turret",
-      "HardpointSlot": 1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Weapon_AMS_Advanced",
-      "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Weapon_MML_9",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Front",
-      "HardpointSlot": 2,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Weapon_POD_B",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Front",
-      "HardpointSlot": 3,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Weapon_MML_9",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Left",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Weapon_AMS",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Left",
-      "HardpointSlot": 1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Weapon_POD_B",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Left",
-      "HardpointSlot": 2,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Weapon_MML_9",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Right",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Weapon_AMS",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Right",
-      "HardpointSlot": 1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Weapon_POD_B",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Right",
-      "HardpointSlot": 2,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gear_FCS_ARTIV",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "Front",
+      "ComponentDefID": "Ammo_AmmunitionBox_AntiMissile_double",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_AntiMissile_double",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_SRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Gear_FCS_AdvancedTC",
       "ComponentDefType": "Upgrade",
-      "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Guardian_ECM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Tank_CrewCompartment",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Tank_Sensors_Generic",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_Tracked_Left",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
+      "ComponentDefID": "Gear_Tracked_Right",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_C3i",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_TargetingTrackingSystem_ArtemisIV",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_S2000",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-XII",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Rear",
+      "ComponentDefID": "emod_armorslots_standard",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1
     },
     {
       "MountedLocation": "Turret",
@@ -173,51 +263,9 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Gear_Guardian_ECM",
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Tank_Turret",
       "ComponentDefType": "Upgrade",
-      "MountedLocation": "Front",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Rear",
-      "ComponentDefID": "Gear_C3i",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Ammo_AmmunitionBox_AntiMissile_double",
-      "ComponentDefType": "AmmunitionBox",
-      "MountedLocation": "Rear",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Ammo_AmmunitionBox_AntiMissile_double",
-      "ComponentDefType": "AmmunitionBox",
-      "MountedLocation": "Front",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_SRM",
-      "ComponentDefType": "AmmunitionBox",
-      "MountedLocation": "Rear",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM",
-      "ComponentDefType": "AmmunitionBox",
-      "MountedLocation": "Rear",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM",
-      "ComponentDefType": "AmmunitionBox",
-      "MountedLocation": "Rear",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -229,14 +277,15 @@
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "emod_armorslots_standard",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "Rear",
-      "HardpointSlot": -1
+      "MountedLocation": "Left",
+      "ComponentDefID": "emod_engineslots_size2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Rear",
-      "ComponentDefID": "Tank_Coolant_System",
+      "MountedLocation": "Right",
+      "ComponentDefID": "emod_engineslots_size2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
@@ -249,34 +298,6 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Right",
-      "ComponentDefID": "emod_engineslots_size2",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Left",
-      "ComponentDefID": "emod_engineslots_size2",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Right",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Left",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "Front",
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "ComponentDefType": "HeatSink",
@@ -284,7 +305,14 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Turret",
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Right",
       "ComponentDefID": "Gear_HeatSink_Generic_Standard",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -298,93 +326,16 @@
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Right",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Left",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Front",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Turret",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefID": "Tank_Coolant_System",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
-      "MountedLocation": "Right",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "Left",
-      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Tank_Turret",
-      "ComponentDefType": "Upgrade",
       "MountedLocation": "Turret",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Tank_CrewCompartment",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "Front",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Tank_Sensors_Generic",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "Front",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Tank_FCS_Generic",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "Front",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gear_Tracked_Right",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "Right",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gear_Tracked_Left",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

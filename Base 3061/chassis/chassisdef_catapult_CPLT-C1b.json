@@ -17,10 +17,10 @@
       "ComponentDefID": "Special_Accurate_Category_Missiles",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -32,9 +32,18 @@
     "UIName": "Catapult",
     "Id": "chassisdef_catapult_CPLT-C1b",
     "Name": "Catapult",
-    "Details": "__/Base_3061.chassisdef_catapult_CPLT-C1b.Details/__",
+    "Details": "The Royal Catapult, the -C1b was designed to fill the same role as the normal -C1 but better. Thanks to Ferro-Fibrous armor it sports better protection, and thanks to double heat sinks it can jump and fire all day long without problems. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_catapult"
   },
+  "VariantName": "CPLT-C1b",
+  "ChassisTags": {
+    "items": [
+      "SLDFMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Fire Support",
+  "YangsThoughts": "The Royal Catapult, the -C1b was designed to fill the same role as the normal -C1 but better. Thanks to Ferro-Fibrous armor it sports better protection, and thanks to double heat sinks it can jump and fire all day long without problems. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_k2pult",
@@ -73,7 +82,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -99,10 +113,6 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -236,14 +246,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "CPLT-C1b",
-  "ChassisTags": {
-    "items": [
-      "SLDFMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_catapult_CPLT-C1b.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_catapult_CPLT-C1b.YangsThoughts/__"
+  ]
 }

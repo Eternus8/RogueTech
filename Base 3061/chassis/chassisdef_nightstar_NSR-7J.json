@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Command_Mech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2410321,
+    "Cost": 2432407.0,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Nightstar",
     "Id": "chassisdef_nightstar_NSR-7J",
     "Name": "Nightstar",
-    "Details": "__/Base_3061.chassisdef_nightstar_NSR-7J.Details/__",
+    "Details": "In the aftermath of the Amaris Civil War and the chaos of the Succession Wars, the Nightstar which was already rare and prized began to be unable to be repaired with its advanced components. Thus, the -7J downgrade was created to make use of damaged Nightstars that lacked the proper components. Without the delicate XL engine, the -7J could no longer carry its massive Gauss Rifles, instead carrying a pair of AC/10s. The remaining weaponry was downgraded, as well as the heat sinks being replaced with the weaker standard versions of the day. The two things that stayed the same however was the mech's ponderous speed and tremendous armor capability.",
     "Icon": "uixTxrIcon_nightstar"
   },
+  "VariantName": "NSR-7J",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Brawler",
+  "YangsThoughts": "In the aftermath of the Amaris Civil War and the chaos of the Succession Wars, the Nightstar which was already rare and prized began to be unable to be repaired with its advanced components. Thus, the -7J downgrade was created to make use of damaged Nightstars that lacked the proper components. Without the delicate XL engine, the -7J could no longer carry its massive Gauss Rifles, instead carrying a pair of AC/10s. The remaining weaponry was downgraded, as well as the heat sinks being replaced with the weaker standard versions of the day. The two things that stayed the same however was the mech's ponderous speed and tremendous armor capability.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_nightstar",
@@ -76,11 +83,11 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -93,14 +100,6 @@
     {
       "Location": "LeftTorso",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -115,6 +114,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -156,11 +159,11 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -232,12 +235,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "NSR-7J",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_nightstar_NSR-7J.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_nightstar_NSR-7J.YangsThoughts/__"
+  ]
 }

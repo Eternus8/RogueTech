@@ -5,10 +5,10 @@
       "ComponentDefID": "Special_Command_Mech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -20,9 +20,16 @@
     "UIName": "Black Knight",
     "Id": "chassisdef_black_knight_BL-7b-KNT",
     "Name": "Black Knight",
-    "Details": "__/Base_3061.chassisdef_black_knight_BL-7b-KNT.Details/__",
+    "Details": "The Black Knight 7B is a refit made for and sold to Mercenary Commanders deeply in favour with the Federated Commonwealth, sporting advanced Technologys and Prototype X-Pulse Laser.",
     "Icon": "uixTxrIcon_blackknight"
   },
+  "VariantName": "BL-7b-KNT",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Brawler & Ranged Assault",
+  "YangsThoughts": "The Black Knight 7B is a refit made for and sold to Mercenary Commanders deeply in favour with the Federated Commonwealth, sporting advanced Technologys and Prototype X-Pulse Laser.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_blackknight",
@@ -63,7 +70,7 @@
       "Location": "Head",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -100,10 +107,6 @@
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -160,6 +163,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -237,12 +244,5 @@
       "y": 6,
       "z": 0
     }
-  ],
-  "VariantName": "BL-7b-KNT",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_black_knight_BL-7b-KNT.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_black_knight_BL-7b-KNT.YangsThoughts/__"
+  ]
 }

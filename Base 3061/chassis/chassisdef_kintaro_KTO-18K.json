@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1216589,
+    "Cost": 1205556.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Kintaro",
     "Id": "chassisdef_kintaro_KTO-18K",
     "Name": "Kintaro",
-    "Details": "__/Base_3061.chassisdef_kintaro_KTO-18K.Details/__",
+    "Details": "The Kintaro 18K is a beast of a machine. Still running hot does this Kurita refit carry a light PPC and Deadfire enhanced launcher for every engagement range.",
     "Icon": "uixTxrIcon_kintaro"
   },
+  "VariantName": "KTO-18K",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Close Assault",
+  "YangsThoughts": "The Kintaro 18K is a beast of a machine. Still running hot does this Kurita refit carry a light PPC and Deadfire enhanced launcher for every engagement range.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_kintaro",
@@ -71,6 +78,10 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Missile",
           "Omni": false
         },
@@ -89,7 +100,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -103,7 +114,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -223,12 +234,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "KTO-18K",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_kintaro_KTO-18K.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_kintaro_KTO-18K.YangsThoughts/__"
+  ]
 }

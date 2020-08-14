@@ -1,16 +1,10 @@
 {
   "Custom": {
     "ArmActuatorSupport": {
-      "LeftLimit": "Lower",
-      "RightLimit": "Lower"
+      "LeftLimit": "Upper",
+      "RightLimit": "Upper"
     },
     "ChassisDefaults": [
-      {
-        "CategoryID": "CockpitSensors",
-        "DefID": "Gear_Sensors_Totem",
-        "Location": "Head",
-        "Type": "Upgrade"
-      }
     ]
   },
   "FixedEquipment": [
@@ -19,13 +13,13 @@
       "ComponentDefID": "Special_MultiTrack",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2295642,
+    "Cost": 2275000.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -36,11 +30,19 @@
     "Details": "The Viking began production shortly after the Beowulf in a joint effort by the Free Rasalhague Republic and ComStar. The 'Mech is intended to take over in the role that has been traditionally filled by the Bombardier.",
     "Icon": "uixTxrIcon_viking"
   },
+  "VariantName": "VKG-3W",
+  "ChassisTags": {
+    "items": [
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Heavy Cavalry",
+  "YangsThoughts": "The 3W is a Word of Blake variant that was reconfigured at the refitted factories on Hall. It strips the weapons and replaces them with four Krupp MML-9s that allow the Viking access to both SRM and LRM munitions and with seven tons of ammunition, it is almost guaranteed to have both. The close-support weapons were replaced with a pair of Skobel Little 20 Light AC/2s and a pair of Hovertec Streak SRM-2s that seem ancient by comparison. This variant is protected by seventeen and a half tons of armor, but does not add any heat sinks. Of course, all the weapons are aided by the inclusion of a C3i Computer. ",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_stalker",
-  "PrefabIdentifier": "chrPrfMech_stalkerBase-001",
-  "PrefabBase": "stalker",
+  "HardpointDataDefID": "hardpointdatadef_masonviking",
+  "PrefabIdentifier": "chrprfmech_masonvikingbase-001",
+  "PrefabBase": "masonviking",
   "Tonnage": 90,
   "InitialTonnage": 9,
   "weightClass": "ASSAULT",
@@ -91,6 +93,10 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -109,10 +115,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -124,6 +126,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -245,14 +251,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "VKG-3W",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-1.2-1.2-1.2"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Juggernaut & Heavy Cavalry",
-  "YangsThoughts": "The 3W is a Word of Blake variant that was reconfigured at the refitted factories on Hall. It strips the weapons and replaces them with four Krupp MML-9s that allow the Viking access to both SRM and LRM munitions and with seven tons of ammunition, it is almost guaranteed to have both. The close-support weapons were replaced with a pair of Skobel Little 20 Light AC/2s and a pair of Hovertec Streak SRM-2s that seem ancient by comparison. This variant is protected by seventeen and a half tons of armor, but does not add any heat sinks. Of course, all the weapons are aided by the inclusion of a C3i Computer. "
+  ]
 }

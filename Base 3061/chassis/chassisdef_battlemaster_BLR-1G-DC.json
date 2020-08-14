@@ -5,14 +5,14 @@
       "ComponentDefID": "Special_Command_Mech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
+      "SimGameUID": "",
       "prefabName": "",
       "hasPrefabName": true,
-      "SimGameUID": ""
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2180963,
+    "Cost": 2161364.0,
     "Rarity": 5,
     "Purchasable": false,
     "Manufacturer": "Unknown",
@@ -20,9 +20,16 @@
     "UIName": "BattleMaster",
     "Id": "chassisdef_battlemaster_BLR-1G-DC",
     "Name": "BattleMaster",
-    "Details": "__/Base_3061.chassisdef_battlemaster_BLR-1G-DC.Details/__",
+    "Details": "Command Console refit built in 2855 - The BattleMaster was one of the Federated Suns' preferred 'Mechs to install Command Consoles. Standard refits usually installed the Command Console on the BLR-1G, removing one heat sink and both rear-mounted Medium Lasers.",
     "Icon": "uixTxrIcon_battlemaster"
   },
+  "VariantName": "BLR-1G-DC",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Command 'Mech, Heavy Brawler, & Close Assault",
+  "YangsThoughts": "Thankfully I never faced one of these during my stint with the Second St. Ives Lancers on Kittery. The Fedrats, after all, preferred installing Command Consoles on the BattleMaster, but from my understanding these were relegated to training duties by the late Third Succession War. The loss of only one heat sink and two Medium Lasers is not too bad for a trade-off.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_battlemaster",
@@ -78,6 +85,10 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -99,10 +110,6 @@
         },
         {
           "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -161,6 +168,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -232,12 +243,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "BLR-1G-DC",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_battlemaster_BLR-1G-DC.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_battlemaster_BLR-1G-DC.YangsThoughts/__"
+  ]
 }

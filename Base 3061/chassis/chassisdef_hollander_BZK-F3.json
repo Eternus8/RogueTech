@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Stable_Weapons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 621330,
+    "Cost": 644048.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Hollander",
     "Id": "chassisdef_hollander_BZK-F3",
     "Name": "Hollander",
-    "Details": "__/Base_3061.chassisdef_hollander_BZK-F3.Details/__",
+    "Details": "The Hollander was introduced in 3054 specifically to carry a Gauss Rifle into combat and act as a sniper. The Federated Commonwealth was in dire need of a response to the fast-moving, long-range firepower of the Clan Invaders at the time, and looked at a number of light 'Mech designs featuring PPCs or LRMs as a potential answer. It was Coventry's unorthodox decision to mount such a large weapon, one that had neither the overheating or ammunition explosion drawbacks of the other designs, which won them the contract. With its single massive cannon and use of rediscovered technology, the Hollander can destroy another light 'Mech in a single hit at extreme range and threaten heavier targets easily.",
     "Icon": "Hollander"
   },
+  "VariantName": "BZK-F3",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper",
+  "YangsThoughts": "The Hollander was introduced in 3054 specifically to carry a Gauss Rifle into combat and act as a sniper. The Federated Commonwealth was in dire need of a response to the fast-moving, long-range firepower of the Clan Invaders at the time, and looked at a number of light 'Mech designs featuring PPCs or LRMs as a potential answer. It was Coventry's unorthodox decision to mount such a large weapon, one that had neither the overheating or ammunition explosion drawbacks of the other designs, which won them the contract. With its single massive cannon and use of rediscovered technology, the Hollander can destroy another light 'Mech in a single hit at extreme range and threaten heavier targets easily.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_hollander",
@@ -57,6 +64,11 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 35,
   "DFAInstability": 18,
+  "AssemblyVariant": {
+    "PrefabID": "Hollander",
+    "Exclude": false,
+    "Include": true
+  },
   "Locations": [
     {
       "Location": "Head",
@@ -76,10 +88,6 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -92,16 +100,7 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 80,
@@ -155,10 +154,6 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -232,17 +227,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "BZK-F3",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_hollander_BZK-F3.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_hollander_BZK-F3.YangsThoughts/__",
-  "AssemblyVariant": {
-    "PrefabID": "Hollander",
-    "Exclude": false,
-    "Include": true
-  }
+  ]
 }

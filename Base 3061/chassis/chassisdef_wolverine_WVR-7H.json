@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Improved_Comms",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1376058,
+    "Cost": 1363214.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,18 @@
     "UIName": "Wolverine",
     "Id": "chassisdef_wolverine_WVR-7H",
     "Name": "Wolverine",
-    "Details": "__/Base_3061.chassisdef_wolverine_WVR-7H.Details/__",
+    "Details": "The Star League changed so much from the WVR-6R that they called this the Wolverine II. It carries a similar weapon load but enhanced by the Star League's superior technology, making this a far deadlier machine.",
     "Icon": "uixTxrIcon_wolverine"
   },
+  "VariantName": "WVR-7H",
+  "ChassisTags": {
+    "items": [
+      "SLDFMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Skirmisher & Cavalry",
+  "YangsThoughts": "The Star League changed so much from the WVR-6R that they called this the Wolverine II. It carries a similar weapon load but enhanced by the Star League's superior technology, making this a far deadlier machine.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_wolverine",
@@ -87,10 +96,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -127,7 +132,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 130,
@@ -137,6 +147,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false
@@ -210,14 +224,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "WVR-7H",
-  "ChassisTags": {
-    "items": [
-      "SLDFMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_wolverine_WVR-7H.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_wolverine_WVR-7H.YangsThoughts/__"
+  ]
 }

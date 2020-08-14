@@ -10,19 +10,23 @@
     },
     "ChassisDefaults": []
   },
+  "CustomParts": {
+    "FiringArc": 150,
+    "CustomParts": []
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Extended_Torso_Twist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 715476,
+    "Cost": 708962.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -30,9 +34,18 @@
     "UIName": "Daimyo",
     "Id": "chassisdef_daimyo_DMO-1K",
     "Name": "Daimyo",
-    "Details": "__/Base_3061.chassisdef_daimyo_DMO-1K.Details/__",
+    "Details": "The Daimyo is named for the title used for warlords from the medieval Japanese empire. The 'Mech, first produced in 3053, attempts to live up to the heritage of its name admirably. It is armed primarily for long range combat but can hold its own if the situation warrants it. The Daimyo's maximum speed of 86.4 kph and its Nissan 200 fusion engine make the Daimyo a rugged 'Mech that can survive an amazing amount of damage, while bringing the fight to the enemy. <b><color=#53ff1a>Restricted Actuators- Left: Lower </color></b>",
     "Icon": "Daimyo"
   },
+  "VariantName": "DMO-1K",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.83-0.63-0.79"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Brawler",
+  "YangsThoughts": "The primary long range weapon on the Daimyo is a Lord's Light 2 ER PPC, which allows the 'Mech to strike at an enemy from extreme ranges. Once the 'Mech closes with its enemy, it is able to bring its close range arsenal to bear. This consists of two Victory 23R Medium Lasers, which are backed up by a Shannon SH-60 SRM-6 missile launcher. <b><color=#53ff1a>Restricted Actuators- Left: Lower </color></b>",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_orion",
@@ -68,6 +81,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 40,
   "DFAInstability": 20,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -135,6 +151,10 @@
     {
       "Location": "RightTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Missile",
           "Omni": false
@@ -226,21 +246,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "DMO-1K",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-0.83-0.63-0.79"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_daimyo_DMO-1K.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_daimyo_DMO-1K.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0,
-  "CustomParts": {
-    "FiringArc": 150,
-    "CustomParts": []
-  }
+  ]
 }

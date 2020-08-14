@@ -12,14 +12,14 @@
       "ComponentDefID": "Special_Distracting",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 5646136,
+    "Cost": 5888103.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -30,11 +30,22 @@
     "Details": "A ClanTech redesign of the Skobel MechWorks Omega, upgrading all its weapon to deal a debilitating strike",
     "Icon": "omega"
   },
+  "VariantName": "SHP-C",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.41",
+      "Superheavy",
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Superheavy Prototype",
+  "YangsThoughts": "A ClanTech redesign of the Skobel MechWorks Omega, upgrading all its weapon to deal a debilitating strike",
   "MovementCapDefID": "movedef_superheavy",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_kingcrab",
-  "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
-  "PrefabBase": "kingcrab",
+  "HardpointDataDefID": "hardpointdatadef_omega",
+  "PrefabIdentifier": "chrprfmech_omegabase-001",
+  "PrefabBase": "omega",
   "Tonnage": 200,
   "InitialTonnage": 39,
   "weightClass": "ASSAULT",
@@ -70,18 +81,6 @@
       "Location": "Head",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -95,6 +94,10 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false
@@ -136,6 +139,10 @@
           "Omni": false
         },
         {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "Special",
           "Omni": false
         },
@@ -172,6 +179,10 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -186,6 +197,10 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -197,18 +212,6 @@
     {
       "Location": "LeftLeg",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -223,18 +226,6 @@
     {
       "Location": "RightLeg",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -290,16 +281,5 @@
       "y": 6,
       "z": 0
     }
-  ],
-  "VariantName": "SHP-C",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-1.41",
-      "Superheavy",
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Superheavy Prototype",
-  "YangsThoughts": "A ClanTech redesign of the Skobel MechWorks Omega, upgrading all its weapon to deal a debilitating strike"
+  ]
 }

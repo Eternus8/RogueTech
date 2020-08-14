@@ -11,14 +11,14 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2144048,
+    "Cost": 2124057.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,16 @@
     "UIName": "Awesome",
     "Id": "chassisdef_awesome_AWS-8V",
     "Name": "Awesome",
-    "Details": "__/Base_3061.chassisdef_awesome_AWS-8V.Details/__",
+    "Details": "Seeking to address the issues with the 8R model, the AWS-8V is a blend of the 8R and 8Q.  This allows a pilot to provide indirect fire support, while still being a potent combatant with its PPC and Large Laser. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
     "Icon": "uixTxrIcon_awesome"
   },
+  "VariantName": "AWS-8V",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Fire Support & Defender",
+  "YangsThoughts": "The best of both worlds, with LRMs and the PPC - Large Laser combo you have a versitile fire support platform. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_awesome",
@@ -110,6 +117,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -223,12 +234,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "AWS-8V",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_awesome_AWS-8V.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_awesome_AWS-8V.YangsThoughts/__"
+  ]
 }

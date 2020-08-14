@@ -17,9 +17,9 @@
       "ComponentDefID": "Special_Easy_To_Maintain",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -31,9 +31,18 @@
     "UIName": "Mackie",
     "Id": "chassisdef_mackie_MSK-5S",
     "Name": "Mackie",
-    "Details": "__/Base_3061.chassisdef_mackie_MSK-5S.Details/__",
+    "Details": "The initial prototype Mackie was designated the MSK-5S, and carried a slightly different weapons load than the production model MSK-6S. Using an Autocannon/5 in the right arm instead of the AC/10, the MSK-5S also mounted a Large Laser in the center torso, rather than the twin Medium Lasers, and had two more heat sinks. Twenty tons of Primitive Armor protected the first generation Mackie. This armor, though heavier, provided less protection than later models. The MSK-5S was used by Colonel Kincaid in his now-famous combat trial versus the Merkava tanks. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "mackie"
   },
+  "VariantName": "MSK-5S",
+  "ChassisTags": {
+    "items": [
+      "Primitive"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Granddady Mech",
+  "YangsThoughts": "The initial prototype Mackie was designated the MSK-5S, and carried a slightly different weapons load than the production model MSK-6S. Using an Autocannon/5 in the right arm instead of the AC/10, the MSK-5S also mounted a Large Laser in the center torso, rather than the twin Medium Lasers, and had two more heat sinks. Twenty tons of Primitive Armor protected the first generation Mackie. This armor, though heavier, provided less protection than later models. The MSK-5S was used by Colonel Kincaid in his now-famous combat trial versus the Merkava tanks. . <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_mackie",
@@ -69,6 +78,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 100,
   "DFAInstability": 50,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -97,10 +109,6 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -114,6 +122,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -227,17 +239,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "MSK-5S",
-  "ChassisTags": {
-    "items": [
-      "Primitive"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_mackie_MSK-5S.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_mackie_MSK-5S.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

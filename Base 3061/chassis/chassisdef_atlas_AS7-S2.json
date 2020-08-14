@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2571729,
+    "Cost": 2595755.0,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Atlas",
     "Id": "chassisdef_atlas_AS7-S2",
     "Name": "Atlas",
-    "Details": "__/Base_3061.chassisdef_atlas_AS7-S2.Details/__",
+    "Details": "The S2 Atlas was a major upgrade of the design by the Lyran Alliance coming out of the Hesperus II facility in 3061. The 'Mech was built with a Light Fusion Engine and carried an Artemis IV Fire Control System enhanced LRM-15 launcher and two ER large lasers as its primary long range weapons. For close combat, the 'Mech was armed with a Heavy Gauss Rifle. The S2 mounted a Guardian ECM Suite in place of the AMS to protect against enemy electronic warfare equipment.",
     "Icon": "uixTxrIcon_atlas"
   },
+  "VariantName": "AS7-S2",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Close Assault",
+  "YangsThoughts": "The S2 Atlas was a major upgrade of the design by the Lyran Alliance coming out of the Hesperus II facility in 3061. The 'Mech was built with a Light Fusion Engine and carried an Artemis IV Fire Control System enhanced LRM-15 launcher and two ER large lasers as its primary long range weapons. For close combat, the 'Mech was armed with a Heavy Gauss Rifle. The S2 mounted a Guardian ECM Suite in place of the AMS to protect against enemy electronic warfare equipment.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_atlas",
@@ -57,6 +64,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 100,
   "DFAInstability": 50,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -87,10 +97,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -103,11 +109,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -136,6 +138,10 @@
     {
       "Location": "RightTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false
@@ -223,15 +229,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "AS7-S2",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_atlas_AS7-S2.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_atlas_AS7-S2.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1262864,
+    "Cost": 1250962.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Griffin",
     "Id": "chassisdef_griffin_GRF-1N",
     "Name": "Griffin",
-    "Details": "__/Base_3061.chassisdef_griffin_GRF-1N.Details/__",
+    "Details": "Griffin 1Ns use their Jump Jets to stay at range and pelt their opponents from relative safety. 1Ns can run hot if they spend all their time bounding around the battlefield taking potshots, though.",
     "Icon": "uixTxrIcon_griffin"
   },
+  "VariantName": "GRF-1N",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper & Fire Support",
+  "YangsThoughts": "Griffin 1Ns use their Jump Jets to stay at range and pelt their opponents from relative safety. 1Ns can run hot if they spend all their time bounding around the battlefield taking potshots, though.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_griffin",
@@ -83,7 +90,12 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 130,
@@ -206,12 +218,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "GRF-1N",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_griffin_GRF-1N.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_griffin_GRF-1N.YangsThoughts/__"
+  ]
 }

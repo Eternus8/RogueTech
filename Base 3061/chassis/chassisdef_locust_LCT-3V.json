@@ -9,26 +9,26 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Narrow_Low_Profile",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engine_170",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
+      "IsFixed": false,
       "prefabName": "",
       "hasPrefabName": true,
-      "IsFixed": false
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Narrow_Low_Profile",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 286905,
+    "Cost": 284434.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -36,9 +36,16 @@
     "UIName": "Locust",
     "Id": "chassisdef_locust_LCT-3V",
     "Name": "Locust",
-    "Details": "__/Base_3061.chassisdef_locust_LCT-3V.Details/__",
+    "Details": "The Locust 3V trades off protection for more firepower, relying on its superior speed to avoid getting hit in the first place. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_locust"
   },
+  "VariantName": "LCT-3V",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Fire Support",
+  "YangsThoughts": "The Locust 3V trades off protection for more firepower, relying on its superior speed to avoid getting hit in the first place. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_locust",
@@ -148,7 +155,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 50,
@@ -231,12 +243,5 @@
       "y": 3,
       "z": 0
     }
-  ],
-  "VariantName": "LCT-3V",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_locust_LCT-3V.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_locust_LCT-3V.YangsThoughts/__"
+  ]
 }

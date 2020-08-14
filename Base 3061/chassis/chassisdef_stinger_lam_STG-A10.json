@@ -5,75 +5,120 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_armorslots_LAM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_LAM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_Engine_LAM",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_engineslots_size2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_engineslots_size2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Quirk_JumpJet_LAM",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Quirk_JumpJet_LAM",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Quirk_JumpJet_LAM",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Quirk_JumpJet_LAM",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Quirk_PartialWing_LAM",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
+      "SimGameUID": "",
+      "IsFixed": false,
       "prefabName": "",
       "hasPrefabName": true,
-      "SimGameUID": "",
-      "IsFixed": false
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Quirk_PartialWing_LAM_LTslot",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
+      "SimGameUID": "",
+      "IsFixed": false,
       "prefabName": "",
       "hasPrefabName": true,
-      "SimGameUID": "",
-      "IsFixed": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Quirk_JumpJet_LAM",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "IsFixed": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Quirk_JumpJet_LAM",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "IsFixed": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Quirk_JumpJet_LAM",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "IsFixed": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Quirk_JumpJet_LAM",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "IsFixed": false
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 369037,
+    "Cost": 369037.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -81,9 +126,16 @@
     "UIName": "Stinger LAM",
     "Id": "chassisdef_stinger_lam_STG-A10",
     "Name": "Stinger LAM",
-    "Details": "__/Base_3061.chassisdef_stinger_lam_STG-A10.Details/__",
+    "Details": "In 2680, the Star League requested designers to develop 'Mechs which could fly as well as function as standard 'Mechs. The first Land-Air 'Mech off the drawing board, the Shadow Hawk LAM, proved so fatally flawed, the concept was almost shelved. However, LexaTech Industries reworked the conversion equipment and unveiled the first viable LAM, the Stinger LAM in 2688, based on the old Stinger design. LexaTech's reworking of the concept proved so successful, the Land-Air 'Mech became highly sought after, especially for space combat operations. In fact, the Stinger LAM first saw combat destroying a nuclear weapons facility in the Oort Cloud orbiting Sol, Terra's star. Found in the Draconis Combine, this variant uses two pairs of Martell Small Lasers on the arms instead of a single Medium Laser.",
     "Icon": "StingerLAM"
   },
+  "VariantName": "STG-A10",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Land/Air-Mech",
+  "YangsThoughts": "In 2680, the Star League requested designers to develop 'Mechs which could fly as well as function as standard 'Mechs. The first Land-Air 'Mech off the drawing board, the Shadow Hawk LAM, proved so fatally flawed, the concept was almost shelved. However, LexaTech Industries reworked the conversion equipment and unveiled the first viable LAM, the Stinger LAM in 2688, based on the old Stinger design. LexaTech's reworking of the concept proved so successful, the Land-Air 'Mech became highly sought after, especially for space combat operations. In fact, the Stinger LAM first saw combat destroying a nuclear weapons facility in the Oort Cloud orbiting Sol, Terra's star. Found in the Draconis Combine, this variant uses two pairs of Martell Small Lasers on the arms instead of a single Medium Laser.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_stingerlam",
@@ -119,15 +171,18 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 30,
   "DFAInstability": 15,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
+  "AssemblyVariant": {
+    "PrefabID": "StingerLAM",
+    "Exclude": false,
+    "Include": true
+  },
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -156,10 +211,6 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -175,6 +226,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -223,6 +278,10 @@
         },
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -294,20 +353,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "STG-A10",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_stinger_lam_STG-A10.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_stinger_lam_STG-A10.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0,
-  "AssemblyVariant": {
-    "PrefabID": "StingerLAM",
-    "Exclude": false,
-    "Include": true
-  }
+  ]
 }

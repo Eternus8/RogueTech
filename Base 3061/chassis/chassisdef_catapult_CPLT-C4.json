@@ -17,14 +17,14 @@
       "ComponentDefID": "Special_Accurate_Category_Missiles",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1416509,
+    "Cost": 1416509.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -32,9 +32,16 @@
     "UIName": "Catapult",
     "Id": "chassisdef_catapult_CPLT-C4",
     "Name": "Catapult",
-    "Details": "__/Base_3061.chassisdef_catapult_CPLT-C4.Details/__",
+    "Details": "The CPLT-C4 is an explosive addition to any outfit's arsenal.  Trading out the stock LRM-15s, Medium Lasers and extra Heat Sinks for LRM-20s and Small Lasers - along with 2 extra tons of ammo, the C4 gives the Catapult impressive long range firepower. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_catapult"
   },
+  "VariantName": "CPLT-C4",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Fire Support",
+  "YangsThoughts": "If you can't find yourself an Archer, this is the next best thing.  While not as potent close in as the standard C1 model, the C4 can still hold its own in a brawl against a lighter oppoent. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_catapult",
@@ -232,12 +239,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "CPLT-C4",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_catapult_CPLT-C4.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_catapult_CPLT-C4.YangsThoughts/__"
+  ]
 }

@@ -10,77 +10,126 @@
     },
     "ChassisDefaults": []
   },
+  "CustomParts": {
+    "FiringArc": 150,
+    "CustomParts": []
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Extended_Torso_Twist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_armorslots_LAM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_LAM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_Engine_LAM",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_engineslots_size2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_engineslots_size2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Quirk_PartialWing_LAM",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
+      "SimGameUID": "",
+      "IsFixed": false,
       "prefabName": "",
       "hasPrefabName": true,
-      "SimGameUID": "",
-      "IsFixed": false
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Quirk_PartialWing_LAM_LTslot",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
+      "SimGameUID": "",
+      "IsFixed": false,
       "prefabName": "",
       "hasPrefabName": true,
-      "SimGameUID": "",
-      "IsFixed": false
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Quirk_JumpJet_LAM",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "IsFixed": false
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Quirk_JumpJet_LAM",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "IsFixed": false
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftLeg",
       "ComponentDefID": "Quirk_JumpJet_LAM",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftLeg",
       "ComponentDefID": "Quirk_JumpJet_LAM",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Quirk_JumpJet_LAM",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Quirk_JumpJet_LAM",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -92,9 +141,16 @@
     "UIName": "Wasp LAM",
     "Id": "chassisdef_wasp_lam_WSP-100_lam_mk_i",
     "Name": "Wasp LAM",
-    "Details": "__/Base_3061.chassisdef_wasp_lam_WSP-100_lam_mk_i.Details/__",
+    "Details": "This variant, used by the SLDF, has a LTV 150 engine, slightly lower maximum ground speed (84km/h), a 120 meter jump capability, and replaces the SRM-2 with a rear-facing One-Shot version. In exchange the WSP-100 was equipped with a five ton bomb bay. This Bomb Bay allowed the WSP-100 to carry Arrow IVmissiles and conventional bombs without losing any speed.",
     "Icon": "WaspLAM"
   },
+  "VariantName": "WSP-100 LAM Mk I",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Land/Air-Mech",
+  "YangsThoughts": "This variant, used by the SLDF, has a LTV 150 engine, slightly lower maximum ground speed (84km/h), a 120 meter jump capability, and replaces the SRM-2 with a rear-facing One-Shot version. In exchange the WSP-100 was equipped with a five ton bomb bay. This Bomb Bay allowed the WSP-100 to carry Arrow IVmissiles and conventional bombs without losing any speed.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_wasplam",
@@ -130,10 +186,18 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 30,
   "DFAInstability": 15,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -143,14 +207,6 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -181,6 +237,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -291,19 +351,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "WSP-100 LAM Mk I",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_wasp_lam_WSP-100_lam_mk_i.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_wasp_lam_WSP-100_lam_mk_i.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0,
-  "CustomParts": {
-    "FiringArc": 150,
-    "CustomParts": []
-  }
+  ]
 }

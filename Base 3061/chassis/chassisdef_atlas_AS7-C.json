@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2595755,
+    "Cost": 2548148.0,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Atlas",
     "Id": "chassisdef_atlas_AS7-C",
     "Name": "Atlas",
-    "Details": "__/Base_3061.chassisdef_atlas_AS7-C.Details/__",
+    "Details": "A Combine modification of the K model introduced in 3050, the C model carried a C3 Slave unit into combat. This was achieved by removing one of the Medium Pulse Lasers from the K model. The extra free ton was used to add another heat sink to the design.",
     "Icon": "uixTxrIcon_atlas"
   },
+  "VariantName": "AS7-C",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Mid/Longe Assault",
+  "YangsThoughts": "Another 'Mech design that the Combine inherited when they took Independence Weaponries on Quentin in the War of 3039, the Atlas C was one of the first designs thought of when Combine Engineers began incorporating C3 units into BattleMechs. Since the Atlas has such a large arsenal of weapons, the removal of one medium pulse lasers was of small consequence. Added in its place was a C3 slave and another heat sink to help the design dissapate the huge amounts of heat it already produces.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_atlas",
@@ -107,6 +114,10 @@
           "Omni": false
         },
         {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "Special",
           "Omni": false
         },
@@ -132,6 +143,10 @@
     {
       "Location": "RightTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false
@@ -219,12 +234,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "AS7-C",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_atlas_AS7-C.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_atlas_AS7-C.YangsThoughts/__"
+  ]
 }

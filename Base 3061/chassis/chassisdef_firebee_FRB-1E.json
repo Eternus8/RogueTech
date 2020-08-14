@@ -5,9 +5,9 @@
       "ComponentDefID": "Special_Combat_Computer",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -19,9 +19,18 @@
     "UIName": "Firebee",
     "Id": "chassisdef_firebee_FRB-1E",
     "Name": "Firebee",
-    "Details": "__/Base_3061.chassisdef_firebee_FRB-1E.Details/__",
+    "Details": "The original Firebee used a single LRM-5 backed up by a trio of SRM-2s. The Primitive Engine provided a top speed of 85 km/h, more than enough to engage armored vehicles and infantry, and supporting heavier units. The lack of jump jets, combined with six and a half tons of Primitive Armor, forced pilots to pay attention to the terrain to insure they could move effectively.",
     "Icon": "Firebee"
   },
+  "VariantName": "FRB-1E",
+  "ChassisTags": {
+    "items": [
+      "Primitive"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper & Light Brawler",
+  "YangsThoughts": "The original Firebee used a single LRM-5 backed up by a trio of SRM-2s. The Primitive Engine provided a top speed of 85 km/h, more than enough to engage armored vehicles and infantry, and supporting heavier units. The lack of jump jets, combined with six and a half tons of Primitive Armor, forced pilots to pay attention to the terrain to insure they could move effectively.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_firebee",
@@ -57,6 +66,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 35,
   "DFAInstability": 18,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -87,10 +99,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -102,6 +110,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -215,17 +227,5 @@
       "y": 4,
       "z": 0.5
     }
-  ],
-  "VariantName": "FRB-1E",
-  "ChassisTags": {
-    "items": [
-      "Primitive"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_firebee_FRB-1E.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_firebee_FRB-1E.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

@@ -4,6 +4,11 @@
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
     },
+    "AssemblyVariant": {
+      "PrefabID": "Hoplite",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
@@ -12,13 +17,13 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1194725,
+    "Cost": 1250962.0,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +31,18 @@
     "UIName": "Hoplite",
     "Id": "chassisdef_hoplite_HOP-4B",
     "Name": "Hoplite",
-    "Details": "__/Base_3061.chassisdef_hoplite_HOP-4B.Details/__",
+    "Details": "Conceived by Martinson Armaments of Terra in 2578 as an infantry support 'Mech, the Hoplite first saw service with the newly formed Star League Defense Force during the Reunification War before being relegated to Terran Hegemony militia units in the twenty-seventh century. Intended for infantry support, the Hoplite is slow for a medium 'Mech with a top speed of only 64.8 km/h. However its eleven and a half tons of armor and heavy arsenal, both impressive for a 'Mech of its size, makes the Hoplite a rugged machine able to fight its way out of most situations using superior firepower. The 4B variant of the Hoplite is an early variant of the 'Mech that attempts to both alleviate the ammunition dependence of its primary weapon and increase its long-range damage potential. This is done by mounting a Magna Hellstar PPC as the primary weapon that is backed up by a massive Mitchell Systems LRM-15 launcher with two tons of reloads, giving it excellent long-range and indirect fire support capabilities. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "Hoplite"
   },
+  "VariantName": "HOP-4B",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.63"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fire Support",
+  "YangsThoughts": "Conceived by Martinson Armaments of Terra in 2578 as an infantry support 'Mech, the Hoplite first saw service with the newly formed Star League Defense Force during the Reunification War before being relegated to Terran Hegemony militia units in the twenty-seventh century. Intended for infantry support, the Hoplite is slow for a medium 'Mech with a top speed of only 64.8 km/h. However its eleven and a half tons of armor and heavy arsenal, both impressive for a 'Mech of its size, makes the Hoplite a rugged machine able to fight its way out of most situations using superior firepower. The 4B variant of the Hoplite is an early variant of the 'Mech that attempts to both alleviate the ammunition dependence of its primary weapon and increase its long-range damage potential. This is done by mounting a Magna Hellstar PPC as the primary weapon that is backed up by a massive Mitchell Systems LRM-15 launcher with two tons of reloads, giving it excellent long-range and indirect fire support capabilities. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_kingcrab",
@@ -67,12 +81,7 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -82,14 +91,6 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -103,12 +104,7 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 130,
@@ -120,6 +116,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -147,16 +147,7 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 130,
@@ -239,14 +230,5 @@
       "y": 5.5,
       "z": -1
     }
-  ],
-  "VariantName": "HOP-4B",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-0.63"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_hoplite_HOP-4B.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_hoplite_HOP-4B.YangsThoughts/__"
+  ]
 }

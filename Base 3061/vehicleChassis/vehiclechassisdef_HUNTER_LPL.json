@@ -1,15 +1,20 @@
 {
-  "YangsThoughts": "__/Base_3061.vehiclechassisdef_HUNTER_LPL.YangsThoughts/__",
+  "CustomParts": {
+    "FiringArc": 120,
+    "CustomParts": []
+  },
   "Description": {
     "Id": "vehiclechassisdef_HUNTER_LPL",
     "Name": "Hunter Light Support Tank",
     "Details": "",
     "Icon": "Hunter",
-    "Cost": 993,
+    "Cost": 3259125,
     "Rarity": 0,
     "Purchasable": false
   },
+  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "MovementCapDefID": "movedef_4-6cv",
+  "movementType": "Tracked",
   "PathingCapDefID": "pathingdef_light_tracked",
   "HardpointDataDefID": "hardpointdatadef_striker",
   "PrefabIdentifier": "chrPrfVhcl_striker",
@@ -19,7 +24,6 @@
   "BattleValue": 564,
   "TopSpeed": 85,
   "TurnRadius": 90,
-  "movementType": "Tracked",
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
@@ -104,14 +108,6 @@
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 70,
-      "InternalStructure": 20
-    },
-    {
-      "Location": "Turret",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 0,
-      "MaxArmor": 60,
       "InternalStructure": 20
     }
   ]

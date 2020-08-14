@@ -12,27 +12,25 @@
   "Type": "Normal",
   "Category": "Thumper",
   "HeatGenerated": 0,
-  "DamagePerShot": -25.0,
-  "HeatDamagePerShot": 10.0,
+  "DamageMultiplier": 0.2,
+  "HeatDamagePerShot": 25.0,
   "HeatGeneratedModifier": 1,
   "ArmorDamageModifier": 1,
   "ISDamageModifier": 1,
   "CriticalDamageModifier": 1,
-  "MinMissRadius": 20,
-  "MaxMissRadius": 25,
   "AOECapable": true,
-  "AOERange": 100,
+  "AOERange": 45,
   "AOEDamage": 25,
-  "AOEHeatDamage": 15,
-  "AOEInstability": 6,
-  "FireTerrainChance": 1,
+  "AOEHeatDamage": 25,
+  "AOEInstability": 12,
+  "FireTerrainChance": 0.75,
   "AdditionalImpactVFX": "WFX_BELarger",
   "AdditionalImpactVFXScaleX": 1,
   "AdditionalImpactVFXScaleY": 1,
   "AdditionalImpactVFXScaleZ": 1,
   "FireDurationWithoutForest": 4,
   "FireTerrainStrength": 15,
-  "FireTerrainCellRadius": 6,
+  "FireTerrainCellRadius": 12,
   "FireOnSuccessHit": true,
   "ColorsTable": [
     {
@@ -40,5 +38,41 @@
       "I": 5
     }
   ],
-  "ColorChangeRule": "t0"
+  "ColorChangeRule": "t0",
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 1,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "stackLimit": 45
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "NotSet",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "HeatDamageTakenSoftCapMultiplier",
+        "Name": "Heat Damage SoftCap",
+        "Details": "Reduce Heat Damage by 1%",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "CACIncomingHeatMult",
+        "operation": "Float_Multiply",
+        "modValue": "0.95",
+        "modType": "System.Single"
+      }
+    }
+  ]
 }

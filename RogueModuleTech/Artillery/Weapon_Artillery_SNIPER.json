@@ -9,11 +9,9 @@
             "Bonuses": [
                 "IsArtillery",
                 "FLAKmode",
-                "Indirect",
-                "DFAccuracy: -1",
-                "VariableDmg: 15",
+                "DIRECTmode",
                 "WpnRecoil: 4",
-                "ForbiddenRange: 120"
+                "ForbiddenRange: 180"
             ]
         },
         "InventorySorter": {
@@ -23,27 +21,27 @@
     "Category": "Ballistic",
     "Type": "Autocannon",
     "WeaponSubType": "AC20",
-    "MinRange": 120,
-    "MaxRange": 1440,
+    "MinRange": 180,
+    "MaxRange": 3000,
     "RangeSplit": [
-        360,
-        720,
-        1080
+        3000,
+        3000,
+        3000
     ],
     "AmmoCategory": "Sniper",
     "StartingAmmoCapacity": 0,
     "HeatGenerated": 30,
-    "Damage": 75,
+    "Damage": 100,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 0,
-    "DamageVariance": 15,
+    "DamageVariance": 0,
     "HeatDamage": 0,
     "AccuracyModifier": 0,
     "CriticalChanceMultiplier": 1,
-    "APArmorShardsMod": 0,
-    "APMaxArmorThickness": 1,
-    "APCriticalChanceMultiplier": 0.1,
+    "APArmorShardsMod": 1,
+    "APMaxArmorThickness": 200,
+    "APCriticalChanceMultiplier": 0.5,
     "RefireModifier": 4,
     "ShotsWhenFired": 1,
     "ProjectilesPerShot": 1,
@@ -51,7 +49,6 @@
     "Instability": 25,
     "AMSImmune": true,
     "FireTerrainChance": 0.0585,
-    "HitGenerator": "Cluster",
     "AOEEffectsFalloff": true,
     "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
     "Description": {
@@ -63,7 +60,7 @@
         "UIName": "Sniper Artillery",
         "Id": "Weapon_Artillery_SNIPER",
         "Name": "Sniper Artillery",
-        "Details": "The Sniper Rifle Artillery Piece is the smaller cousin to the Long Tom Artillery Piece designed by Armstrong Industries. As the second most-powerful tube artillery in the Inner Sphere, the Sniper can cripple or destroy most light and medium BattleMechs with a single hit. \n\n<b><color=#ffcc00>Uses Sniper Ammo.</color></b>",
+        "Details": "The Sniper Rifle Artillery Piece is the smaller cousin to the Long Tom Artillery Piece designed by Armstrong Industries. As the second most-powerful tube artillery in the Inner Sphere, the Sniper can cripple or destroy most light and medium BattleMechs with a single hit.\n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b> \n\n<b><color=#ffcc00>Uses Sniper Ammo.</color></b>",
         "Icon": "Artillery"
     },
     "BonusValueA": "",
@@ -71,7 +68,7 @@
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "artillery",
-    "BattleValue": 0,
+    "BattleValue": 85,
     "InventorySize": 10,
     "Tonnage": 20,
     "AllowedLocations": "All",
@@ -83,14 +80,17 @@
             "Id": "directfire",
             "UIName": "Direct",
             "isBaseMode": false,
-            "DirectFireModifier": 1.0,
             "CantHitUnaffecedByPathing": true,
+            "EvasivePipsIgnored": 15,
+            "DirectFireModifier": 0,
+            "AccuracyModifier": 4,
             "IndirectFireCapable": false,
             "AlwaysIndirectVisuals": false,
-            "ShortRange": -180.0,
-            "MiddleRange": -360.0,
-            "LongRange": -540.0,
-            "MaxRange": -720.0
+            "ShortRange": -2400.0,
+            "MiddleRange": -2400.0,
+            "LongRange": -2400.0,
+            "MaxRange": -2400.0,
+            "ForbiddenRange": 180
         },
         {
             "Id": "flak",
@@ -98,20 +98,24 @@
             "isBaseMode": false,
             "CantHitUnaffecedByPathing": false,
             "EvasivePipsIgnored": 15,
-            "DirectFireModifier": 55.0,
+            "DirectFireModifier": 53.0,
             "IndirectFireCapable": false,
             "AlwaysIndirectVisuals": false,
-            "ForbiddenRange": 120
+            "MinRange": -180
         },
         {
             "Id": "indirectfire",
             "UIName": "Indirect",
             "isBaseMode": true,
             "CantHitUnaffecedByPathing": true,
-            "DirectFireModifier": 1.0,
+            "DirectFireModifier": 2,
+            "AccuracyModifier": 5,
+            "EvasivePipsIgnored": 15,
+            "MinMissRadius": 10,
+            "MaxMissRadius": 45,
             "AlwaysIndirectVisuals": true,
             "IndirectFireCapable": true,
-            "ForbiddenRange": 120
+            "ForbiddenRange": 180
         }
     ],
     "statusEffects": [],

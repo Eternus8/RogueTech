@@ -1,19 +1,22 @@
 {
   "CustomParts": {
     "MoveCost": "Hover",
-    "MoveClamp": 0.5
+    "MoveClamp": 0.5,
+    "FiringArc": 120,
+    "CustomParts": []
   },
-  "YangsThoughts": "__/Base_3061.vehiclechassisdef_SALADIN_ARMOR.YangsThoughts/__",
   "Description": {
     "Id": "vehiclechassisdef_SALADIN_ARMOR",
     "Name": "Saladin Assault Hover Tank",
     "Details": "",
     "Icon": "Saladin",
-    "Cost": 564,
+    "Cost": 873375,
     "Rarity": 0,
     "Purchasable": false
   },
+  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "MovementCapDefID": "movedef_8-12cv",
+  "movementType": "Wheeled",
   "PathingCapDefID": "pathingdef_light_hover",
   "HardpointDataDefID": "hardpointdatadef_saladin",
   "PrefabIdentifier": "chrprfvhcl_saladin",
@@ -23,7 +26,6 @@
   "BattleValue": 564,
   "TopSpeed": 125,
   "TurnRadius": 90,
-  "movementType": "Wheeled",
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
@@ -104,14 +106,6 @@
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 50,
-      "InternalStructure": 20
-    },
-    {
-      "Location": "Turret",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 0,
-      "MaxArmor": 40,
       "InternalStructure": 20
     }
   ]

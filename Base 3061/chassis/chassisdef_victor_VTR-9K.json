@@ -5,9 +5,19 @@
     },
     "ChassisDefaults": []
   },
-  "FixedEquipment": [],
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Rugged",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
+    }
+  ],
   "Description": {
-    "Cost": 2144048,
+    "Cost": 2104439.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -15,9 +25,16 @@
     "UIName": "Victor",
     "Id": "chassisdef_victor_VTR-9K",
     "Name": "Victor",
-    "Details": "__/Base_3061.chassisdef_victor_VTR-9K.Details/__",
+    "Details": "An upgrade using Star League technology, the 9K replaces the Autocannon/20 with a Gauss Rifle which can do serious damage at much greater ranges. The 'Mech also carries two Medium Pulse Lasers and a SRM-4 launcher for close combat. In order to make these changes possible, the 9K is built on an Endo Steel chassis. With the weight saved the 'Mech also carries an additional ton of armor.",
     "Icon": "uixTxrIcon_victor"
   },
+  "VariantName": "VTR-9K",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Cavalry & Skirmisher",
+  "YangsThoughts": "The VTR-9K incorporates several Lostech technologies, replacing the AC/20 with a Gauss Rifle, the Medium Lasers with Medium Pulse Lasers, and adding CASE, all on an Endo-Steel frame.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_victor",
@@ -53,6 +70,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 80,
   "DFAInstability": 40,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -73,6 +93,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -89,7 +113,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -127,7 +151,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 170,
@@ -210,15 +239,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "VTR-9K",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_victor_VTR-9K.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_victor_VTR-9K.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

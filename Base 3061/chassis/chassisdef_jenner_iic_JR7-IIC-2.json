@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Improved_Lifesupport",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 837262,
+    "Cost": 829670.0,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,18 @@
     "UIName": "Jenner IIC",
     "Id": "chassisdef_jenner_iic_JR7-IIC-2",
     "Name": "Jenner IIC",
-    "Details": "__/Base_3061.chassisdef_jenner_iic_JR7-IIC-2.Details/__",
+    "Details": "This support variant replaces the short-range missile launchers with an ER Large Laser and an LRM-5. A Small Pulse Laser provides defense against conventional infantry and other units that stray too close. Its jumping capacity is increased to 270 meters.",
     "Icon": "uixTxrIcon_jenneriic"
   },
+  "VariantName": "JR7-IIC-2",
+  "ChassisTags": {
+    "items": [
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Striker",
+  "YangsThoughts": "This support variant replaces the short-range missile launchers with an ER Large Laser and an LRM-5. A Small Pulse Laser provides defense against conventional infantry and other units that stray too close. Its jumping capacity is increased to 270 meters.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_jenneriic",
@@ -64,6 +73,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 35,
   "DFAInstability": 18,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -107,6 +119,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -222,17 +238,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "JR7-IIC-2",
-  "ChassisTags": {
-    "items": [
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_jenner_iic_JR7-IIC-2.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_jenner_iic_JR7-IIC-2.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

@@ -5,9 +5,9 @@
       "ComponentDefID": "Special_Improved_Cooling_Jacket_Laser",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -19,9 +19,16 @@
     "UIName": "Commando",
     "Id": "chassisdef_blazing_inferno_COM-2D-BI",
     "Name": "Commando",
-    "Details": "__/Base_3061.chassisdef_blazing_inferno_COM-2D-BI.Details/__",
+    "Details": "Dubbed the 'Blazing Inferno', this variant of the 2D chassis removes all the missiles and instead adds three more Medium Lasers and six Small Lasers, along with an extra ton of armor.",
     "Icon": "commando2"
   },
+  "VariantName": "COM-2D-BI",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Striker & Scout",
+  "YangsThoughts": "When the say Inferno, no one realized they were referring to the temperature inside the cockpit.  I suggest removing some of the lasers and adding a heat sink or two.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_commando",
@@ -73,6 +80,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -90,10 +101,6 @@
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -239,12 +246,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "COM-2D-BI",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_blazing_inferno_COM-2D-BI.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_blazing_inferno_COM-2D-BI.YangsThoughts/__"
+  ]
 }

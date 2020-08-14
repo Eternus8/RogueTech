@@ -97,7 +97,7 @@
   "BattleValue": 0,
   "InventorySize": 1,
   "Tonnage": 0,
-  "AllowedLocations": "All",
+  "AllowedLocations": "CenterTorso",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
   "statusEffects": [
@@ -157,8 +157,7 @@
   "ComponentTags": {
     "items": [
       "component_type_stock",
-      "range_extreme",
-      "mr-resize-2"
+      "range_extreme"
     ],
     "tagSetSourceFile": ""
   }

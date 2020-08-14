@@ -10,61 +10,61 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Combat_Computer",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_clanendosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Gyro_Omnimech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engineslots_cxl_center",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engine_300",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engineslots_cxl_center",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "emod_engineslots_size2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "emod_engineslots_size2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Combat_Computer",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -76,9 +76,19 @@
     "UIName": "Night Gyr",
     "Id": "chassisdef_night_gyr_NTG-D",
     "Name": "Night Gyr",
-    "Details": "__/Base_3061.chassisdef_night_gyr_NTG-D.Details/__",
+    "Details": "This missile boat carries four LRM-20 launchers, each of which is slaved to an Artemis IV FCS. Six tons of ammunition is barely enough to keep it firing for a minute. A Large Pulse Laser and Medium Pulse Laser are effective backup weapons.",
     "Icon": "uixTxrIcon_nightgyr"
   },
+  "VariantName": "NTG-D",
+  "ChassisTags": {
+    "items": [
+      "OmniMech",
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Brawler & Close Assault",
+  "YangsThoughts": "This missile boat carries four LRM-20 launchers, each of which is slaved to an Artemis IV FCS. Six tons of ammunition is barely enough to keep it firing for a minute. A Large Pulse Laser and Medium Pulse Laser are effective backup weapons.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_nightgyr",
@@ -177,32 +187,32 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": true
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": true
-        },
-        {
-          "WeaponMountID": "Special",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "Special",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "SpecialMelee",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "SpecialMelee",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Ballistic",
           "Omni": true
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": true
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": true
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "SpecialMelee",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "SpecialMelee",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -317,15 +327,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "NTG-D",
-  "ChassisTags": {
-    "items": [
-      "OmniMech",
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_night_gyr_NTG-D.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_night_gyr_NTG-D.YangsThoughts/__"
+  ]
 }

@@ -11,9 +11,9 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -25,9 +25,16 @@
     "UIName": "Victor",
     "Id": "chassisdef_victor_VTR-9A1",
     "Name": "Victor",
-    "Details": "__/Base_3061.chassisdef_victor_VTR-9A1.Details/__",
+    "Details": "Another anti-infantry and brawler variant, the VTR-9A1 adds twin Machine Guns and retains most of its armor. <b><color=#53ff1a>Restricted Actuators- Right: Upper</color></b>",
     "Icon": "uixTxrIcon_victor"
   },
+  "VariantName": "VTR-9A1",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Cavalry",
+  "YangsThoughts": "Another anti-infantry and brawler variant, the VTR-9A1 adds twin Machine Guns and retains most of its armor.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_victor",
@@ -95,15 +102,11 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -158,6 +161,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -229,12 +236,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "VTR-9A1",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_victor_VTR-9A1.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_victor_VTR-9A1.YangsThoughts/__"
+  ]
 }

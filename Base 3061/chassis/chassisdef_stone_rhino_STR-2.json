@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Distracting",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 3223941,
+    "Cost": 3167456.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,18 @@
     "UIName": "Stone Rhino",
     "Id": "chassisdef_stone_rhino_STR-2",
     "Name": "Stone Rhino",
-    "Details": "__/Base_3061.chassisdef_stone_rhino_STR-2.Details/__",
+    "Details": "In order to plug holes in their touman, Clan Goliath Scorpion scientists revisited the Behemoth. Like Clan Smoke Jaguar before them, they upgraded and improved upon the design. This version used an Extra-light Engine to mount a pair of Thunderstroke Series 2b Gauss Rifles along the top of the 'Mech. Each arm carried a Series 4D-2 Heavy Large Laser, a Series 22a Heavy Medium Laser, and a General Systems Heavy Small Laser. It retained the shock-absorbing cowls of the original. Another pair of Heavy Mediums protected the rear of the 'Mech. A head-mounted Shield-3 Anti-Missile System defended against missiles, while an Anti-Personnel Pod in each leg discouraged unarmored infantry. This design had jump jets, nineteen tons of armor, and a meager sixteen double heat sinks.",
     "Icon": "stonerhino"
   },
+  "VariantName": "STR-2",
+  "ChassisTags": {
+    "items": [
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Slow Juggernaut",
+  "YangsThoughts": "In order to plug holes in their touman, Clan Goliath Scorpion scientists revisited the Behemoth. Like Clan Smoke Jaguar before them, they upgraded and improved upon the design. This version used an Extra-light Engine to mount a pair of Thunderstroke Series 2b Gauss Rifles along the top of the 'Mech. Each arm carried a Series 4D-2 Heavy Large Laser, a Series 22a Heavy Medium Laser, and a General Systems Heavy Small Laser. It retained the shock-absorbing cowls of the original. Another pair of Heavy Mediums protected the rear of the 'Mech. A head-mounted Shield-3 Anti-Missile System defended against missiles, while an Anti-Personnel Pod in each leg discouraged unarmored infantry. This design had jump jets, nineteen tons of armor, and a meager sixteen double heat sinks.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_stonerhino",
@@ -105,11 +114,15 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -122,6 +135,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -149,11 +166,11 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -247,14 +264,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "STR-2",
-  "ChassisTags": {
-    "items": [
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_stone_rhino_STR-2.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_stone_rhino_STR-2.YangsThoughts/__"
+  ]
 }

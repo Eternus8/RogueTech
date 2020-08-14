@@ -5,9 +5,9 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -19,9 +19,18 @@
     "UIName": "Atlas II",
     "Id": "chassisdef_atlas_ii_AS7-D-H",
     "Name": "Atlas II",
-    "Details": "__/Base_3061.chassisdef_atlas_ii_AS7-D-H.Details/__",
+    "Details": "First fielded in 2765, the Atlas II was designed by the Hegemony Research and Development Department, Weapons Division of the original Star League to maintain the technological edge over the other Great Houses. It was exclusively for the SLDF's Royal Regiments. In 2785, when General Aleksandr Kerensky put out his call for loyal forces to join him in his Exodus, every Atlas II pilot responded and left with him. The Atlas II is armed with an array of weaponry, including an LB-X Autocannon/10, a pair of ER Large Lasers, and a 20-tube Long Range Missile Launcher for long range attacks. For close range combat, the 'Mech is equipped with a pair of Medium Pulse Lasers and a Holly Six Pack. In addition, the 'Mech has been given CASEfor both sides of the torso in order to keep an ammunition cook-off from consuming the 'Mech.",
     "Icon": "uixTxrIcon_atlas"
   },
+  "VariantName": "AS7-D-H",
+  "ChassisTags": {
+    "items": [
+      "SLDFMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Close Assault",
+  "YangsThoughts": "First fielded in 2765, the Atlas II was designed by the Hegemony Research and Development Department, Weapons Division of the original Star League to maintain the technological edge over the other Great Houses. It was exclusively for the SLDF's Royal Regiments. In 2785, when General Aleksandr Kerensky put out his call for loyal forces to join him in his Exodus, every Atlas II pilot responded and left with him. The Atlas II is armed with an array of weaponry, including an LB-X Autocannon/10, a pair of ER Large Lasers, and a 20-tube Long Range Missile Launcher for long range attacks. For close range combat, the 'Mech is equipped with a pair of Medium Pulse Lasers and a Holly Six Pack. In addition, the 'Mech has been given CASEfor both sides of the torso in order to keep an ammunition cook-off from consuming the 'Mech.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_atlas",
@@ -57,6 +66,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 100,
   "DFAInstability": 50,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -90,10 +102,6 @@
         },
         {
           "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -156,6 +164,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -227,17 +239,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "AS7-D-H",
-  "ChassisTags": {
-    "items": [
-      "SLDFMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_atlas_ii_AS7-D-H.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_atlas_ii_AS7-D-H.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

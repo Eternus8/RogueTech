@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Nimble",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 385577,
+    "Cost": 385577.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Spider",
     "Id": "chassisdef_spider_SDR-5V",
     "Name": "Spider",
-    "Details": "__/Base_3061.chassisdef_spider_SDR-5V.Details/__",
+    "Details": "The Spider 5V is hands down the most maneuverable 'Mech you can fieldÔÇª but it's made of paper. It's an excellent scout, though, and can even jump into the rear arc of most enemies for surprise back shots.",
     "Icon": "uixTxrIcon_spider"
   },
+  "VariantName": "SDR-5V",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Extremely Maneuverable Scout",
+  "YangsThoughts": "The Spider 5V is hands down the most maneuverable 'Mech you can fieldÔÇª but it's made of paper. It's an excellent scout, though, and can even jump into the rear arc of most enemies for surprise back shots.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_spider",
@@ -209,12 +216,5 @@
       "y": 4,
       "z": 0.5
     }
-  ],
-  "VariantName": "SDR-5V",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_spider_SDR-5V.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_spider_SDR-5V.YangsThoughts/__"
+  ]
 }

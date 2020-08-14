@@ -12,9 +12,9 @@
       "ComponentDefID": "Special_Narrow_Low_Profile",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -26,9 +26,16 @@
     "UIName": "Ostsol",
     "Id": "chassisdef_ostsol_OTL-4D",
     "Name": "Ostsol",
-    "Details": "__/Base_3061.chassisdef_ostsol_OTL-4D.Details/__",
+    "Details": "Nine tons of armoring is considered decent for a heavy 'Mech, while its fast cruising speed of 54 km/h is thanks to a nineteen-ton Vlar 300 fusion engine. Besides speed though it's the 'Mech's highly-sensitive TRSS.2L3 targeting-tracking system, able to detect enemies over several kilometers in even the most difficult terrain, which makes it a good command platform for scouting missions. Sixteen heat sinks also help manage the heat output of its all-energy weapons payload.",
     "Icon": "uixTxrIcon_ostsol"
   },
+  "VariantName": "OTL-4D",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Striker Cavalry",
+  "YangsThoughts": "Nine tons of armoring is considered decent for a heavy 'Mech, while its fast cruising speed of 54 km/h is thanks to a nineteen-ton Vlar 300 fusion engine. Besides speed though it's the 'Mech's highly-sensitive TRSS.2L3 targeting-tracking system, able to detect enemies over several kilometers in even the most difficult terrain, which makes it a good command platform for scouting missions. Sixteen heat sinks also help manage the heat output of its all-energy weapons payload.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_ostsol",
@@ -76,7 +83,12 @@
     },
     {
       "Location": "LeftArm",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 100,
@@ -92,10 +104,6 @@
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -228,12 +236,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "OTL-4D",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_ostsol_OTL-4D.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_ostsol_OTL-4D.YangsThoughts/__"
+  ]
 }

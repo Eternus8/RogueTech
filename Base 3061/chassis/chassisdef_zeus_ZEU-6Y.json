@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Barrel_Fist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2164423,
+    "Cost": 2124057.0,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,16 @@
     "UIName": "Zeus",
     "Id": "chassisdef_zeus_ZEU-6Y",
     "Name": "Zeus",
-    "Details": "__/Base_3061.chassisdef_zeus_ZEU-6Y.Details/__",
+    "Details": "An experiment in logistical support, the Zeus 6Y retains the AC5, but downgrades the LRM15 to a LRM10.  This allowed for the Large Laser to be 'upgraded' to a Binary Laser Cannon. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
     "Icon": "uixTxrIcon_zeus"
   },
+  "VariantName": "ZEU-6Y",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fire Support & Ranged Assault",
+  "YangsThoughts": "'Upgraded' my ass.  For the weight and heat, I'd suggest we rip out that Binary Laser Cannon and let me slap two Large Lasers in there.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_zeus",
@@ -106,6 +113,10 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "Special",
           "Omni": false
         },
@@ -133,6 +144,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -218,12 +233,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "ZEU-6Y",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_zeus_ZEU-6Y.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_zeus_ZEU-6Y.YangsThoughts/__"
+  ]
 }

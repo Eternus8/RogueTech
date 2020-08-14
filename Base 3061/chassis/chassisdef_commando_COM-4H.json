@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Narrow_Low_Profile",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 325926,
+    "Cost": 323165.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Commando",
     "Id": "chassisdef_commando_COM-4H",
     "Name": "Commando",
-    "Details": "__/Base_3061.chassisdef_commando_COM-4H.Details/__",
+    "Details": "The Commando 4H is the Marian Hegemony's primary garrison mech, often sent out against pirates twice the weight with surprising success. 90 Rockets ensure that even out weighed it isn't out gunned.",
     "Icon": "uixTxrIcon_commando"
   },
+  "VariantName": "COM-4H",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Striker & Scout",
+  "YangsThoughts": "The Commando 4H is a periphery pilots dream as far as light mechs go. All mechs are equal under such a ridiculous rocket barrage.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_commando",
@@ -72,6 +79,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -227,12 +238,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "COM-4H",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_commando_COM-4H.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_commando_COM-4H.YangsThoughts/__"
+  ]
 }

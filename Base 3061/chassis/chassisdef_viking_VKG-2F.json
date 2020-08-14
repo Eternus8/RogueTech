@@ -1,16 +1,10 @@
 {
   "Custom": {
     "ArmActuatorSupport": {
-      "LeftLimit": "Lower",
-      "RightLimit": "Lower"
+      "LeftLimit": "Upper",
+      "RightLimit": "Upper"
     },
     "ChassisDefaults": [
-      {
-        "CategoryID": "CockpitSensors",
-        "DefID": "Gear_Sensors_Totem",
-        "Location": "Head",
-        "Type": "Upgrade"
-      }
     ]
   },
   "FixedEquipment": [
@@ -19,13 +13,13 @@
       "ComponentDefID": "Special_MultiTrack",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2254730,
+    "Cost": 2234821.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -33,14 +27,22 @@
     "UIName": "Viking",
     "Id": "chassisdef_viking_VKG-2F",
     "Name": "Viking",
-    "Details": "__/Base_3061.chassisdef_viking_VKG-2F.Details/__",
+    "Details": "The Viking began production shortly after the Beowulf in a joint effort by the Free Rasalhague Republic and ComStar. The 'Mech is intended to take over in the role that has been traditionally filled by the Bombardier.",
     "Icon": "uixTxrIcon_viking"
   },
+  "VariantName": "VKG-2F",
+  "ChassisTags": {
+    "items": [
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Heavy Cavalry",
+  "YangsThoughts": "The Viking has a singular mission of long-range missile fire support. To do this, the Viking carries two Shigunga LRM-15 launchers and two Shigunga LRM-20 launchers, all of which are linked to an Artemis IV fire control system.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_stalker",
-  "PrefabIdentifier": "chrPrfMech_stalkerBase-001",
-  "PrefabBase": "stalker",
+  "HardpointDataDefID": "hardpointdatadef_masonviking",
+  "PrefabIdentifier": "chrprfmech_masonvikingbase-001",
+  "PrefabBase": "masonviking",
   "Tonnage": 90,
   "InitialTonnage": 9,
   "weightClass": "ASSAULT",
@@ -85,23 +87,23 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -117,10 +119,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -132,6 +130,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -182,6 +184,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -253,14 +259,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "VKG-2F",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-1.06"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_viking_VKG-2F.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_viking_VKG-2F.YangsThoughts/__"
+  ]
 }

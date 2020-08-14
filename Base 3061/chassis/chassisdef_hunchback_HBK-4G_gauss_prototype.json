@@ -5,21 +5,21 @@
       "ComponentDefID": "Special_Accurate_Weapon_Gauss",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Gauss_Gauss_Prototype",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 806250,
+    "Cost": 850472.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -27,9 +27,16 @@
     "UIName": "Hunchback",
     "Id": "chassisdef_hunchback_HBK-4G_gauss_prototype",
     "Name": "Hunchback",
-    "Details": "__/Base_3061.chassisdef_hunchback_HBK-4G_gauss_prototype.Details/__",
+    "Details": "During the War of 3039, the 9th Ghost regiment was engaged by the Screaming Eagles mercenary company during the Elidere IV campaign, when they decided to modify two of their Hunchbacks to carry prototype Gauss Rifles. Thus, the HBK-4GG was born, able to cause tremendous damage at ranges beyond anyone's expectations.",
     "Icon": "uixTxrIcon_hunchback"
   },
+  "VariantName": "HBK-4G",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Sniper",
+  "YangsThoughts": "During the War of 3039, the 9th Ghost regiment was engaged by the Screaming Eagles mercenary company during the Elidere IV campaign, when they decided to modify two of their Hunchbacks to carry prototype Gauss Rifles. Thus, the HBK-4GG was born, able to cause tremendous damage at ranges beyond anyone's expectations.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_hunchback",
@@ -72,10 +79,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -90,10 +93,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -105,10 +104,6 @@
     {
       "Location": "LeftTorso",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -123,10 +118,6 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -156,6 +147,10 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -170,10 +165,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -184,12 +175,7 @@
     },
     {
       "Location": "LeftLeg",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 120,
@@ -198,12 +184,7 @@
     },
     {
       "Location": "RightLeg",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 120,
@@ -254,12 +235,5 @@
       "y": 4.5,
       "z": 2
     }
-  ],
-  "VariantName": "HBK-4G",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_hunchback_HBK-4G_gauss_prototype.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_hunchback_HBK-4G_gauss_prototype.YangsThoughts/__"
+  ]
 }

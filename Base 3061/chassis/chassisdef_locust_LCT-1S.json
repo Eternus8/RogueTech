@@ -9,24 +9,24 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Narrow_Low_Profile",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engine_170",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Narrow_Low_Profile",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 289423,
+    "Cost": 286905.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -34,9 +34,16 @@
     "UIName": "Locust",
     "Id": "chassisdef_locust_LCT-1S",
     "Name": "Locust",
-    "Details": "__/Base_3061.chassisdef_locust_LCT-1S.Details/__",
+    "Details": "Locust 1S models tend to sacrifice the little armor they normally mount to fire respectable SRM salvos. Definitely useful for hit-and-runs, especially if those shots provide the extra punch to knock down a target. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_locust"
   },
+  "VariantName": "LCT-1S",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Striker & Scout",
+  "YangsThoughts": "Locust 1S models tend to sacrifice the little armor they normally mount to fire respectable SRM salvos. Definitely useful for hit-and-runs, especially if those shots provide the extra punch to knock down a target. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_locust",
@@ -115,6 +122,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -225,12 +236,5 @@
       "y": 3,
       "z": 0
     }
-  ],
-  "VariantName": "LCT-1S",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_locust_LCT-1S.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_locust_LCT-1S.YangsThoughts/__"
+  ]
 }

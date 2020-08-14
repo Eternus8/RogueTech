@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Improved_Comms",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1216589,
+    "Cost": 1216589.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Wolverine",
     "Id": "chassisdef_wolverine_WVR-7K",
     "Name": "Wolverine",
-    "Details": "__/Base_3061.chassisdef_wolverine_WVR-7K.Details/__",
+    "Details": "Another major upgrade of the Wolverine, this one for the Combine and first rolling off Marduk's production lines, the 7K model is also built with an XL Engine for power with the saved weight used to increase and upgrade its arsenal.",
     "Icon": "uixTxrIcon_wolverine"
   },
+  "VariantName": "WVR-7K",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Skirmisher & Cavalry",
+  "YangsThoughts": "Another major upgrade of the Wolverine, this one for the Combine and first rolling off Marduk's production lines, the 7K model is also built with an XL Engine for power with the saved weight used to increase and upgrade its arsenal.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_wolverine",
@@ -60,7 +67,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -98,14 +110,6 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -146,6 +150,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -223,12 +231,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "WVR-7K",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_wolverine_WVR-7K.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_wolverine_WVR-7K.YangsThoughts/__"
+  ]
 }

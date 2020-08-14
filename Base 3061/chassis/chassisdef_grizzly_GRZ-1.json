@@ -3,11 +3,16 @@
     "ArmActuatorSupport": {
       "RightLimit": "Lower"
     },
+    "AssemblyVariant": {
+      "PrefabID": "Grizzly",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": [
       {
+        "Location": "Head",
         "CategoryID": "CockpitSensors",
         "DefID": "Gear_Sensors_Totem",
-        "Location": "Head",
         "Type": "Upgrade"
       }
     ]
@@ -18,14 +23,14 @@
       "ComponentDefID": "Special_Easy_To_Pilot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1860625,
+    "Cost": 1928333.0,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -33,9 +38,19 @@
     "UIName": "Grizzly",
     "Id": "chassisdef_grizzly_GRZ-1",
     "Name": "Grizzly",
-    "Details": "__/Base_3061.chassisdef_grizzly_GRZ-1.Details/__",
+    "Details": "The Grizzly is a BattleMech that was developed by Clan Ghost Bear scientists in the 30th century. Unfortunately, the design excels at no one thing, so it never carved a niche in the Clan's touman.   ",
     "Icon": "uixTxrIcon_grizzly"
   },
+  "VariantName": "GRZ-1",
+  "ChassisTags": {
+    "items": [
+      "ClanMech",
+      "mr-resize-0.63-1.13-0.73"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Totem & Heavy Scout",
+  "YangsThoughts": "The Grizzly actually packs a solid long-range punch with a Omega 12-coil Gauss Rifle and a Type X Short Bow LRM-10 Launcher. ",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_highlander",
@@ -118,14 +133,6 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
@@ -160,14 +167,6 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -182,11 +181,11 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -258,15 +257,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "GRZ-1",
-  "ChassisTags": {
-    "items": [
-      "ClanMech",
-      "mr-resize-0.63-1.13-0.73"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_grizzly_GRZ-1.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_grizzly_GRZ-1.YangsThoughts/__"
+  ]
 }

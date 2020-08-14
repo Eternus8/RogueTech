@@ -1,15 +1,28 @@
 {
-  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
+  "Custom": {
+    "CustomWeights": [
+      {
+        "ComponentDefID": "Tank_InfantryCompartment",
+        "Tonnage": 6
+      }
+    ]
+  },
+  "CustomParts": {
+    "FiringArc": 120,
+    "CustomParts": []
+  },
   "Description": {
     "Id": "vehiclechassisdef_MAGI_UCSV",
     "Name": "Magi",
     "Details": "",
     "Icon": "Winston",
-    "Cost": 993,
+    "Cost": 12741500,
     "Rarity": 0,
     "Purchasable": false
   },
+  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "MovementCapDefID": "movedef_5-8cv",
+  "movementType": "Tracked",
   "PathingCapDefID": "pathingdef_heavy_tracked",
   "HardpointDataDefID": "hardpointdatadef_magi",
   "PrefabIdentifier": "chrprfvhcl_magi",
@@ -19,7 +32,6 @@
   "BattleValue": 993,
   "TopSpeed": 85,
   "TurnRadius": 90,
-  "movementType": "Tracked",
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
@@ -69,23 +81,23 @@
       "Location": "Front",
       "Hardpoints": [
         {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -122,14 +134,6 @@
     },
     {
       "Location": "Rear",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 0,
-      "MaxArmor": 200,
-      "InternalStructure": 35
-    },
-    {
-      "Location": "Turret",
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,

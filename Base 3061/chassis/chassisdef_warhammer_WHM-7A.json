@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Searchlight",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1602500,
+    "Cost": 1588311.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,18 @@
     "UIName": "Warhammer",
     "Id": "chassisdef_warhammer_WHM-7A",
     "Name": "Warhammer",
-    "Details": "__/Base_3061.chassisdef_warhammer_WHM-7A.Details/__",
+    "Details": "The Warhammer-6Rb was the first Royal Warhammer but the -7A takes the mech to its logical conclusion. With advanced weapons and construction materials, combined with double heat sinks, the Warhammer-7A is a walking death machine for mechs and vehicles alike. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
     "Icon": "uixTxrIcon_warhammer"
   },
+  "VariantName": "WHM-7A",
+  "ChassisTags": {
+    "items": [
+      "SLDFMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Brawler & Close Assault",
+  "YangsThoughts": "The Warhammer-6Rb was the first Royal Warhammer but the -7A takes the mech to its logical conclusion. With advanced weapons and construction materials, combined with double heat sinks, the Warhammer-7A is a walking death machine for mechs and vehicles alike. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_warhammer",
@@ -92,7 +101,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
@@ -104,7 +113,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -117,6 +126,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -242,14 +255,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "WHM-7A",
-  "ChassisTags": {
-    "items": [
-      "SLDFMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_warhammer_WHM-7A.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_warhammer_WHM-7A.YangsThoughts/__"
+  ]
 }

@@ -11,13 +11,13 @@
       "ComponentDefID": "Special_Combat_Computer",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 638208,
+    "Cost": 638208.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -25,9 +25,16 @@
     "UIName": "Firebee",
     "Id": "chassisdef_firebee_FRB-2Ep",
     "Name": "Firebee",
-    "Details": "__/Base_3061.chassisdef_firebee_FRB-2Ep.Details/__",
+    "Details": "Designed with the aim of upgrading the ageing Firebee with more advanced Star League technology, the 2Ep was still a prototype when the Succession Wars began. The only completed models of this design were lost with the destruction of the Exedor factory in the First Succession War. The design was briefly revived in the 3045, with a few surviving Firebee’s being converted as a showcase of home grown Capellan science and engineering. Armed with an ER Large Laser, dual Streak SRM-2's and augmented with the addition of a Beagle Probe, the 2Ep is a fast scout hunter and skirmisher. ",
     "Icon": "Firebee"
   },
+  "VariantName": "FRB-2Ep",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper & Light Brawler",
+  "YangsThoughts": "Designed with the aim of upgrading the ageing Firebee with more advanced Star League technology, the 2Ep was still a prototype when the Succession Wars began. The only completed models of this design were lost with the destruction of the Exedor factory in the First Succession War. The design was briefly revived in the 3045, with a few surviving Firebee’s being converted as a showcase of home grown Capellan science and engineering. Armed with an ER Large Laser, dual Streak SRM-2's and augmented with the addition of a Beagle Probe, the 2Ep is a fast scout hunter and skirmisher. ",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_firebee",
@@ -63,6 +70,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 35,
   "DFAInstability": 18,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -91,11 +101,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -110,6 +116,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -139,7 +149,7 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -225,15 +235,5 @@
       "y": 4,
       "z": 0.5
     }
-  ],
-  "VariantName": "FRB-2Ep",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_firebee_FRB-2Ep.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_firebee_FRB-2Ep.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

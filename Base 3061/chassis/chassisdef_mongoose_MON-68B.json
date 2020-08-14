@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Easy_To_Pilot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 312611,
+    "Cost": 334524.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Mongoose",
     "Id": "chassisdef_mongoose_MON-68B",
     "Name": "Mongoose",
-    "Details": "__/Base_3061.chassisdef_mongoose_MON-68B.Details/__",
+    "Details": "An upgrade to the ageing 68 model, this Mongoose was one of the first models to trial the Combines new C3 Slave unit. Featuring a characteristically minimalist upgrade package, this Mongoose variant served with distinction during Operation Bulldog. An ER Large Laser servers as the sole weapons system, augmented by a new fire control system and the C3 unit. A cheap upgrade, this is a favourite of pilots who were previously assigned a 68; with many praising the enhanced range and accuracy of the Laser. Paired into demi lances, and assigned a C3 Master equipped mech to coordinate, these Mongoose's are deployed as head hunters and long range harassers; both roles that make use of their high ground speed and manoeuvrability. Fast and deadly, they have already made a name for themselves, with one Mongoose formation accounting for 5 kills, including a Star Colonel in a Timberwolf during the Great Refusal. ",
     "Icon": "mongoose"
   },
+  "VariantName": "MON-68B",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Striker & Scout",
+  "YangsThoughts": "An upgrade to the ageing 68 model, this Mongoose was one of the first models to trial the Combines new C3 Slave unit. Featuring a characteristically minimalist upgrade package, this Mongoose variant served with distinction during Operation Bulldog. An ER Large Laser servers as the sole weapons system, augmented by a new fire control system and the C3 unit. A cheap upgrade, this is a favourite of pilots who were previously assigned a 68; with many praising the enhanced range and accuracy of the Laser. Paired into demi lances, and assigned a C3 Master equipped mech to coordinate, these Mongoose's are deployed as head hunters and long range harassers; both roles that make use of their high ground speed and manoeuvrability. Fast and deadly, they have already made a name for themselves, with one Mongoose formation accounting for 5 kills, including a Star Colonel in a Timberwolf during the Great Refusal. ",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_mongoose",
@@ -57,12 +64,15 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 25,
   "DFAInstability": 13,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -75,10 +85,6 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -93,10 +99,6 @@
     {
       "Location": "LeftTorso",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMount": "Missile",
           "Omni": false
@@ -113,10 +115,6 @@
       "Hardpoints": [
         {
           "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
           "Omni": false
         },
         {
@@ -144,16 +142,7 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 60,
@@ -165,28 +154,6 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 12,
-      "MaxArmor": 60,
-      "MaxRearArmor": 30,
-      "InternalStructure": 30
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -258,15 +225,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "MON-68B",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_mongoose_MON-68B.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_mongoose_MON-68B.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

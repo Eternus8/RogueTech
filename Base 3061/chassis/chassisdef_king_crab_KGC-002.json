@@ -12,9 +12,9 @@
       "ComponentDefID": "Special_Command_Mech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -26,9 +26,16 @@
     "UIName": "King Crab",
     "Id": "chassisdef_king_crab_KGC-002",
     "Name": "King Crab",
-    "Details": "__/Base_3061.chassisdef_king_crab_KGC-002.Details/__",
+    "Details": "One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 0002 variant mounts twin UAC10 with MRM's.",
     "Icon": "uixTxrIcon_kingcrab"
   },
+  "VariantName": "KGC-002",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Close Assault",
+  "YangsThoughts": "One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 0002 variant mounts twin UAC10 with MRM's.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_kingcrab",
@@ -85,6 +92,10 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -114,10 +125,6 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -239,12 +246,5 @@
       "y": 5.5,
       "z": -1
     }
-  ],
-  "VariantName": "KGC-002",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_king_crab_KGC-002.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_king_crab_KGC-002.YangsThoughts/__"
+  ]
 }

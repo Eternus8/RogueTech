@@ -10,70 +10,70 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Improved_Targeting_Long",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_standard",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Gyro_Omnimech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engine_300",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "emod_engineslots_size2",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "emod_engineslots_size2",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engineslots_cxl_center",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_engineslots_size2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_engineslots_size2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Improved_Targeting_Long",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 11840744.0,
+    "Cost": 11840744,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -81,9 +81,19 @@
     "UIName": "Dire Wolf",
     "Id": "chassisdef_dire_wolf_DW-S",
     "Name": "Dire Wolf",
-    "Details": "__/Base_3061.chassisdef_dire_wolf_DW-S.Details/__",
+    "Details": "The S configuration is intended for the close confines of urban and jungle warfare. The S configurations primary weapon is a massive LB-X Autocannon/20 which is capable of disabling most light and medium 'Mechs in a single blast. This is backed up by a single Large Pulse Laser to provide some long range firepower should the Dire Wolf S be caught in the open. Additional short range firepower is provided by five Medium Pulse Lasers and two Streak SRM-4 launchers. Two Anti-Personnel Pods and two Machine Guns provide exceptional anti infantry capabilities. The S configuration has added mobility with three jump jets allowing it to jump up to ninety meters.",
     "Icon": "Direwolf1"
   },
+  "VariantName": "DW-S",
+  "ChassisTags": {
+    "items": [
+      "OmniMech",
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "OmniMech",
+  "YangsThoughts": "The S configuration is intended for the close confines of urban and jungle warfare. The S configurations primary weapon is a massive LB-X Autocannon/20 which is capable of disabling most light and medium 'Mechs in a single blast. This is backed up by a single Large Pulse Laser to provide some long range firepower should the Dire Wolf S be caught in the open. Additional short range firepower is provided by five Medium Pulse Lasers and two Streak SRM-4 launchers. Two Anti-Personnel Pods and two Machine Guns provide exceptional anti infantry capabilities. The S configuration has added mobility with three jump jets allowing it to jump up to ninety meters.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_direwhale",
@@ -119,6 +129,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 100,
   "DFAInstability": 50,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -142,11 +155,11 @@
           "Omni": true
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": true
         },
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "AntiPersonnel",
           "Omni": true
         },
         {
@@ -168,11 +181,11 @@
           "Omni": true
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": true
         },
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "AntiPersonnel",
           "Omni": true
         },
         {
@@ -236,11 +249,11 @@
           "Omni": true
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": true
         },
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "AntiPersonnel",
           "Omni": true
         },
         {
@@ -262,11 +275,11 @@
           "Omni": true
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": true
         },
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "AntiPersonnel",
           "Omni": true
         },
         {
@@ -342,18 +355,5 @@
       "y": 5.5,
       "z": -1
     }
-  ],
-  "VariantName": "DW-S",
-  "ChassisTags": {
-    "items": [
-      "OmniMech",
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_dire_wolf_DW-S.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_dire_wolf_DW-S.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

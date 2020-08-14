@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1338248,
+    "Cost": 1326111.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,18 @@
     "UIName": "Kintaro",
     "Id": "chassisdef_kintaro_KTO-19b",
     "Name": "Kintaro",
-    "Details": "__/Base_3061.chassisdef_kintaro_KTO-19b.Details/__",
+    "Details": "The KTO-19b was an upgrade utilized by the Royal Brigades of the SLDF. It used an XL Engine and Double Heat Sinks to free up space to upgrade the KTO-19's LRM-5 launcher to a larger LRM-15.",
     "Icon": "uixTxrIcon_kintaro"
   },
+  "VariantName": "KTO-19b",
+  "ChassisTags": {
+    "items": [
+      "SLDFMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Close Assault",
+  "YangsThoughts": "The KTO-19b was an upgrade utilized by the Royal Brigades of the SLDF. It used an XL Engine and Double Heat Sinks to free up space to upgrade the KTO-19's LRM-5 launcher to a larger LRM-15.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_kintaro",
@@ -91,7 +100,12 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 130,
@@ -222,14 +236,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "KTO-19b",
-  "ChassisTags": {
-    "items": [
-      "SLDFMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_kintaro_KTO-19b.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_kintaro_KTO-19b.YangsThoughts/__"
+  ]
 }

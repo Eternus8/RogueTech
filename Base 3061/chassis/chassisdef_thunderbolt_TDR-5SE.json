@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_MultiTrack",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1416509,
+    "Cost": 1403505.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Thunderbolt",
     "Id": "chassisdef_thunderbolt_TDR-5SE",
     "Name": "Thunderbolt",
-    "Details": "__/Base_3061.chassisdef_thunderbolt_TDR-5SE.Details/__",
+    "Details": "Thunderbolt SE models lose a little of their firepower in exchange for mounting Jump Jets. The greater mobility is intended to allow for more precision attacking maneuvers, though it all depends on the battlefield terrain.",
     "Icon": "uixTxrIcon_thunderbolt"
   },
+  "VariantName": "TDR-5SE",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Skirmisher",
+  "YangsThoughts": "Thunderbolt SE models lose a little of their firepower in exchange for mounting Jump Jets. The greater mobility is intended to allow for more precision attacking maneuvers, though it all depends on the battlefield terrain.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_thunderbolt",
@@ -135,7 +142,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 150,
@@ -218,12 +230,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "TDR-5SE",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_thunderbolt_TDR-5SE.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_thunderbolt_TDR-5SE.YangsThoughts/__"
+  ]
 }

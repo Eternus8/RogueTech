@@ -1,25 +1,25 @@
 {
-  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "Description": {
     "Id": "vehiclechassisdef_SCREWYOURAMS_CLAN_SUPERHEAVY_TANK",
     "Name": "Unknown Vehicle",
     "Details": "",
     "Icon": "STRIKER",
-    "Cost": 40000000,
+    "Cost": 75146750,
     "Rarity": 0,
     "Purchasable": false
   },
-  "MovementCapDefID": "movedef_3-5cv",
+  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
+  "MovementCapDefID": "movedef_2-3cv",
+  "movementType": "Tracked",
   "PathingCapDefID": "pathingdef_assault_tracked",
   "HardpointDataDefID": "hardpointdatadef_heavylrm",
   "PrefabIdentifier": "chrprfvhcl_heavylrmbase",
   "PrefabBase": "heavylrm",
-  "Tonnage": 130,
+  "Tonnage": 150,
   "weightClass": "ASSAULT",
   "BattleValue": 3151,
   "TopSpeed": 85,
   "TurnRadius": 90,
-  "movementType": "Tracked",
   "SpotterDistanceMultiplier": 1.5,
   "VisibilityMultiplier": 1.25,
   "SensorRangeMultiplier": 1.5,
@@ -67,7 +67,32 @@
   "Locations": [
     {
       "Location": "Front",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 465,
@@ -101,43 +126,19 @@
       "Location": "Turret",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
           "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],

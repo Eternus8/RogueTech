@@ -8,7 +8,8 @@
     "BonusDescriptions": {
       "Bonuses": [
         "ERPulse",
-        "MultiLaser"
+        "MultiLaser",
+        "DoesCluster"
       ]
     },
     "InventorySorter": {
@@ -27,8 +28,8 @@
   ],
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 49,
-  "Damage": 17,
+  "HeatGenerated": 50,
+  "Damage": 18,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 1,
@@ -48,6 +49,8 @@
   "Instability": 2.8,
   "FireTerrainChance": 0.0725,
   "ImprovedBallistic": true,
+  "HitGenerator": "Cluster",
+  "ClusteringModifier": 5,
   "FireDelayMultiplier": 0.1,
   "WeaponEffectID": "WeaponEffect-Weapon_Laser_Large",
   "Description": {
@@ -67,7 +70,7 @@
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "Laser",
-  "BattleValue": 0,
+  "BattleValue": 272,
   "InventorySize": 2,
   "Tonnage": 6,
   "AllowedLocations": "All",

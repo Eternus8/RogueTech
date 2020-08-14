@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Improved_Lifesupport",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 837262,
+    "Cost": 829670.0,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,18 @@
     "UIName": "Jenner IIC",
     "Id": "chassisdef_jenner_iic_JR7-IIC-1",
     "Name": "Jenner IIC",
-    "Details": "__/Base_3061.chassisdef_jenner_iic_JR7-IIC-1.Details/__",
+    "Details": "The Jenner was first fielded in September 2784, the same year the Exodus fleet that would eventually become the Clans left the Inner Sphere in November. How exactly they acquired this design in that short timeframe is not known, but what is known is that the Clan version fields Clan weaponry.",
     "Icon": "uixTxrIcon_jenneriic"
   },
+  "VariantName": "JR7-IIC-1",
+  "ChassisTags": {
+    "items": [
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fast Striker Cavalry",
+  "YangsThoughts": "The Jenner was first fielded in September 2784, the same year the Exodus fleet that would eventually become the Clans left the Inner Sphere in November. How exactly they acquired this design in that short timeframe is not known, but what is known is that the Clan version fields Clan weaponry.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_jenneriic",
@@ -107,6 +116,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -222,14 +235,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "JR7-IIC-1",
-  "ChassisTags": {
-    "items": [
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_jenner_iic_JR7-IIC-1.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_jenner_iic_JR7-IIC-1.YangsThoughts/__"
+  ]
 }

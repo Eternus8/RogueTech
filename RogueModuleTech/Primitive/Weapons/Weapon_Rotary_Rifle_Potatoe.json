@@ -13,8 +13,8 @@
     "BonusDescriptions": {
       "Bonuses": [
         "ArmorDmgMod: -25%",
-        "WpnRecoil: 3",
-        "WeaponJAM: 5",
+        "WpnRecoil: 2",
+        "WeaponJAM: 3",
         "DakkaBoom: 20",
         "IsRotaryRifle"
       ]
@@ -41,7 +41,7 @@
   ],
   "AmmoCategory": "RiflePot",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 4,
+  "HeatGenerated": 3,
   "Damage": 20,
   "ArmorDamageModifier": 0.75,
   "OverheatedDamageMultiplier": 0,
@@ -56,7 +56,7 @@
   "APCriticalChanceMultiplier": 0.067,
   "AOECapable": false,
   "IndirectFireCapable": false,
-  "RefireModifier": 3,
+  "RefireModifier": 2,
   "ShotsWhenFired": 3,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 2,
@@ -80,9 +80,9 @@
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "AC2",
-  "BattleValue": 0,
+  "BattleValue": 30,
   "InventorySize": 2,
-  "Tonnage": 4,
+  "Tonnage": 2,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "ImprovedBallistic": true,
@@ -166,7 +166,7 @@
       "PRifle.{location}",
       "component_type_stock",
       "range_long",
-      "wr-jam_chance_multiplier-5"
+      "wr-jam_chance_multiplier-3"
     ],
     "tagSetSourceFile": ""
   }

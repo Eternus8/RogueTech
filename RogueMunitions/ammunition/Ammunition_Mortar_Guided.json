@@ -16,13 +16,14 @@
   "ArmorDamageModifier": 1,
   "ISDamageModifier": 1,
   "CriticalDamageModifier": 1,
-  "DamagePerShot": -1.0,
+  "DamageMultiplier": 0.9,
   "AOECapable": true,
-  "AOERange": 50,
+  "AOERange": 45,
   "AOEDamage": 3,
   "AOEInstability": 1,
   "AlwaysIndirectVisuals": true,
   "AccuracyModifier": -1.0,
+  "DirectFireModifier": -2.0,
   "ColorsTable": [
     {
       "C": "#00BFFF",

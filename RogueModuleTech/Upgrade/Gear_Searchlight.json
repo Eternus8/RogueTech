@@ -16,8 +16,7 @@
         },
 		"Flags": {
             "flags": [
-                "not_broken",
-                "autorepair"
+                "not_broken"
             ]
         }
     },
@@ -41,7 +40,7 @@
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
-    "BattleValue": 0,
+    "BattleValue": 5,
     "InventorySize": 1,
     "Tonnage": 1,
     "AllowedLocations": "All",
@@ -129,7 +128,7 @@
             {
                 "Id" : "LV_Shares_Vision",
                 "Name" : "Vision Sharing",
-                "Details" : "Shows their vision when lancemattes move",
+                "Details" : "Shows their vision when lancemates move",
                 "Icon" : "uixSvgIcon_status_ECM-ghost"
             },
             "statisticData" : 

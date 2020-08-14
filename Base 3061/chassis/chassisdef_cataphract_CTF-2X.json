@@ -11,10 +11,10 @@
       "ComponentDefID": "Special_Protected_Actuators",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -26,9 +26,16 @@
     "UIName": "Cataphract",
     "Id": "chassisdef_cataphract_CTF-2X",
     "Name": "Cataphract",
-    "Details": "__/Base_3061.chassisdef_cataphract_CTF-2X.Details/__",
+    "Details": "The 2X replaces the PPC with a heavy laser, while the arm-mounted medium lasers are removed in favor of a SRM-4.  This reduction in heat load also allows for the removal of 2 heat sinks and adding armor in their stead. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
     "Icon": "uixTxrIcon_cataphract"
   },
+  "VariantName": "CTF-2X",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Brawler & Close Assault",
+  "YangsThoughts": "The 2X replaces the PPC with a heavy laser, while the arm-mounted medium lasers are removed in favor of a SRM-4.  This reduction in heat load also allows for the removal of 2 heat sinks and adding armor in their stead. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_cataphract",
@@ -94,10 +101,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -109,6 +112,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -136,11 +143,11 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -226,12 +233,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "CTF-2X",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_cataphract_CTF-2X.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_cataphract_CTF-2X.YangsThoughts/__"
+  ]
 }

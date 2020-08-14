@@ -1,7 +1,7 @@
 {
   "Description": {
-    "Id": "Ammunition_Sniper_Inferno",
-    "Name": "Sniper Ammo",
+    "Id": "Ammunition_LongTom_Inferno",
+    "Name": "Long Tom Ammo",
     "UIName": "Inferno",
     "Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
     "Icon": null,
@@ -10,30 +10,28 @@
     "Purchasable": false
   },
   "Type": "Normal",
-  "Category": "Sniper",
+  "Category": "LongTom",
   "HeatGenerated": 0,
-  "DamagePerShot": -30.0,
-  "HeatDamagePerShot": 15.0,
+  "DamageMultiplier": 0.2,
+  "HeatDamagePerShot": 50.0,
   "AIBattleValue": 90,
   "HeatGeneratedModifier": 1,
   "ArmorDamageModifier": 1,
   "ISDamageModifier": 1,
   "CriticalDamageModifier": 1,
-  "MinMissRadius": 55,
-  "MaxMissRadius": 62,
   "AOECapable": true,
-  "AOERange": 250,
+  "AOERange": 105,
   "AOEDamage": 50,
-  "AOEHeatDamage": 30,
-  "AOEInstability": 15,
-  "FireTerrainChance": 1,
+  "AOEHeatDamage": 50,
+  "AOEInstability": 25,
+  "FireTerrainChance": 0.75,
   "AdditionalImpactVFX": "WFX_BELarger",
   "AdditionalImpactVFXScaleX": 1,
   "AdditionalImpactVFXScaleY": 1,
   "AdditionalImpactVFXScaleZ": 1,
   "FireDurationWithoutForest": 4,
   "FireTerrainStrength": 15,
-  "FireTerrainCellRadius": 12,
+  "FireTerrainCellRadius": 20,
   "FireOnSuccessHit": true,
   "ColorsTable": [
     {
@@ -41,5 +39,41 @@
       "I": 5
     }
   ],
-  "ColorChangeRule": "t0"
+  "ColorChangeRule": "t0",
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 1,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "stackLimit": 45
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "NotSet",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "HeatDamageTakenSoftCapMultiplier",
+        "Name": "Heat Damage SoftCap",
+        "Details": "Reduce Heat Damage by 1%",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "CACIncomingHeatMult",
+        "operation": "Float_Multiply",
+        "modValue": "0.95",
+        "modType": "System.Single"
+      }
+    }
+  ]
 }

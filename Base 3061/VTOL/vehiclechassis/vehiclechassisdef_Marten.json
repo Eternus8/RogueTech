@@ -1,17 +1,15 @@
 {
-  "YangsThoughts": "__/Base_3061.vehiclechassisdef_Marten.YangsThoughts/__",
-  "Description": {
-    "Id": "vehiclechassisdef_Marten",
-    "Name": "Marten Scout VTOL",
-    "Details": "",
-    "Icon": "STRIKER",
-    "Cost": 564,
-    "Rarity": 0,
-    "Purchasable": false
+  "Custom": {
+    "CustomWeights": [
+      {
+        "ComponentDefID": "Tank_InfantryCompartment",
+        "Tonnage": 1
+      }
+    ]
   },
   "CustomParts": {
     "AOEHeight": 75,
-    "FiringArc": 100,
+    "FiringArc": 120,
     "Unaffected": {
       "DesignMasks": "true",
       "Pathing": "true",
@@ -317,7 +315,18 @@
       }
     ]
   },
+  "Description": {
+    "Id": "vehiclechassisdef_Marten",
+    "Name": "Marten Scout VTOL",
+    "Details": "",
+    "Icon": "STRIKER",
+    "Cost": 573750,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "MovementCapDefID": "movedef_13-20cv",
+  "movementType": "Wheeled",
   "PathingCapDefID": "pathingdef_vtol",
   "HardpointDataDefID": "hardpointdatadef_warriorvtol",
   "PrefabIdentifier": "chrprfvhcl_warriorvtol",
@@ -327,7 +336,6 @@
   "BattleValue": 564,
   "TopSpeed": 85,
   "TurnRadius": 90,
-  "movementType": "Wheeled",
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,

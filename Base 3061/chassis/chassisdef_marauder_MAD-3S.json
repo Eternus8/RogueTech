@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Narrow_Low_Profile",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1934091,
+    "Cost": 1951606.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,18 @@
     "UIName": "Marauder",
     "Id": "chassisdef_marauder_MAD-3S",
     "Name": "Marauder",
-    "Details": "__/Base_3061.chassisdef_marauder_MAD-3S.Details/__",
+    "Details": "Built for the budget conscious mercenary, the 3S is designed for prolonged operations and utilises an all energy loadout that is cheaper to maintain than the standard 3R; whilst using widely available components cuts down on repair costs. The maintenance intensive Autocannon and it’s infamously bad ammunition feed are replaced with an extra trio of Medium Lasers and 6 heat sinks, dramatically increases the amount of time the mech can go without resupply. The extra heat sinking helps offset the increased heat profile added by the lasers, whilst the increased number of medium lasers act as a strong deterrent to any lighter mechs seeking to get inside the PPC’s firing arc. Debuting in 2955, production has remained steady; with two dozen of these machines being built a year at the General Motors Kathil facility. Sold exclusively to the mercenary market, the 3S is a common site on worlds like Outreach and Galatia and remains a favourite of mercenaries everywhere despite it's age.",
     "Icon": "uixTxrIcon_marauder"
   },
+  "VariantName": "MAD-3S",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.76-0.9-0.93"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Brawler",
+  "YangsThoughts": "Built for the budget conscious mercenary, the 3S is designed for prolonged operations and utilises an all energy loadout that is cheaper to maintain than the standard 3R; whilst using widely available components cuts down on repair costs. The maintenance intensive Autocannon and it’s infamously bad ammunition feed are replaced with an extra trio of Medium Lasers and 6 heat sinks, dramatically increases the amount of time the mech can go without resupply. The extra heat sinking helps offset the increased heat profile added by the lasers, whilst the increased number of medium lasers act as a strong deterrent to any lighter mechs seeking to get inside the PPC’s firing arc. Debuting in 2955, production has remained steady; with two dozen of these machines being built a year at the General Motors Kathil facility. Sold exclusively to the mercenary market, the 3S is a common site on worlds like Outreach and Galatia and remains a favourite of mercenaries everywhere despite it's age.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_marauder",
@@ -64,6 +73,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 75,
   "DFAInstability": 38,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -145,11 +157,7 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -243,17 +251,5 @@
       "y": 6,
       "z": 0
     }
-  ],
-  "VariantName": "MAD-3S",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-0.76-0.9-0.93"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_marauder_MAD-3S.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_marauder_MAD-3S.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

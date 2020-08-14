@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Ubiquitous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 615909,
+    "Cost": 621330.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,16 @@
     "UIName": "Firestarter",
     "Id": "chassisdef_firestarter_FS9-PM",
     "Name": "Firestarter",
-    "Details": "__/Base_3061.chassisdef_firestarter_FS9-PM.Details/__",
+    "Details": "The Firestarter is a dangerous 'Mech for its tonnage. Carefully timed attacks with its Flamers can shut down any 'Mech and leave it open to punishment from your other forces.",
     "Icon": "uixTxrIcon_firestarter"
   },
+  "VariantName": "FS9-PM",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Scout & Disabler",
+  "YangsThoughts": "The Firestarter is a dangerous 'Mech for its tonnage. Carefully timed attacks with its Flamers can shut down any 'Mech and leave it open to punishment from your other forces.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_firestarter",
@@ -101,11 +108,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -153,7 +156,7 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
@@ -243,12 +246,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "FS9-PM",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_firestarter_FS9-PM.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_firestarter_FS9-PM.YangsThoughts/__"
+  ]
 }

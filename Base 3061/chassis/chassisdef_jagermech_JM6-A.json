@@ -12,9 +12,9 @@
       "ComponentDefID": "Special_Anti_Air_Targeting",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -26,9 +26,16 @@
     "UIName": "JagerMech",
     "Id": "chassisdef_jagermech_JM6-A",
     "Name": "JagerMech",
-    "Details": "__/Base_3061.chassisdef_jagermech_JM6-A.Details/__",
+    "Details": "The JagerMech A model attempts to provide an indirect-fire support platform that can dish out damage without ever being seen. It has lower overall focused damage capability, but it usually mounts decent armor. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_jagermech"
   },
+  "VariantName": "JM6-A",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fire Support",
+  "YangsThoughts": "The JagerMech A model attempts to provide an indirect-fire support platform that can dish out damage without ever being seen. It has lower overall focused damage capability, but it usually mounts decent armor. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_jagermech",
@@ -78,11 +85,11 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -154,11 +161,11 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -230,12 +237,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "JM6-A",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_jagermech_JM6-A.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_jagermech_JM6-A.YangsThoughts/__"
+  ]
 }

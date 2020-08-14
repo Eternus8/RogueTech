@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Improved_Cooling_Jacket_Autocannon",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 866346,
+    "Cost": 850472.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,16 @@
     "UIName": "Enforcer",
     "Id": "chassisdef_enforcer_ENF-5D",
     "Name": "Enforcer",
-    "Details": "__/Base_3061.chassisdef_enforcer_ENF-5D.Details/__",
+    "Details": "First walking off the production line in late 3050, the 5D Enforcer is a major upgrade to the standard 'Mech, meeting many of its pilots' desire for something faster, better-protected and with more endurance. The Nissan 200 engine has been removed and replaced with a Magna 250 Extralight Engine, increasing the Enforcer's top speed to 86.4 km/h and the amount of space available for other additions. The armor has been stripped from the 'Mech and replaced with StarGuard CIV Ferro-Fibrous armor with CASE to protect against an ammunition explosion while the weapons payload has also been changed. Retaining the small laser both the Autocannon/10 and the Large Laser were replaced for a new Mydron Excel LB-X Autocannon/10, fed by two tons of ammunition, and a BlazeFire Sweetshot ER Large Laser. Finally, an additional jump jet was added, increasing the jumping distance by thirty meters to keep up with the Enforcer's new speed profile. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
     "Icon": "uixTxrIcon_enforcer"
   },
+  "VariantName": "ENF-5D",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fire Support & Skirmisher",
+  "YangsThoughts": "First walking off the production line in late 3050, the 5D Enforcer is a major upgrade to the standard 'Mech, meeting many of its pilots' desire for something faster, better-protected and with more endurance. The Nissan 200 engine has been removed and replaced with a Magna 250 Extralight Engine, increasing the Enforcer's top speed to 86.4 km/h and the amount of space available for other additions. The armor has been stripped from the 'Mech and replaced with StarGuard CIV Ferro-Fibrous armor with CASE to protect against an ammunition explosion while the weapons payload has also been changed. Retaining the small laser both the Autocannon/10 and the Large Laser were replaced for a new Mydron Excel LB-X Autocannon/10, fed by two tons of ammunition, and a BlazeFire Sweetshot ER Large Laser. Finally, an additional jump jet was added, increasing the jumping distance by thirty meters to keep up with the Enforcer's new speed profile. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_enforcer",
@@ -64,6 +71,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 50,
   "DFAInstability": 25,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -77,6 +87,10 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -94,10 +108,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -109,6 +119,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -134,7 +148,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 120,
@@ -217,15 +236,5 @@
       "y": 6,
       "z": 2.5
     }
-  ],
-  "VariantName": "ENF-5D",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_enforcer_ENF-5D.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_enforcer_ENF-5D.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

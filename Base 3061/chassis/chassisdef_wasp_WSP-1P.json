@@ -5,15 +5,19 @@
     },
     "ChassisDefaults": []
   },
+  "CustomParts": {
+    "FiringArc": 150,
+    "CustomParts": []
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Extended_Torso_Twist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -25,9 +29,16 @@
     "UIName": "Wasp",
     "Id": "chassisdef_wasp_WSP-1P",
     "Name": "Wasp",
-    "Details": "__/Base_3061.chassisdef_wasp_WSP-1P.Details/__",
+    "Details": "A common Periphery rebuild, this mech is a mix of different weapons systems. A primitive medium laser copied from the original Wasp model provides subpar fire power, backed up by the one shot punch of an RL15. A small calibre rifle makes for a semi effective sniper weapon whilst its ammo lasts. The rest of the mech is almost standard spec, rebuilt by a succession of engineers to specs nearly identical to Inner Sphere counterparts. Surprisingly enough, this rebuild offers somewhat superior capabilities compared to most Inner Sphere models. Produced in any number of Periphery junk yards and back alley chop shops, this mech is incredibly common amongst periphery factions;  who field the mech in vast quantities, praising its cheap firepower and easily repaired chassis.  <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
     "Icon": "wasp"
   },
+  "VariantName": "WSP-1P",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Sniper & Scout",
+  "YangsThoughts": "A common Periphery rebuild, this mech is a mix of different weapons systems. A primitive medium laser copied from the original Wasp model provides subpar fire power, backed up by the one shot punch of an RL15. A small calibre rifle makes for a semi effective sniper weapon whilst its ammo lasts. The rest of the mech is almost standard spec, rebuilt by a succession of engineers to specs nearly identical to Inner Sphere counterparts. Surprisingly enough, this rebuild offers somewhat superior capabilities compared to most Inner Sphere models. Produced in any number of Periphery junk yards and back alley chop shops, this mech is incredibly common amongst periphery factions;  who field the mech in vast quantities, praising its cheap firepower and easily repaired chassis.  <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_wasp",
@@ -63,6 +74,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 20,
   "DFAInstability": 10,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -91,10 +105,6 @@
         },
         {
           "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -132,7 +142,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 50,
@@ -215,19 +230,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "WSP-1P",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_wasp_WSP-1P.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_wasp_WSP-1P.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0,
-  "CustomParts": {
-    "FiringArc": 150,
-    "CustomParts": []
-  }
+  ]
 }

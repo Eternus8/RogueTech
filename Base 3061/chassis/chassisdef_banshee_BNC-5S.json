@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2367342,
+    "Cost": 2346429.0,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,16 @@
     "UIName": "Banshee",
     "Id": "chassisdef_banshee_BNC-5S",
     "Name": "Banshee",
-    "Details": "__/Base_3061.chassisdef_banshee_BNC-5S.Details/__",
+    "Details": "An upgrade of the 3S variant using Star League technology, the 5S replaces the engine with an XL Engine and uses double heat sinks to save weight, restoring its top speed to 64.8 km/h. The 'Mech is armed for long range combat with a Poland Main Model A Gauss Rifle and two Defiance 1001 ER PPCs. For close ranges, the 'Mech has a TharHes Maxi SRM-6, four Defiance B3M Medium Lasers, and two Defiance B3S Small Lasers, and is also equipped with an Angst Clear Channel 3 comsys.",
     "Icon": "uixTxrIcon_banshee"
   },
+  "VariantName": "BNC-5S",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper",
+  "YangsThoughts": "An upgrade of the 3S variant using Star League technology, the 5S replaces the engine with an XL Engine and uses double heat sinks to save weight, restoring its top speed to 64.8 km/h. The 'Mech is armed for long range combat with a Poland Main Model A Gauss Rifle and two Defiance 1001 ER PPCs. For close ranges, the 'Mech has a TharHes Maxi SRM-6, four Defiance B3M Medium Lasers, and two Defiance B3S Small Lasers, and is also equipped with an Angst Clear Channel 3 comsys.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_banshee",
@@ -64,6 +71,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 95,
   "DFAInstability": 48,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -101,15 +111,11 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -124,6 +130,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -162,6 +172,10 @@
         },
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -247,15 +261,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "BNC-5S",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_banshee_BNC-5S.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_banshee_BNC-5S.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

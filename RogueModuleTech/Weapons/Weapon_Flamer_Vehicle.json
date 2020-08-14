@@ -12,7 +12,7 @@
                 "OHDamage: 35%",
                 "NoAA",
                 "AccuracyUnit: Battle Armor",
-                "AccuracyUnit2: +10"
+                "AccuracyUnit2: +5"
             ]
         },
         "InventorySorter": {
@@ -37,7 +37,7 @@
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 0,
     "ChassisTagsAccuracyModifiers": {
-        "unit_powerarmor": -10
+        "unit_powerarmor": -5
     },
     "DamageVariance": 0,
     "HeatDamage": 10,
@@ -57,7 +57,7 @@
     "ShotsWhenFired": 1,
     "ProjectilesPerShot": 1,
     "AttackRecoil": 0,
-    "Instability": 0,
+    "Instability": 1,
     "FireOnSuccessHit": true,
     "FireTerrainChance": 1,
     "CantHitUnaffecedByPathing": true,
@@ -79,7 +79,7 @@
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "Flamer",
-    "BattleValue": 0,
+    "BattleValue": 5,
     "InventorySize": 1,
     "Tonnage": 0.5,
     "AllowedLocations": "All",

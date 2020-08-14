@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Narrow_Low_Profile",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2548148,
+    "Cost": 2571729.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,16 @@
     "UIName": "Marauder II",
     "Id": "chassisdef_marauder_ii_MAD-4B",
     "Name": "Marauder II",
-    "Details": "__/Base_3061.chassisdef_marauder_ii_MAD-4B.Details/__",
+    "Details": "The Marauder II was first built in 3012 in an attempt to take the firepower of the Marauder and combine it with the reliability and ruggedness of an assault chassis. This variant of the Marauder II, the -4B, is a rare introtech variant that carries a ballistic-heavy loadout while maintaining the -4A's armor and speed profile. The -4B carries a pair of AC/10s for its main firepower with 4 tons of ammo while a Large Laser and a pair of Medium Lasers back the autocannons up.",
     "Icon": "uixTxrIcon_marauderii"
   },
+  "VariantName": "MAD-4B",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper & Ranged Assault",
+  "YangsThoughts": "Take your average Marauder.  Pump it up, and make it even more maddening.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_marauderii",
@@ -67,7 +74,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -78,11 +90,11 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -94,12 +106,7 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 210,
@@ -110,11 +117,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -158,11 +161,11 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -234,12 +237,5 @@
       "y": 6,
       "z": 0
     }
-  ],
-  "VariantName": "MAD-4B",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_marauder_ii_MAD-4B.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_marauder_ii_MAD-4B.YangsThoughts/__"
+  ]
 }

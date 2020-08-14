@@ -5,9 +5,9 @@
       "ComponentDefID": "Special_Narrow_Low_Profile",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -19,9 +19,16 @@
     "UIName": "Commando",
     "Id": "chassisdef_commando_COM-3A",
     "Name": "Commando",
-    "Details": "__/Base_3061.chassisdef_commando_COM-3A.Details/__",
+    "Details": "A very recent variant, the 3A mounts a pair of SRM-6 racks and supplements its close in firepower with a Flamer.  It is an excellent quick strike 'Mech, but suffers in drawn out fights due to a limited supply of ammunition for the SRMs.",
     "Icon": "uixTxrIcon_commando"
   },
+  "VariantName": "COM-3A",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Striker & Scout",
+  "YangsThoughts": "For a light 'Mech, the COM-3A can dish out a lot of damage in a single volley.  Though it is bound to chew up that ammo faster than my crew would go through a case of Triple-F Burgers.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_commando",
@@ -83,12 +90,7 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 60,
@@ -127,7 +129,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 60,
@@ -214,12 +221,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "COM-3A",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_commando_COM-3A.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_commando_COM-3A.YangsThoughts/__"
+  ]
 }

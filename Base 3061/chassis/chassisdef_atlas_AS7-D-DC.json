@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Command_Mech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2595755,
+    "Cost": 2571729.0,
     "Rarity": 5,
     "Purchasable": false,
     "Manufacturer": "Unknown",
@@ -19,9 +19,16 @@
     "UIName": "Atlas",
     "Id": "chassisdef_atlas_AS7-D-DC",
     "Name": "Atlas",
-    "Details": "__/Base_3061.chassisdef_atlas_AS7-D-DC.Details/__",
+    "Details": "Built in 2776, this Atlas variant is the largest 'Mech equipped with a Command Console. To free up the weight required to fit this device, the AS7-D-DC removes one ton of LRM ammunition and the paired rear firing lasers. Effective at Close and Long Range Fire Support. Recommended for use by Experienced Tactical Commanders. Extremely Rare and largely Extinct.",
     "Icon": "uixTxrIcon_atlas"
   },
+  "VariantName": "AS7-D-DC",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Command 'Mech, Juggernaut & Close Assault",
+  "YangsThoughts": "I've heard of these older refits and thankfully our Battalion never faced one. Facing a single Pilot in an Atlas is one thing, but going up against two pilots in one of these is something else altogether; an experienced Commander and MechWarrior is a force to be reckoned with. Its no wonder they were targeted so heavily targeted during the Early Succession Wars. The loss of ammo and medium lasers makes this design no less deadly.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_atlas",
@@ -73,6 +80,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -91,10 +102,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -106,6 +113,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -219,12 +230,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "AS7-D-DC",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_atlas_AS7-D-DC.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_atlas_AS7-D-DC.YangsThoughts/__"
+  ]
 }

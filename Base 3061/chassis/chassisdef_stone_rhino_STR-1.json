@@ -12,9 +12,9 @@
       "ComponentDefID": "Special_Distracting",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -26,9 +26,18 @@
     "UIName": "Stone Rhino",
     "Id": "chassisdef_stone_rhino_STR-1",
     "Name": "Stone Rhino",
-    "Details": "__/Base_3061.chassisdef_stone_rhino_STR-1.Details/__",
+    "Details": "The design featured Large Pulse Lasers in each arm, twin Gauss Rifles mounted behind flip-open circular firing ports on each side torso, and an almost superfluous Small Pulse Laser located above the cockpit. The Stone Rhino also sported an interesting feature; each arm contained a retractable, shock-absorbing cowl covering the weapon barrels. This allowed MechWarriors to use the arms as battering rams without damaging the weaponry.",
     "Icon": "stonerhino"
   },
+  "VariantName": "STR-1",
+  "ChassisTags": {
+    "items": [
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Slow Juggernaut",
+  "YangsThoughts": "The design featured Large Pulse Lasers in each arm, twin Gauss Rifles mounted behind flip-open circular firing ports on each side torso, and an almost superfluous Small Pulse Laser located above the cockpit. The Stone Rhino also sported an interesting feature; each arm contained a retractable, shock-absorbing cowl covering the weapon barrels. This allowed MechWarriors to use the arms as battering rams without damaging the weaponry.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_stonerhino",
@@ -99,10 +108,6 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -114,6 +119,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -227,14 +236,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "STR-1",
-  "ChassisTags": {
-    "items": [
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_stone_rhino_STR-1.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_stone_rhino_STR-1.YangsThoughts/__"
+  ]
 }

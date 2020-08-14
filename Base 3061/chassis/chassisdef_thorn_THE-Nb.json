@@ -3,6 +3,11 @@
     "ArmActuatorSupport": {
       "LeftLimit": "Lower"
     },
+    "AssemblyVariant": {
+      "PrefabID": "Thorn",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
@@ -11,13 +16,13 @@
       "ComponentDefID": "Special_Easy_To_Maintain",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 312877,
+    "Cost": 318365.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -25,9 +30,19 @@
     "UIName": "Thorn",
     "Id": "chassisdef_thorn_THE-Nb",
     "Name": "Thorn",
-    "Details": "__/Base_3061.chassisdef_thorn_THE-Nb.Details/__",
+    "Details": "The advanced model employed by the Star League Defense Force Royal Divisions in 2743 changed the role of the 'Mech from a missile to an energy boat, replacing the LRM launcher with an ER Large Laser, retaining one medium laser and downgrading the other to a Small Laser. Dropping the no longer required CASE, the 'Mech also used a MASC system for temporary speed bursts and Double Heat Sinks to vent its increased waste heat output. The THE-Nb mounted an XL Engine to save the weight to mount this extra equipment, at the cost of reduced survivability.",
     "Icon": "thorn"
   },
+  "VariantName": "THE-Nb",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.4-0.48-0.49",
+      "SLDFMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Striker",
+  "YangsThoughts": "The advanced model employed by the Star League Defense Force Royal Divisions in 2743 changed the role of the 'Mech from a missile to an energy boat, replacing the LRM launcher with an ER Large Laser, retaining one medium laser and downgrading the other to a Small Laser. Dropping the no longer required CASE, the 'Mech also used a MASC system for temporary speed bursts and Double Heat Sinks to vent its increased waste heat output. The THE-Nb mounted an XL Engine to save the weight to mount this extra equipment, at the cost of reduced survivability.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_kintaro",
@@ -63,6 +78,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 20,
   "DFAInstability": 10,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -93,12 +111,7 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 50,
@@ -110,6 +123,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -146,16 +163,7 @@
     },
     {
       "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 30,
@@ -224,18 +232,5 @@
       "y": 3,
       "z": 0
     }
-  ],
-  "VariantName": "THE-Nb",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-0.4-0.48-0.49",
-      "SLDFMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_thorn_THE-Nb.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_thorn_THE-Nb.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 3167456,
+    "Cost": 3112935.0,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,18 @@
     "UIName": "Kodiak",
     "Id": "chassisdef_kodiak_KDK-1",
     "Name": "Kodiak",
-    "Details": "__/Base_3061.chassisdef_kodiak_KDK-1.Details/__",
+    "Details": "A fast moving assault Mech, the Kodiak was originally designed by Clan Ghost Bear as a second-line mech and represents the epitome of Ghost Bear thinking: mostly defensive but capable of surprising speed and a devastating attack when launched.",
     "Icon": "uixTxrIcon_kodiak"
   },
+  "VariantName": "KDK-1",
+  "ChassisTags": {
+    "items": [
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fast Assault",
+  "YangsThoughts": "A fast moving assault Mech, the Kodiak was originally designed by Clan Ghost Bear as a second-line mech and represents the epitome of Ghost Bear thinking: mostly defensive but capable of surprising speed and a devastating attack when launched.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_kodiak",
@@ -97,6 +106,10 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Missile",
           "Omni": false
         },
@@ -120,6 +133,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -247,14 +264,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "KDK-1",
-  "ChassisTags": {
-    "items": [
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_kodiak_KDK-1.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_kodiak_KDK-1.YangsThoughts/__"
+  ]
 }

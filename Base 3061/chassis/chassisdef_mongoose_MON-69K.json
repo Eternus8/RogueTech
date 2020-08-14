@@ -5,9 +5,9 @@
       "ComponentDefID": "Special_Easy_To_Pilot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -19,9 +19,16 @@
     "UIName": "Mongoose",
     "Id": "chassisdef_mongoose_MON-69K",
     "Name": "Mongoose",
-    "Details": "__/Base_3061.chassisdef_mongoose_MON-69K.Details/__",
+    "Details": "Originating from the short lived Concord of Kapteyn, this design was designed to showcase each realms newly rediscovered technology in one show-piece design. Unfortunately the Concord fell apart before the design could be put into production. The Clan Invasion left the Free Worlds League scrambling for new designs that could be used in the fight against the Clans. Among the designs pushed into production was the 69K, redesigned to use modern technologies from across the Inner Sphere. The chassis is sourced from the Combine, whilst the engine is of Lyran make; paired with a FWL built Streak SRM-2 and one of the Capellan Confederation’s newly rediscovered Beagle Probes. Produced at Irian technologies Shiro III facility until the early 3060’s, the mech was sold at cost to buyers; with the FWL subsidising production as part of their contributions to the war. ",
     "Icon": "mongoose"
   },
+  "VariantName": "MON-69K",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Striker & Scout",
+  "YangsThoughts": "Originating from the short lived Concord of Kapteyn, this design was designed to showcase each realms newly rediscovered technology in one show-piece design. Unfortunately the Concord fell apart before the design could be put into production. The Clan Invasion left the Free Worlds League scrambling for new designs that could be used in the fight against the Clans. Among the designs pushed into production was the 69K, redesigned to use modern technologies from across the Inner Sphere. The chassis is sourced from the Combine, whilst the engine is of Lyran make; paired with a FWL built Streak SRM-2 and one of the Capellan Confederation’s newly rediscovered Beagle Probes. Produced at Irian technologies Shiro III facility until the early 3060’s, the mech was sold at cost to buyers; with the FWL subsidising production as part of their contributions to the war. ",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_mongoose",
@@ -57,10 +64,17 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 25,
   "DFAInstability": 13,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -90,14 +104,6 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -113,6 +119,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -228,15 +238,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "MON-69K",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_mongoose_MON-69K.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_mongoose_MON-69K.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

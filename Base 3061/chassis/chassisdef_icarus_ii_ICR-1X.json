@@ -11,13 +11,13 @@
       "ComponentDefID": "Special_Improved_Targeting_Short",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 667442,
+    "Cost": 661481.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -25,9 +25,18 @@
     "UIName": "Icarus II",
     "Id": "chassisdef_icarus_ii_ICR-1X",
     "Name": "Icarus II",
-    "Details": "__/Base_3061.chassisdef_icarus_ii_ICR-1X.Details/__",
+    "Details": "The original prototype Icarus was developed at the Happen Military Reservation on Xanthe III in 2466, and was first deployed on Alula Australis in 2469. Its premiere date in official documents is listed as 2470. The prototype used primitive equipment and lacked jump jets. It had a Large Laser to complement the Small Laser. Two SRM-2s and twin Machine Guns could prove devastating to conventional troops. Only six of these were ever produced and they are all long gone. The primitive engine drove it to a maximum of 64 km/h. Ten and a half tons of Primitive Armor provided protection.",
     "Icon": "IcarusII"
   },
+  "VariantName": "ICR-1X",
+  "ChassisTags": {
+    "items": [
+      "Primitive"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Striker",
+  "YangsThoughts": "The original prototype Icarus was developed at the Happen Military Reservation on Xanthe III in 2466, and was first deployed on Alula Australis in 2469. Its premiere date in official documents is listed as 2470. The prototype used primitive equipment and lacked jump jets. It had a Large Laser to complement the Small Laser. Two SRM-2s and twin Machine Guns could prove devastating to conventional troops. Only six of these were ever produced and they are all long gone. The primitive engine drove it to a maximum of 64 km/h. Ten and a half tons of Primitive Armor provided protection.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_icarusii",
@@ -63,10 +72,18 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 40,
   "DFAInstability": 20,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 1,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -77,15 +94,15 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -104,10 +121,6 @@
         },
         {
           "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -145,7 +158,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 100,
@@ -228,17 +246,5 @@
       "y": 4,
       "z": 0.5
     }
-  ],
-  "VariantName": "ICR-1X",
-  "ChassisTags": {
-    "items": [
-      "Primitive"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_icarus_ii_ICR-1X.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_icarus_ii_ICR-1X.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

@@ -2,51 +2,58 @@
   "Custom": {
     "ChassisDefaults": [
       {
-        "CategoryID": "LifeSupportB",
-        "Location": "Head",
-        "DefID": "Gear_Cockpit_LifeSupportB_Knife",
+        "Location": "CenterTorso",
+        "CategoryID": "Armor",
+        "DefID": "emod_armorslots_FreemanStealth",
         "Type": "Upgrade"
       },
       {
-        "CategoryID": "Armor",
-        "DefID": "emod_armorslots_FreemanStealth",
-        "Location": "CenterTorso",
+        "Location": "Head",
+        "CategoryID": "LifeSupportB",
+        "DefID": "Gear_Cockpit_LifeSupportB_Knife",
         "Type": "Upgrade"
       }
     ]
   },
   "FixedEquipment": [
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Nimble",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_Freeman_UAV",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Nimble",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 328738,
+    "Cost": 328738.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
-    "Model": "",
+    "Model": "Freeman",
     "UIName": "Commando",
     "Id": "chassisdef_freeman_COM-2DS",
     "Name": "Commando",
-    "Details": "__/Base_3061.chassisdef_freeman_COM-2DS.Details/__",
+    "Details": "In 3055 the Taurian Concordat's Vandenburg Mechanized Industries produced limited runs of this factory refit of the Commando COM-2D using stealth and sensor packages imported from the Cappelan Confederation. While the result was an effective scout, with respectable ambush capabilities, the expense compared to the base model, and the difficulties of multinational production, kept it from widespread adoption.",
     "Icon": "uixTxrIcon_commando"
   },
+  "VariantName": "COM-2DS",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Striker & Scout",
+  "YangsThoughts": "Well Commander, as outfitted from the factory it's certainly a superior Commando. At the chassis level it's not much different than it's cheaper cousins. But the custom Null Signature system puts it on another level.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_commando",
@@ -114,7 +121,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -158,10 +165,6 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -175,6 +178,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Missile",
           "Omni": false
@@ -248,12 +255,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "COM-2DS",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_freeman_COM-2DS.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_freeman_COM-2DS.YangsThoughts/__"
+  ]
 }

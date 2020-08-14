@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2458036,
+    "Cost": 2502273.0,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Atlas",
     "Id": "chassisdef_atlas_AS7-A",
     "Name": "Atlas",
-    "Details": "__/Base_3061.chassisdef_atlas_AS7-A.Details/__",
+    "Details": "The Atlas A is the first try to be the king of the battlefield, capable of bringing a dizzying array of weapons to bear on targets at any range. It is also noteworthy for normally mounting the maximum amount of armor possible. Few opponents can survive even brief contact with this monster.",
     "Icon": "uixTxrIcon_atlas"
   },
+  "VariantName": "AS7-A",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Close Assault",
+  "YangsThoughts": "The Atlas A is the king of short range engagements, capable of bringing a dizzying amount of short range missiles to bear on targets at close range. It is also noteworthy for normally mounting the maximum amount of armor possible. Few opponents can survive even brief contact with this monster.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_atlas",
@@ -84,15 +91,11 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -106,11 +109,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -242,12 +241,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "AS7-A",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_atlas_AS7-A.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_atlas_AS7-A.YangsThoughts/__"
+  ]
 }

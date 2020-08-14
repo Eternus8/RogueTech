@@ -14,9 +14,9 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-				"AreaOfEffect: 50",
+				"AreaOfEffect: 45",
 				"AreaOfEffectDmg: 3",
-				"MortarDamage: -1",
+				"MortarDamage: -10%",
 				"DFAccuracy: +2",
 				"WpnAccuracy: +1",
 				"MortarAmmo: 20"

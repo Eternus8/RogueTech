@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Easy_To_Pilot",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 427360,
+    "Cost": 431085.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,18 @@
     "UIName": "Mongoose",
     "Id": "chassisdef_mongoose_MON-C",
     "Name": "Mongoose",
-    "Details": "__/Base_3061.chassisdef_mongoose_MON-C.Details/__",
+    "Details": "A Clantech upgrade to the again Royal Mongoose, that debuted during the Golden Age. Found in most Clan Toumans, the design played a key role in the battle for Tokasha, where it was employed with great effect by Alpha Galaxy of Clan Ghost Bear; against the dug in foces of the Hells Horse Beta Galaxy. ",
     "Icon": "mongoose"
   },
+  "VariantName": "MON-C",
+  "ChassisTags": {
+    "items": [
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Striker & Scout",
+  "YangsThoughts": "A Clantech upgrade to the again Royal Mongoose, that debuted during the Golden Age. Found in most Clan Toumans, the design played a key role in the battle for Tokasha, where it was employed with great effect by Alpha Galaxy of Clan Ghost Bear; against the dug in foces of the Hells Horse Beta Galaxy. ",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_mongoose",
@@ -57,6 +66,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 25,
   "DFAInstability": 13,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -90,10 +102,6 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -109,6 +117,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -136,12 +148,7 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 60,
@@ -224,17 +231,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "MON-C",
-  "ChassisTags": {
-    "items": [
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_mongoose_MON-C.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_mongoose_MON-C.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

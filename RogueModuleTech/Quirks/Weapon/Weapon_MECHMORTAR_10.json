@@ -12,6 +12,7 @@
       "Bonuses": [
         "IsMortar",
         "Indirect",
+        "DoesCluster",
         "NoAA"
       ]
     }
@@ -85,8 +86,7 @@
     "items": [
       "BLACKLISTED",
       "component_type_stock",
-      "range_extreme",
-      "mr-resize-2"
+      "range_extreme"
     ],
     "tagSetSourceFile": ""
   }

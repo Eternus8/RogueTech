@@ -5,14 +5,14 @@
       "ComponentDefID": "Gear_Cockpit_Tacticon_B2000_Battle_Computer",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2316667,
+    "Cost": 2295642.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -23,6 +23,13 @@
     "Details": "Cyclops 11-Zs use their imposing presence and unique communications equipment to control the battlefield. Carrying the same Battle Computer as the C10, is this variant enhanced with several LosTech including a C3 Master Computer, further increasing the lances power.",
     "Icon": "uixTxrIcon_cyclops"
   },
+  "VariantName": "CP-11-Z",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Command & Fire Support",
+  "YangsThoughts": "Cyclops 11-Zs use their imposing presence and unique communications equipment to control the battlefield. Carrying the same Battle Computer as the C10, is this variant enhanced with several LosTech including a C3 Master Computer, further increasing the lances power.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_cyclops",
@@ -60,7 +67,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -77,6 +89,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -90,10 +106,6 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -227,12 +239,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "CP-11-Z",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Command & Fire Support",
-  "YangsThoughts": "Cyclops 11-Zs use their imposing presence and unique communications equipment to control the battlefield. Carrying the same Battle Computer as the C10, is this variant enhanced with several LosTech including a C3 Master Computer, further increasing the lances power."
+  ]
 }

@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Narrow_Low_Profile",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2595755,
+    "Cost": 2525000.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,16 @@
     "UIName": "Marauder II",
     "Id": "chassisdef_marauder_ii_MAD-2K",
     "Name": "Marauder II",
-    "Details": "__/Base_3061.chassisdef_marauder_ii_MAD-2K.Details/__",
+    "Details": "The Marauder II was first built in 3012 in an attempt to take the firepower of the Marauder and combine it with the reliability and ruggedness of an assault chassis. This Variant was captured and rebuilt by Kurita to carry 2 Heavy and 2 Light PPC.",
     "Icon": "uixTxrIcon_marauderii"
   },
+  "VariantName": "MAD-2K",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper & Ranged Assault",
+  "YangsThoughts": "The Marauder II was first built in 3012 in an attempt to take the firepower of the Marauder and combine it with the reliability and ruggedness of an assault chassis. This Variant was captured and rebuilt by Kurita to carry 2 Heavy and 2 Light PPC.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_marauderii",
@@ -67,7 +74,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -96,7 +108,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -109,6 +121,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -135,6 +151,10 @@
     {
       "Location": "RightTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -226,12 +246,5 @@
       "y": 6,
       "z": 0
     }
-  ],
-  "VariantName": "MAD-2K",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_marauder_ii_MAD-2K.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_marauder_ii_MAD-2K.YangsThoughts/__"
+  ]
 }

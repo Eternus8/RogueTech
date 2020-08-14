@@ -12,9 +12,9 @@
       "ComponentDefID": "Special_Anti_Air_Targeting",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -26,14 +26,21 @@
     "UIName": "Longbow",
     "Id": "chassisdef_longbow_LGB-7Q",
     "Name": "Longbow",
-    "Details": "__/Base_3061.chassisdef_longbow_LGB-7Q.Details/__",
+    "Details": "The Longbow, introduced in 2480, has seen service in the armies of the Inner Sphere since the days of the Star League and is one of the most well-known fire support 'Mechs in existence. As a fire-support 'Mech though, the Longbow is a trusted and reliable machine that can be counted on to carry out the mission it is designed for. The primary weapons on the Longbow are its LRM launchers, four in all, a pair of 20s and a pair of 5s, letting the Longbow put out 50 LRMs into any target it can see. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_longbow"
   },
+  "VariantName": "LGB-7Q",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Hail of Missiles",
+  "YangsThoughts": "The Longbow, introduced in 2480, has seen service in the armies of the Inner Sphere since the days of the Star League and is one of the most well-known fire support 'Mechs in existence. As a fire-support 'Mech though, the Longbow is a trusted and reliable machine that can be counted on to carry out the mission it is designed for. The primary weapons on the Longbow are its LRM launchers, four in all, a pair of 20s and a pair of 5s, letting the Longbow put out 50 LRMs into any target it can see. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_longbow",
-  "PrefabIdentifier": "chrprfmech_longbowbase-001",
-  "PrefabBase": "longbow",
+  "HardpointDataDefID": "hardpointdatadef_ionlongbow",
+  "PrefabIdentifier": "chrprfmech_ionlongbowbase-001",
+  "PrefabBase": "ionlongbow",
   "Tonnage": 85,
   "InitialTonnage": 8.5,
   "weightClass": "ASSAULT",
@@ -98,10 +105,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -113,6 +116,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -230,12 +237,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "LGB-7Q",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_longbow_LGB-7Q.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_longbow_LGB-7Q.YangsThoughts/__"
+  ]
 }

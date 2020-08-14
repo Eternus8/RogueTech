@@ -190,11 +190,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
-    "Original": "Rifle Ammo",
+    "Original": "Per. Rifle Ammo",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.PotRifleAmmo.Short",
     "Localization": {
-      "CULTURE_EN_US": "Rifle Ammo"
+      "CULTURE_EN_US": "Per. Rifle Ammo"
     }
   },
   {
@@ -532,11 +532,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
-    "Original": "H.Flamer Ammo",
+    "Original": "Flamer Ammo",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.HeavyFlamerAmmo.Short",
     "Localization": {
-      "CULTURE_EN_US": "H.Flamer Ammo"
+      "CULTURE_EN_US": "Flamer Ammo"
     }
   },
   {
@@ -712,11 +712,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
-    "Original": "SMRM Ammo",
+    "Original": "S-MRM Ammo",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.STREAKMRMAmmo.Short",
     "Localization": {
-      "CULTURE_EN_US": "SMRM Ammo"
+      "CULTURE_EN_US": "S-MRM Ammo"
     }
   },
   {
@@ -825,33 +825,6 @@
     "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.Swarmi.Short",
     "Localization": {
       "CULTURE_EN_US": "Swarm-i"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
-    "Original": "No Explosion",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.GaussNoBoom.Short",
-    "Localization": {
-      "CULTURE_EN_US": "No Explosion"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
-    "Original": "No Explosion",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.RailgunNoBoom.Short",
-    "Localization": {
-      "CULTURE_EN_US": "No Explosion"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
-    "Original": "No Explosion",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.PlasmaNoBoom.Short",
-    "Localization": {
-      "CULTURE_EN_US": "No Explosion"
     }
   },
   {
@@ -1180,11 +1153,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
-    "Original": "Rifle Ammo",
+    "Original": "Periphery Rifle Ammo",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.PotRifleAmmo.Long",
     "Localization": {
-      "CULTURE_EN_US": "Rifle Ammo"
+      "CULTURE_EN_US": "Periphery Rifle Ammo"
     }
   },
   {
@@ -1819,33 +1792,6 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
-    "Original": "Doesn't Explode",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.GaussNoBoom.Long",
-    "Localization": {
-      "CULTURE_EN_US": "Doesn't Explode"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
-    "Original": "Doesn't Explode",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.RailgunNoBoom.Long",
-    "Localization": {
-      "CULTURE_EN_US": "Doesn't Explode"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
-    "Original": "Doesn't Explode",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.PlasmaNoBoom.Long",
-    "Localization": {
-      "CULTURE_EN_US": "Doesn't Explode"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
     "Original": "Reduced Explosion",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.Protected.Long",
@@ -1940,7 +1886,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.InternalAmmoShots.Long",
     "Localization": {
-      "CULTURE_EN_US": "Internal Ammo"
+      "CULTURE_EN_US": "Internal Salvos"
     }
   },
   {
@@ -1999,11 +1945,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
-    "Original": "Double-size Ammo bin; 25% extra ammo per ton.",
+    "Original": "Double-size Ammo bin; 15% extra ammo per ton.",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.Doubled.Full",
     "Localization": {
-      "CULTURE_EN_US": "Double-size Ammo bin; 25% extra ammo per ton."
+      "CULTURE_EN_US": "Double-size Ammo bin; 20% extra ammo per ton."
     }
   },
   {
@@ -2805,33 +2751,6 @@
     "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.Swarmi.Full",
     "Localization": {
       "CULTURE_EN_US": "Swarm I Missile: indirect fire missile system; spreads large cluster bomb payload in target area"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
-    "Original": "Gauss Ammo does not explode",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.GaussNoBoom.Full",
-    "Localization": {
-      "CULTURE_EN_US": "Gauss Ammo does not explode"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
-    "Original": "Railgun Ammo does not explode",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.RailgunNoBoom.Full",
-    "Localization": {
-      "CULTURE_EN_US": "Railgun Ammo does not explode"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AmmoTypes.json",
-    "Original": "Plasma Ammo does not explode",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_AmmoTypes.PlasmaNoBoom.Full",
-    "Localization": {
-      "CULTURE_EN_US": "Plasma Ammo does not explode"
     }
   },
   {
@@ -6814,11 +6733,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
-    "Original": "C3 Slave",
+    "Original": "C3 Unit",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_EWS.C3S.Short",
     "Localization": {
-      "CULTURE_EN_US": "C3 Slave"
+      "CULTURE_EN_US": "C3 Unit"
     }
   },
   {
@@ -6999,15 +6918,6 @@
     "Name": "RogueTech_Core.BonusDescriptions_EWS.Signature.Short",
     "Localization": {
       "CULTURE_EN_US": "{0} Sig"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
-    "Original": "{0} Vis",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_EWS.IncVisibility.Short",
-    "Localization": {
-      "CULTURE_EN_US": "{0} Vis"
     }
   },
   {
@@ -7417,11 +7327,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
-    "Original": "C3 Slave",
+    "Original": "C3 Unit",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_EWS.C3S.Long",
     "Localization": {
-      "CULTURE_EN_US": "C3 Slave"
+      "CULTURE_EN_US": "C3 Unit"
     }
   },
   {
@@ -7602,15 +7512,6 @@
     "Name": "RogueTech_Core.BonusDescriptions_EWS.Signature.Long",
     "Localization": {
       "CULTURE_EN_US": "{0} Signature"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
-    "Original": "{0} Visibility",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_EWS.IncVisibility.Long",
-    "Localization": {
-      "CULTURE_EN_US": "{0} Visibility"
     }
   },
   {
@@ -8020,11 +7921,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
-    "Original": "C3 Network Slave Unit: Makes Enemys Easier to hit in Range",
+    "Original": "C3 Network Unit: Makes Enemys Easier to hit in Range",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_EWS.C3S.Full",
     "Localization": {
-      "CULTURE_EN_US": "C3 Network Slave Unit: Makes Enemys Easier to hit in Range"
+      "CULTURE_EN_US": "C3 Network Unit: Makes Enemys Easier to hit in Range"
     }
   },
   {
@@ -8205,15 +8106,6 @@
     "Name": "RogueTech_Core.BonusDescriptions_EWS.Signature.Full",
     "Localization": {
       "CULTURE_EN_US": "{0} sensor signature"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_EWS.json",
-    "Original": "{0} visibility",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_EWS.IncVisibility.Full",
-    "Localization": {
-      "CULTURE_EN_US": "{0} visibility"
     }
   },
   {
@@ -9276,15 +9168,6 @@
     "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.CoolDown.Short",
     "Localization": {
       "CULTURE_EN_US": "{0} Turn Cooldown"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_MechEngineer.json",
-    "Original": "No Explosion",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.RailNoBoom.Short",
-    "Localization": {
-      "CULTURE_EN_US": "No Explosion"
     }
   },
   {
@@ -11395,11 +11278,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_MechEngineer.json",
-    "Original": "{0} F.Area",
+    "Original": "{0} Fire",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.FireTerrainSize.Short",
     "Localization": {
-      "CULTURE_EN_US": "{0} F.Area"
+      "CULTURE_EN_US": "{0} Fire"
     }
   },
   {
@@ -12120,15 +12003,6 @@
     "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.CoolDown.Long",
     "Localization": {
       "CULTURE_EN_US": "{0} Turn Cooldown"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_MechEngineer.json",
-    "Original": "Doesn't Explode",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.RailNoBoom.Long",
-    "Localization": {
-      "CULTURE_EN_US": "Doesn't Explode"
     }
   },
   {
@@ -14239,11 +14113,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_MechEngineer.json",
-    "Original": "{0} F.Area",
+    "Original": "{0} Fire Size",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.FireTerrainSize.Long",
     "Localization": {
-      "CULTURE_EN_US": "{0} F.Area"
+      "CULTURE_EN_US": "{0} Fire Size"
     }
   },
   {
@@ -14401,11 +14275,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_MechEngineer.json",
-    "Original": "Damage decreased based on your evasion. Base damage divided by: Number of Evasion Pips to the power of {0}",
+    "Original": "Damage decreased based on your evasion. Base damage multiplied by: Number of Evasion Pips to the power of {0}",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.EvasiveExponentMinus.Full",
     "Localization": {
-      "CULTURE_EN_US": "Damage decreased based on your evasion. Base damage divided by: Number of Evasion Pips to the power of {0}"
+      "CULTURE_EN_US": "Damage decreased based on your evasion. Base damage multiplied by: Number of Evasion Pips to the power of {0}"
     }
   },
   {
@@ -14428,11 +14302,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_MechEngineer.json",
-    "Original": "{0} chance to cluster on hit location with This Ammo",
+    "Original": "{0} chance to cluster on hit location with this ammo",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.ArtemisClustering.Full",
     "Localization": {
-      "CULTURE_EN_US": "{0} chance to cluster on hit location with This Ammo"
+      "CULTURE_EN_US": "{0} chance to cluster on hit location with this ammo"
     }
   },
   {
@@ -14756,7 +14630,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.Reinforced.Full",
     "Localization": {
-      "CULTURE_EN_US": "Reinforced Actuators add {0} armor and structure to their location"
+      "CULTURE_EN_US": "Reinforced Sytems add {0} armor and structure to their location"
     }
   },
   {
@@ -14968,15 +14842,6 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_MechEngineer.json",
-    "Original": "Railgun ammunition does not explode",
-    "Commentary": "",
-    "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.RailNoBoom.Full",
-    "Localization": {
-      "CULTURE_EN_US": "Railgun ammunition does not explode"
-    }
-  },
-  {
-    "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_MechEngineer.json",
     "Original": "{0} shots with autocannon",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.ShotsFiredAC.Full",
@@ -14999,7 +14864,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.Paint.Full",
     "Localization": {
-      "CULTURE_EN_US": "Target suffers -50% to sight and -2 accuracy for 2 turns"
+      "CULTURE_EN_US": "Target suffers -50% to sight, -2 accuracy and +20% visibility for 2 turns"
     }
   },
   {
@@ -15121,20 +14986,20 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_MechEngineer.json",
-    "Original": "Modular Battle Computer: requires a Targeting Computer FCS",
+    "Original": "Modular Battle Computer: Requires a Targeting Computer FCS",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.BattleComputer.Full",
     "Localization": {
-      "CULTURE_EN_US": "Modular Battle Computer: requires a Targeting Computer FCS"
+      "CULTURE_EN_US": "Modular Battle Computer: Requires a Targeting Computer FCS"
     }
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_MechEngineer.json",
-    "Original": "Targeting Computer Fire Control System: Allows to use Battle Computer Upgrades",
+    "Original": "Targeting Computer Fire Control System: Allows Battle Computer Upgrades",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.TCFCS.Full",
     "Localization": {
-      "CULTURE_EN_US": "Targeting Computer Fire Control System: Allows to use Battle Computer Upgrades"
+      "CULTURE_EN_US": "Targeting Computer Fire Control System: Allows Battle Computer Upgrades"
     }
   },
   {
@@ -17083,11 +16948,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_MechEngineer.json",
-    "Original": "{0} terrain area burned",
+    "Original": "{0}m terrain radius burned",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_MechEngineer.FireTerrainSize.Full",
     "Localization": {
-      "CULTURE_EN_US": "{0} terrain area burned"
+      "CULTURE_EN_US": "{0}m terrain radius burned"
     }
   },
   {
@@ -17798,7 +17663,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_Special.HandActuator.Full",
     "Localization": {
-      "CULTURE_EN_US": "Hand Actuators allow to equip Melee Upgrades and HandHeld Weapons"
+      "CULTURE_EN_US": "Hand Actuators allow to equip Melee Upgrades and HandHeld Weapons. 1 Punch Attack per Hand."
     }
   },
   {
@@ -19990,11 +19855,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_Weapons.json",
-    "Original": "Artillery deals massive damage at extreme range, but has immense mass",
+    "Original": "Indirect Artillery deals damage to a ground area from a long distance, ammo determins the size and power of the effect.",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_Weapons.IsArtillery.Full",
     "Localization": {
-      "CULTURE_EN_US": "Artillery deals massive damage at extreme range, but has immense mass"
+      "CULTURE_EN_US": "Indirect Artillery deals damage to a ground area from a long distance, ammo determins the size and power of the effect."
     }
   },
   {
@@ -20381,7 +20246,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_Weapons.Mjoelnir.Full",
     "Localization": {
-      "CULTURE_EN_US": "Mjoelnir Auto Cannon can fire any AC Ammo and fires Ultra Mode"
+      "CULTURE_EN_US": "Mjoelnir Auto Cannon can fire any AC Ammo and fires twice with Ultra."
     }
   },
   {
@@ -22987,11 +22852,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_Weapons.json",
-    "Original": "FLAK Mode: May fire std. ammo directly at airborne units: -5 acc. penalty, ignores evasion.",
+    "Original": "FLAK Mode: May fire std. ammo directly at airborne units: -3 acc. penalty, ignores evasion.",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_Weapons.FLAKmode.Full",
     "Localization": {
-      "CULTURE_EN_US": "FLAK Mode: May fire std. ammo directly at airborne units: -5 acc. penalty, ignores evasion."
+      "CULTURE_EN_US": "FLAK Mode: May fire std. ammo directly at airborne units: -3 acc. penalty, ignores evasion, no min range."
     }
   },
   {

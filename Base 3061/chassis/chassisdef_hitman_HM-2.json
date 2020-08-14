@@ -17,9 +17,9 @@
       "ComponentDefID": "Special_Stable_Weapons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -31,9 +31,18 @@
     "UIName": "Hitman",
     "Id": "chassisdef_hitman_HM-2",
     "Name": "Hitman",
-    "Details": "__/Base_3061.chassisdef_hitman_HM-2.Details/__",
+    "Details": "The Hitman was designed to work as a spotter 'Mech for advanced Arrow IV missile artillery rounds. In order to do this, the 'Mech is built to be able to close to effective range for its Forward-1 Target Acquisition Gear spotting gear rapidly with a Kagushima 210 XL propelling it up to 118.8 kph and a MASC system pushing the 'Mech up to 151.2 kph in short bursts. The 'Mech also carries an Apple Churchill Guardian ECM Suite to foul any enemy electronics warfare equipment and a Wunderland Beagle Active Probe to detect any hidden enemy units. With the recent invention of semi-guided LRMs the Hitman can also guide LRM fire to a unit targeted with its TAG unit. The Hitman carries five tons of armor protection to protect it against any attacks that may hit it. <b><color=#53ff1a>Restricted Actuators- Left: Lower </color></b>",
     "Icon": "Hitman"
   },
+  "VariantName": "HM-2",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.74"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Striker",
+  "YangsThoughts": "The HM-2 Hitman is a field refit that is popular with units that do not have a large number of artillery assets but do have C3 lances. The TAG unit has been removed in favor of a C3 Slave unit and the LRM-5 launcher has been removed in favor of a Narc Missile Beacon. The 'Mech is able to work as a lead unit in a C3 lance or as a spotter for a fire support lance with its Narc Missile Beacon. <b><color=#53ff1a>Restricted Actuators- Left: Lower </color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_vaporeagle",
@@ -69,12 +78,15 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 30,
   "DFAInstability": 15,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -124,6 +136,10 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "Special",
           "Omni": false
         },
@@ -148,12 +164,7 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 70,
@@ -164,7 +175,7 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -236,17 +247,5 @@
       "y": 6,
       "z": 2.5
     }
-  ],
-  "VariantName": "HM-2",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-0.74"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_hitman_HM-2.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_hitman_HM-2.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

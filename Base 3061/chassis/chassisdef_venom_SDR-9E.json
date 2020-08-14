@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Nimble",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 644048,
+    "Cost": 644048.0,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Venom",
     "Id": "chassisdef_venom_SDR-9E",
     "Name": "Venom",
-    "Details": "__/Base_3061.chassisdef_venom_SDR-9E.Details/__",
+    "Details": "The Venom was built in direct response to losses suffered by the Draconis Combine and to boost sales for Nimakachi Fusion Products Limited. This earlier Model trades Jump Capability for a Capacitator boosted Heavy PPC.",
     "Icon": "Venom"
   },
+  "VariantName": "SDR-9E",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Extremely Maneuverable Sniper",
+  "YangsThoughts": "The Venom was built in direct response to losses suffered by the Draconis Combine and to boost sales for Nimakachi Fusion Products Limited. This earlier Model trades Jump Capability for a Capacitator boosted Heavy PPC.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_spider",
@@ -71,7 +78,7 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -83,16 +90,7 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 80,
@@ -102,6 +100,14 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -215,12 +221,5 @@
       "y": 4,
       "z": 0.5
     }
-  ],
-  "VariantName": "SDR-9E",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_venom_SDR-9E.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_venom_SDR-9E.YangsThoughts/__"
+  ]
 }

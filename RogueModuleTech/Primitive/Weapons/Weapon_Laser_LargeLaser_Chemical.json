@@ -7,6 +7,8 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
+        "VariableDmg: 5",
+        "WpnAccuracy: -1",
         "ChemicalLaser"
       ]
     },
@@ -32,14 +34,14 @@
   ],
   "AmmoCategory": "ChemLarge",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 18,
+  "HeatGenerated": 12,
   "Damage": 40,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 0,
-  "DamageVariance": 0,
+  "DamageVariance": 5,
   "HeatDamage": 0,
-  "AccuracyModifier": 0,
+  "AccuracyModifier": 1,
   "CriticalChanceMultiplier": 1,
   "APArmorShardsMod": 0.1,
   "APMaxArmorThickness": 48.0,
@@ -78,7 +80,7 @@
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "Laser",
-  "BattleValue": 0,
+  "BattleValue": 88,
   "InventorySize": 1,
   "Tonnage": 3,
   "AllowedLocations": "All",

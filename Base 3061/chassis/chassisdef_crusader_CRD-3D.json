@@ -5,9 +5,9 @@
       "ComponentDefID": "Special_Stable_Weapons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -19,9 +19,16 @@
     "UIName": "Crusader",
     "Id": "chassisdef_crusader_CRD-3D",
     "Name": "Crusader",
-    "Details": "__/Base_3061.chassisdef_crusader_CRD-3D.Details/__",
+    "Details": "The 3D variant of the Crusader is a simple modification to make the 'Mech's heat load more manageable. Introduced in 2756 and used mostly by House Davion, the two SRM-6 launchers were replaced with two SRM-4 launchers and the machine guns were removed so that the number of heat sinks could be increased by four.",
     "Icon": "uixTxrIcon_crusader"
   },
+  "VariantName": "CRD-3D",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Skirmisher & Brawler",
+  "YangsThoughts": "The 3D variant of the Crusader is a simple modification to make the 'Mech's heat load more manageable. Introduced in 2756 and used mostly by House Davion, the two SRM-6 launchers were replaced with two SRM-4 launchers and the machine guns were removed so that the number of heat sinks could be increased by four.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_crusader",
@@ -57,6 +64,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 65,
   "DFAInstability": 33,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -87,10 +97,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -102,6 +108,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -225,15 +235,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "CRD-3D",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_crusader_CRD-3D.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_crusader_CRD-3D.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

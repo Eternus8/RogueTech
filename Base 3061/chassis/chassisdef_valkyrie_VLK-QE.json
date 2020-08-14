@@ -11,13 +11,13 @@
       "ComponentDefID": "Special_Improved_Comms",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 385577,
+    "Cost": 382143.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -25,9 +25,18 @@
     "UIName": "Valkyrie",
     "Id": "chassisdef_valkyrie_VLK-QE",
     "Name": "Valkyrie",
-    "Details": "__/Base_3061.chassisdef_valkyrie_VLK-QE.Details/__",
+    "Details": "A uniquely Lyran take on the VLK-QD, this refit transforms the fire support mech into a light scout hunter with the firepower to engage much heavier prey. The standard LRM is swapped for a streak-6 and a second pulse laser, providing a heavy punch, at the expense of range. Produced by Corean Enterprises at their New Avalon facility exclusively for the Arcturan Guards, the design never saw wide spread deployment. Designed to complement the QD, standard tactics called for mixed lances of QD and QE’s; with the E’s flushing units out for the D’s LRMs and then finishing off damaged opponents. A cheap upgrade, the design had many detractors; most of whom criticised the lack of long range fire power or the over heating issues that stemmed from the refusal to upgrade to DHS. The design ceased production during the FedCom Civil War, with the Guards choosing to invest in newer Lyran made variants following the war. <b><color=#53ff1a>Restricted Actuators- Left: Lower</color></b>",
     "Icon": "valkyrie"
   },
+  "VariantName": "VLK-QE",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.8-0.8-0.9"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Armored Scout",
+  "YangsThoughts": "A uniquely Lyran take on the VLK-QD, this refit transforms the fire support mech into a light scout hunter with the firepower to engage much heavier prey. The standard LRM is swapped for a streak-6 and a second pulse laser, providing a heavy punch, at the expense of range. Produced by Corean Enterprises at their New Avalon facility exclusively for the Arcturan Guards, the design never saw wide spread deployment. Designed to complement the QD, standard tactics called for mixed lances of QD and QE’s; with the E’s flushing units out for the D’s LRMs and then finishing off damaged opponents. A cheap upgrade, the design had many detractors; most of whom criticised the lack of long range fire power or the over heating issues that stemmed from the refusal to upgrade to DHS. The design ceased production during the FedCom Civil War, with the Guards choosing to invest in newer Lyran made variants following the war. <b><color=#53ff1a>Restricted Actuators- Left: Lower</color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_valkyrie",
@@ -63,6 +72,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 30,
   "DFAInstability": 23,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -76,6 +88,10 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -216,17 +232,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "VLK-QE",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-0.8-0.8-0.9"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_valkyrie_VLK-QE.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_valkyrie_VLK-QE.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

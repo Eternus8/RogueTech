@@ -17,14 +17,14 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2454907,
+    "Cost": 2432407.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -32,9 +32,16 @@
     "UIName": "Corsair",
     "Id": "chassisdef_grace_COR-S7",
     "Name": "Corsair",
-    "Details": "__/Base_3061.chassisdef_grace_COR-S7.Details/__",
+    "Details": "At its core this is still a typical Periphery FrankenMech, but it received a lot of care from 'Her' owner, named after a infamous Terran Pirate Queen, does this specific design sport a Thumper Artillery Piece and munitions from the Barrymore Munitions manufacturers, granting superior Tactical Flexibility.",
     "Icon": "corsair2"
   },
+  "VariantName": "COR-S7",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "O'Malleys Revenge",
+  "YangsThoughts": "At its core this is still a typical Periphery FrankenMech, but it received a lot of care from 'Her' owner, named after a infamous Terran Pirate Queen, does this specific design sport a Thumper Artillery Piece and munitions from the Barrymore Munitions manufacturers, granting superior Tactical Flexibility",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_rtcorsair2",
@@ -76,6 +83,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -237,12 +248,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "COR-S7",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_grace_COR-S7.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_grace_COR-S7.YangsThoughts/__"
+  ]
 }

@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Improved_Targeting_Short",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2470000,
+    "Cost": 2491959.0,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,18 @@
     "UIName": "Black Python",
     "Id": "chassisdef_black_python_BP-4",
     "Name": "Black Python",
-    "Details": "__/Base_3061.chassisdef_black_python_BP-4.Details/__",
+    "Details": "The Black Python is similar in many ways to the Warhammer and Marauder BattleMechs. Though it is faster than those heavies, it has a similar weapons load-out with comparable damage, albeit with much more accurate damage potential. In order to achieve this, this expensive second-line 'Mech avails itself of all weight saving technologies that were at the disposal of the Clans, including an XL Engine, Endo Steel frame, and eleven tons of Ferro-Fibrous armor.",
     "Icon": "BlackPython"
   },
+  "VariantName": "BP-4",
+  "ChassisTags": {
+    "items": [
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Striker",
+  "YangsThoughts": "The Black Python is similar in many ways to the Warhammer and Marauder BattleMechs. Though it is faster than those heavies, it has a similar weapons load-out with comparable damage, albeit with much more accurate damage potential. In order to achieve this, this expensive second-line 'Mech avails itself of all weight saving technologies that were at the disposal of the Clans, including an XL Engine, Endo Steel frame, and eleven tons of Ferro-Fibrous armor.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_blackpython",
@@ -71,6 +80,10 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Energy",
           "Omni": false
         }
@@ -99,10 +112,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -114,6 +123,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -165,16 +178,7 @@
     },
     {
       "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 120,
@@ -243,14 +247,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "BP-4",
-  "ChassisTags": {
-    "items": [
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_black_python_BP-4.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_black_python_BP-4.YangsThoughts/__"
+  ]
 }

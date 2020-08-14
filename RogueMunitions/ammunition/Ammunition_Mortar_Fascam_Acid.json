@@ -18,6 +18,9 @@
     "CriticalDamageModifier": 1,
     "DamageMultiplier": 0.5,
     "AlwaysIndirectVisuals": true,
+    "AccuracyModifier": 5.0,
+    "MinMissRadius": 10,
+    "MaxMissRadius": 40,
     "MineField": {
         "InstallCellRange": 10,
         "Count": 4,
@@ -68,7 +71,7 @@
                 "statisticData": {
                     "statName": "DamageReductionMultiplierAll",
                     "operation": "Float_Add",
-                    "modValue": "0.03",
+                    "modValue": "0.01",
                     "modType": "System.Single"
                 },
                 "nature": "Debuff"

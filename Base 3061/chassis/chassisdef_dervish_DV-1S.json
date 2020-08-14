@@ -1,13 +1,17 @@
 {
+  "CustomParts": {
+    "FiringArc": 130,
+    "CustomParts": []
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Hyper_Extending_Actuators",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -19,9 +23,18 @@
     "UIName": "Dervish",
     "Id": "chassisdef_dervish_DV-1S",
     "Name": "Dervish",
-    "Details": "__/Base_3061.chassisdef_dervish_DV-1S.Details/__",
+    "Details": "The original version of the Dervish that was produced in 2520 was not up to the same standards as contemporary Terran Hegemony designs. The use of comparatively \"primitive\" parts resulted in a heavier cockpit, engine, and less efficient armor. Consequently, the 1S had a top speed of 64 km/h and could only jump ninety meters. While the missile launchers were the same as the 6M, it did not have that version's lasers. 1S variants continued to exist in militias, but were raided for parts during the Succession Wars. It was not intended for front line use, but for Militia units.  Though there were few, if any, remaining by the end of the 2990s, they once again began to be produced on low-tech worlds during the Jihad due to that conflict's disruption of supply lines.",
     "Icon": "uixTxrIcon_dervish"
   },
+  "VariantName": "DV-1S",
+  "ChassisTags": {
+    "items": [
+      "Primitive"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Skirmisher",
+  "YangsThoughts": "The original version of the Dervish that was produced in 2520 was not up to the same standards as contemporary Terran Hegemony designs. The use of comparatively \"primitive\" parts resulted in a heavier cockpit, engine, and less efficient armor. Consequently, the 1S had a top speed of 64 km/h and could only jump ninety meters. While the missile launchers were the same as the 6M, it did not have that version's lasers. 1S variants continued to exist in militias, but were raided for parts during the Succession Wars. It was not intended for front line use, but for Militia units.  Though there were few, if any, remaining by the end of the 2990s, they once again began to be produced on low-tech worlds during the Jihad due to that conflict's disruption of supply lines.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_dervish",
@@ -57,6 +70,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 55,
   "DFAInstability": 28,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -87,10 +103,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -102,6 +114,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -215,21 +231,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "DV-1S",
-  "ChassisTags": {
-    "items": [
-      "Primitive"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_dervish_DV-1S.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_dervish_DV-1S.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0,
-  "CustomParts": {
-    "FiringArc": 130,
-    "CustomParts": []
-  }
+  ]
 }

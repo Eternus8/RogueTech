@@ -11,14 +11,14 @@
       "ComponentDefID": "Special_Reinforced_Legs",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 3067877,
+    "Cost": 3039509.0,
     "Rarity": 5,
     "Purchasable": false,
     "Manufacturer": "",
@@ -26,9 +26,18 @@
     "UIName": "Highlander IIC",
     "Id": "chassisdef_highlander_iic_HGN-IIC-A",
     "Name": "Highlander IIC",
-    "Details": "__/Base_3061.chassisdef_highlander_iic_HGN-IIC-A.Details/__",
+    "Details": "One of the most popular Star League BattleMechs, many a Highlander accompanied General Aleksandr Kerensky into exile. Some were mothballed, but many found their way into the toumans of the Clans. As technology advanced, the weapons systems were upgraded until the design known as the Highlander IIC finally emerged. With the use of newer, lighter weapons, the damage potential of the Highlander has roughly doubled. The IIC also contains enough ammunition that it rarely needs to conserve any during Trials. Clan scientists were forced to rearrange the placement of some weapons within the 'Mech to allow it proper ammo feeds, but the design is largely unchanged. It carries the maximum amount of Ferro-Fibrous armor that can be crammed on the frame, fourteen and a half tons. As with the original, the IIC carries enough jump jets to move up to ninety meters at a time, allowing MechWarriors to execute the Highlander Burial. The Highlander IIC A is an ER PPC boat. Swapping the Gauss Rifle for ER PPC, the left-torso pulse lasers are also replaced by twin ER PPCs.",
     "Icon": "HighlanderIIC"
   },
+  "VariantName": "HGN-IIC-A",
+  "ChassisTags": {
+    "items": [
+      "ClanMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Clan Battlemech",
+  "YangsThoughts": "One of the most popular Star League BattleMechs, many a Highlander accompanied General Aleksandr Kerensky into exile. Some were mothballed, but many found their way into the toumans of the Clans. As technology advanced, the weapons systems were upgraded until the design known as the Highlander IIC finally emerged. With the use of newer, lighter weapons, the damage potential of the Highlander has roughly doubled. The IIC also contains enough ammunition that it rarely needs to conserve any during Trials. Clan scientists were forced to rearrange the placement of some weapons within the 'Mech to allow it proper ammo feeds, but the design is largely unchanged. It carries the maximum amount of Ferro-Fibrous armor that can be crammed on the frame, fourteen and a half tons. As with the original, the IIC carries enough jump jets to move up to ninety meters at a time, allowing MechWarriors to execute the Highlander Burial. The Highlander IIC A is an ER PPC boat. Swapping the Gauss Rifle for ER PPC, the left-torso pulse lasers are also replaced by twin ER PPCs.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_highlanderiic",
@@ -67,7 +76,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -98,10 +112,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -113,6 +123,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -226,14 +240,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "HGN-IIC-A",
-  "ChassisTags": {
-    "items": [
-      "ClanMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_highlander_iic_HGN-IIC-A.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_highlander_iic_HGN-IIC-A.YangsThoughts/__"
+  ]
 }

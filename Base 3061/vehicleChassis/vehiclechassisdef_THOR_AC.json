@@ -1,15 +1,16 @@
 {
-  "YangsThoughts": "__/Base_3061.vehiclechassisdef_THOR_AC.YangsThoughts/__",
   "Description": {
     "Id": "vehiclechassisdef_THOR_AC",
     "Name": "Thor Artillery Vehicle",
     "Details": "",
     "Icon": "MANTICORE",
-    "Cost": 993,
+    "Cost": 1814325,
     "Rarity": 0,
     "Purchasable": false
   },
+  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "MovementCapDefID": "movedef_4-6cv",
+  "movementType": "Wheeled",
   "PathingCapDefID": "pathingdef_medium_wheeled",
   "HardpointDataDefID": "hardpointdatadef_marksman",
   "PrefabIdentifier": "chrprfvhcl_marksmanbase",
@@ -19,7 +20,6 @@
   "BattleValue": 993,
   "TopSpeed": 85,
   "TurnRadius": 90,
-  "movementType": "Wheeled",
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
@@ -67,63 +67,7 @@
   "Locations": [
     {
       "Location": "Front",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 0,
-      "MaxArmor": 150,
-      "InternalStructure": 30
-    },
-    {
-      "Location": "Left",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 0,
-      "MaxArmor": 150,
-      "InternalStructure": 30
-    },
-    {
-      "Location": "Right",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 0,
-      "MaxArmor": 150,
-      "InternalStructure": 30
-    },
-    {
-      "Location": "Rear",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 0,
-      "MaxArmor": 120,
-      "InternalStructure": 30
-    },
-    {
-      "Location": "Turret",
       "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false
@@ -131,7 +75,64 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 0,
-      "MaxArmor": 150,
+      "MaxArmor": 135,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Left",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 105,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Right",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 105,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Rear",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 65,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "Turret",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 0,
+      "MaxArmor": 105,
       "InternalStructure": 30
     }
   ]

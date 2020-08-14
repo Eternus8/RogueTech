@@ -1,19 +1,28 @@
 {
+  "Custom": {
+    "CustomWeights": [
+      {
+        "ComponentDefID": "Tank_InfantryCompartment",
+        "Tonnage": 4
+      }
+    ]
+  },
   "CustomParts": {
     "MoveCost": "Hover",
     "MoveClamp": 0.5
   },
-  "YangsThoughts": "__/Base_3061.vehiclechassisdef_APC_Winterhawk.YangsThoughts/__",
   "Description": {
     "Id": "vehiclechassisdef_APC_Winterhawk",
     "Name": "Winterhawk APC",
     "Details": "",
     "Icon": "STRIKER",
-    "Cost": 564,
+    "Cost": 351167,
     "Rarity": 2,
     "Purchasable": false
   },
+  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "MovementCapDefID": "movedef_10-15cv",
+  "movementType": "Wheeled",
   "PathingCapDefID": "pathingdef_light_hover",
   "HardpointDataDefID": "hardpointdatadef_svantovit",
   "PrefabIdentifier": "chrprfvhcl_svantovitbase",
@@ -23,7 +32,6 @@
   "BattleValue": 564,
   "TopSpeed": 85,
   "TurnRadius": 90,
-  "movementType": "Wheeled",
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 0.85,
   "SensorRangeMultiplier": 1,
@@ -105,11 +113,11 @@
       "Location": "Turret",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],

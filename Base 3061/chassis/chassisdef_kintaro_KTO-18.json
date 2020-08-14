@@ -5,9 +5,9 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -19,9 +19,16 @@
     "UIName": "Kintaro",
     "Id": "chassisdef_kintaro_KTO-18",
     "Name": "Kintaro",
-    "Details": "__/Base_3061.chassisdef_kintaro_KTO-18.Details/__",
+    "Details": "The Kintaro 18 isÔÇª a beast of a machine. It's fast for its size, mounts heavy armor, and can literally shred most other 'Mechs with its almost ridiculous amount of close-range weaponry. But, it runs hotter than Hell's saunas.",
     "Icon": "uixTxrIcon_kintaro"
   },
+  "VariantName": "KTO-18",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Close Assault",
+  "YangsThoughts": "The Kintaro 18 isÔÇª a beast of a machine. It's fast for its size, mounts heavy armor, and can literally shred most other 'Mechs with its almost ridiculous amount of close-range weaponry. But, it runs hotter than Hell's saunas.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_kintaro",
@@ -91,12 +98,7 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 130,
@@ -108,6 +110,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -223,12 +229,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "KTO-18",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_kintaro_KTO-18.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_kintaro_KTO-18.YangsThoughts/__"
+  ]
 }

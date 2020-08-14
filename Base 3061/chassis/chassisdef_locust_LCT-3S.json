@@ -9,26 +9,26 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Narrow_Low_Profile",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engine_170",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
+      "IsFixed": false,
       "prefabName": "",
       "hasPrefabName": true,
-      "IsFixed": false
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Narrow_Low_Profile",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 289423,
+    "Cost": 284434.0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "",
@@ -36,9 +36,16 @@
     "UIName": "Locust",
     "Id": "chassisdef_locust_LCT-3S",
     "Name": "Locust",
-    "Details": "__/Base_3061.chassisdef_locust_LCT-3S.Details/__",
+    "Details": "The 3S Locust, constructed on Furillo by Defiance Industries in 3049, carried the 1S upgrade further. This time, as with the 3M, the structure used Endo Steel and the armor was upgraded with Ferro-Fibrous. The SRM-2s were upgraded to Coventry T4H Streak SRM-2s while the medium laser was kept <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_locust"
   },
+  "VariantName": "LCT-3S",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Fire Support",
+  "YangsThoughts": "The 3S Locust, constructed on Furillo by Defiance Industries in 3049, carried the 1S upgrade further. This time, as with the 3M, the structure used Endo Steel and the armor was upgraded with Ferro-Fibrous. The SRM-2s were upgraded to Coventry T4H Streak SRM-2s while the medium laser was kept <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_locust",
@@ -74,6 +81,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 20,
   "DFAInstability": 10,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -120,6 +130,10 @@
           "Omni": false
         },
         {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "Special",
           "Omni": false
         },
@@ -154,6 +168,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Missile",
           "Omni": false
@@ -227,15 +245,5 @@
       "y": 3,
       "z": 0
     }
-  ],
-  "VariantName": "LCT-3S",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_locust_LCT-3S.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_locust_LCT-3S.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

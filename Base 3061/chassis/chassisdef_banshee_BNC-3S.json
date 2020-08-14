@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2367342,
+    "Cost": 2346429.0,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Banshee",
     "Id": "chassisdef_banshee_BNC-3S",
     "Name": "Banshee",
-    "Details": "__/Base_3061.chassisdef_banshee_BNC-3S.Details/__",
+    "Details": "A very recent variant, the 3S downgrades the engine size making the Banshee slower, but more than makes up for this by more than doubling its firepower.",
     "Icon": "uixTxrIcon_banshee"
   },
+  "VariantName": "BNC-3S",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Brawler & Sniper",
+  "YangsThoughts": "This is some new Steiner variant, and those techs at Defiance Industries really made it a monster.  While not as fast as the original, this damage output on this 'Mech would make an Atlas jealous.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_banshee",
@@ -105,6 +112,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -240,12 +251,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "BNC-3S",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_banshee_BNC-3S.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_banshee_BNC-3S.YangsThoughts/__"
+  ]
 }

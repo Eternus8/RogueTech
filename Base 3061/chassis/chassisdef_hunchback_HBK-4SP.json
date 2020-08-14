@@ -5,9 +5,9 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -19,9 +19,16 @@
     "UIName": "Hunchback",
     "Id": "chassisdef_hunchback_HBK-4SP",
     "Name": "Hunchback",
-    "Details": "__/Base_3061.chassisdef_hunchback_HBK-4SP.Details/__",
+    "Details": "The 4SP variant of the Hunchback replaces the Autocannon with two SRM6 launchers. This has the potential of doing more damage than the standard model, though the damage is more spread out.  This firepower is supplemented by two Medium Lasers in each arm.",
     "Icon": "uixTxrIcon_hunchback"
   },
+  "VariantName": "HBK-4SP",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Close Assault",
+  "YangsThoughts": "The 4SP is a pretty solid close in 'Mech.  That being said, sitting 2 tons of ammo in the engine compartment worries me a bit.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_hunchback",
@@ -64,6 +71,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -95,10 +106,6 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -228,12 +235,5 @@
       "y": 4.5,
       "z": 2
     }
-  ],
-  "VariantName": "HBK-4SP",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_hunchback_HBK-4SP.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_hunchback_HBK-4SP.YangsThoughts/__"
+  ]
 }

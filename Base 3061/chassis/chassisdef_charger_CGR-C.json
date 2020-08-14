@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Barrel_Fist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2144048,
+    "Cost": 2124057.0,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,16 @@
     "UIName": "Charger",
     "Id": "chassisdef_charger_CGR-C",
     "Name": "Charger",
-    "Details": "__/Base_3061.chassisdef_charger_CGR-C.Details/__",
+    "Details": "An upgrade of the 3K, the Charger C was modified to carry a C3 Slave unit that allowed it to share targeting data with other 'Mechs in its unit. In order to add the slave unit, a medium pulse laser had to be removed from the design. The left over mass went towards extra ammunition for the LRM launcher.",
     "Icon": "uixTxrIcon_charger"
   },
+  "VariantName": "CGR-C",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Skirmisher",
+  "YangsThoughts": "An upgrade of the 3K, the Charger C was modified to carry a C3 Slave unit that allowed it to share targeting data with other 'Mechs in its unit. In order to add the slave unit, a medium pulse laser had to be removed from the design. The left over mass went towards extra ammunition for the LRM launcher.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_charger",
@@ -64,12 +71,15 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 80,
   "DFAInstability": 40,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -110,6 +120,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -223,15 +237,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "CGR-C",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_charger_CGR-C.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_charger_CGR-C.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

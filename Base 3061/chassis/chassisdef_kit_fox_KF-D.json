@@ -10,61 +10,61 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Narrow_Low_Profile",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_clanendosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_180",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Gyro_Omnimech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_180",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engineslots_cxl_center",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "emod_engineslots_size2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "emod_engineslots_size2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Narrow_Low_Profile",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -76,9 +76,19 @@
     "UIName": "Kit Fox",
     "Id": "chassisdef_kit_fox_KF-D",
     "Name": "Kit Fox",
-    "Details": "__/Base_3061.chassisdef_kit_fox_KF-D.Details/__",
+    "Details": "The Kit Fox D is configured for indirect fire support, mounting dual LRM-15 racks as well as a LRM-5. A Narc Missile Beacon is also carried, which may be exploited by the Kit Fox D itself, as the targeting systems of Clan LRMs lack a minimum range; this literally allows the Kit Fox D to run up to an enemy and mark them for increased accuracy, and then fall back, firing the entire time.",
     "Icon": "uixTxrIcon_kitfox"
   },
+  "VariantName": "KF-D",
+  "ChassisTags": {
+    "items": [
+      "ClanMech",
+      "OmniMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Scout",
+  "YangsThoughts": "The Kit Fox D is configured for indirect fire support, mounting dual LRM-15 racks as well as a LRM-5. A Narc Missile Beacon is also carried, which may be exploited by the Kit Fox D itself, as the targeting systems of Clan LRMs lack a minimum range; this literally allows the Kit Fox D to run up to an enemy and mark them for increased accuracy, and then fall back, firing the entire time.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_kitfox",
@@ -276,15 +286,5 @@
       "y": 3,
       "z": 0
     }
-  ],
-  "VariantName": "KF-D",
-  "ChassisTags": {
-    "items": [
-      "ClanMech",
-      "OmniMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_kit_fox_KF-D.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_kit_fox_KF-D.YangsThoughts/__"
+  ]
 }

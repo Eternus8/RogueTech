@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1262864,
+    "Cost": 1239286.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Griffin",
     "Id": "chassisdef_griffin_GRF-1DS",
     "Name": "Griffin",
-    "Details": "__/Base_3061.chassisdef_griffin_GRF-1DS.Details/__",
+    "Details": "The 1DS variant of the Griffin, built by Defiance Industries, Kallon Industries and Norse BattleMech Works from their respective production lines starting in 3049, was intended to become the new standard model for the Federated Commonwealth. The engine was upgraded to Hermes 275 extralight engine, fourteen double heat sinks improved cooling and the weapons were stripped from the chassis. The 'Mech now carried a Doombud LRM-20 launcher over the right shoulder and a Thunderbolt-12 Large Pulse Laser in the right arm. It also employed CASE to protect the two tons of missile reloads stored in the left torso. The capture of Norse BattleMech on Marduk by the Draconis Combine meant this variant was also employed by the Draconis Combine Mustered Soldiery.",
     "Icon": "uixTxrIcon_griffin"
   },
+  "VariantName": "GRF-1DS",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper & Fire Support",
+  "YangsThoughts": "The 1DS variant of the Griffin, built by Defiance Industries, Kallon Industries and Norse BattleMech Works from their respective production lines starting in 3049, was intended to become the new standard model for the Federated Commonwealth. The engine was upgraded to Hermes 275 extralight engine, fourteen double heat sinks improved cooling and the weapons were stripped from the chassis. The 'Mech now carried a Doombud LRM-20 launcher over the right shoulder and a Thunderbolt-12 Large Pulse Laser in the right arm. It also employed CASE to protect the two tons of missile reloads stored in the left torso. The capture of Norse BattleMech on Marduk by the Draconis Combine meant this variant was also employed by the Draconis Combine Mustered Soldiery.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_griffin",
@@ -57,6 +64,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 55,
   "DFAInstability": 28,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -71,7 +81,7 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -83,7 +93,16 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 130,
@@ -206,15 +225,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "GRF-1DS",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_griffin_GRF-1DS.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_griffin_GRF-1DS.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

@@ -697,6 +697,7 @@
 							"Categories" : [
 								"TargetingComputer",
 								"BCEva",
+								"BCCluster",
 								"BCCrit",
 								"BCRange",
 								"BCEnergy",
@@ -718,7 +719,8 @@
 								"BCMaxRange",
 								"CLANTTS",
 								"TTSComp",
-								"BCMultiTrac"
+								"BCMultiTrac",
+								"BCOptics"
 							]
 						}
 					},
@@ -794,6 +796,7 @@
 								"Chameleon",
 								"TargetingComputer",
 								"BCEva",
+								"BCCluster",
 								"BCCrit",
 								"BCRange",
 								"BCEnergy",

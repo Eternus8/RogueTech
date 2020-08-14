@@ -13,33 +13,33 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Rugged",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_quirk_ChameleonLightPolarizationShield",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Head",
       "ComponentDefID": "Gear_Sensors_AR14",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Rugged",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 671644,
+    "Cost": 702028.0,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -47,9 +47,18 @@
     "UIName": "Spector",
     "Id": "chassisdef_spector_SPR-4F",
     "Name": "Spector",
-    "Details": "__/Base_3061.chassisdef_spector_SPR-4F.Details/__",
+    "Details": "The Spector was originally designed by Norse-Storm BattleMechs to be a lighter version of the Exterminator BattleMech, made to hunt down light command 'Mechs. The first Spector rolled off the assembly line on 6 June, 2639, and following extensive testing the SLDF ordered 600. The Star League's enthusiasm for the Spector is due to the BattleMechs stealth capabilities, a Chameleon Light Polarization Shield<b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
     "Icon": "Spector"
   },
+  "VariantName": "SPR-4F",
+  "ChassisTags": {
+    "items": [
+      "SLDFMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Headhunter",
+  "YangsThoughts": "The Spector was originally designed by Norse-Storm BattleMechs to be a lighter version of the Exterminator BattleMech, made to hunt down light command 'Mechs. The first Spector rolled off the assembly line on 6 June, 2639, and following extensive testing the SLDF ordered 600. The Star League's enthusiasm for the Spector is due to the BattleMechs stealth capabilities, a Chameleon Light Polarization Shield<b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_firestarter",
@@ -119,10 +128,6 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -134,18 +139,6 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -178,10 +171,6 @@
       "Hardpoints": [
         {
           "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -267,14 +256,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "SPR-4F",
-  "ChassisTags": {
-    "items": [
-      "SLDFMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_spector_SPR-4F.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_spector_SPR-4F.YangsThoughts/__"
+  ]
 }

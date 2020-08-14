@@ -9,40 +9,43 @@
       "Exclude": false,
       "Include": true
     },
-    "ChassisDefaults": [
-    ]
+    "ChassisDefaults": []
+  },
+  "CustomParts": {
+    "FiringArc": 150,
+    "CustomParts": []
   },
   "FixedEquipment": [
-  {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Nimble",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-{
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Sensors_AR14",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_quirk_ChameleonLightPolarizationShield",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
-    }	
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Gear_Sensors_AR14",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Nimble",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
+    }
   ],
   "Description": {
-    "Cost": 375467,
+    "Cost": 431787.0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "",
@@ -53,6 +56,15 @@
     "Details": "The Anubis is armed as an effective light fire support 'Mech. Its primary weapons are four Sian/Ceres Jaguar LRM-5 launchers, allowing the 'Mech to provide long range fire support for other light 'Mechs. For close combat, the Anubis has a Diverse Optics ER Small Laser.",
     "Icon": "AnubisRX"
   },
+  "VariantName": "ABS-S7",
+  "ChassisTags": {
+    "items": [
+      "PrototypeMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Ranged Scout",
+  "YangsThoughts": "The Anubis is armed as an effective light fire support 'Mech. Its primary weapons are four Sian/Ceres Jaguar LRM-5 launchers, allowing the 'Mech to provide long range fire support for other light 'Mechs. For close combat, the Anubis has a Diverse Optics ER Small Laser.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_anubis",
@@ -91,7 +103,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -102,8 +119,12 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Energy",
-          "Omni": true
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -117,8 +138,8 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": true
-        }      
+          "Omni": false
+        }
       ],
       "Tonnage": 0,
       "InventorySlots": 12,
@@ -129,9 +150,9 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
-	  {
+        {
           "WeaponMount": "AntiPersonnel",
-          "Omni": true
+          "Omni": false
         },
         {
           "WeaponMountID": "Special",
@@ -161,7 +182,7 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
-          "Omni": true
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -175,7 +196,7 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": true
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -246,16 +267,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "ABS-S7",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Ranged Scout",
-  "YangsThoughts": "The Anubis is armed as an effective light fire support 'Mech. Its primary weapons are four Sian/Ceres Jaguar LRM-5 launchers, allowing the 'Mech to provide long range fire support for other light 'Mechs. For close combat, the Anubis has a Diverse Optics ER Small Laser.",
-  "CustomParts": {
-    "FiringArc": 150,
-    "CustomParts": []
-  }
+  ]
 }

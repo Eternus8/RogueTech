@@ -17,13 +17,13 @@
       "ComponentDefID": "Special_Easy_To_Maintain",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2548148,
+    "Cost": 2502273.0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "",
@@ -31,9 +31,16 @@
     "UIName": "Mackie",
     "Id": "chassisdef_mackie_MSK-9Hc",
     "Name": "Mackie",
-    "Details": "__/Base_3061.chassisdef_mackie_MSK-9Hc.Details/__",
+    "Details": "A clan buster refit developed with Comstar’s mothballed 9Hb’s, the 9Hc was an attempt to fix the failings of it’s predecessor design in a cheap and easy to maintain upgrade package. Identifying the lack of CASE and adequate secondary weapons as the key weaknesses, the Comguard designers disregarded the other weakness – the designs slow ground speed – as being of lesser importance. The designers selected an Endo Steel skeleton as the preferred option, rejecting other more expensive solutions. CASE was installed for both ammo magazines and the designers upgraded the medium lasers to ER versions; installing an extra 3 in the process with double heat sinks incorporated to balance out the heat spike. The 5 completed prototypes served with distinction on Tukayyid, though the design never reached production status; with only 2 other conversions finished before the Word of Blake seized Terra and the remaining stocks of 9Hb’s. .",
     "Icon": "mackie"
   },
+  "VariantName": "MSK-9Hc",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Command Mech",
+  "YangsThoughts": "A clan buster refit developed with Comstar’s mothballed 9Hb’s, the 9Hc was an attempt to fix the failings of it’s predecessor design in a cheap and easy to maintain upgrade package. Identifying the lack of CASE and adequate secondary weapons as the key weaknesses, the Comguard designers disregarded the other weakness – the designs slow ground speed – as being of lesser importance. The designers selected an Endo Steel skeleton as the preferred option, rejecting other more expensive solutions. CASE was installed for both ammo magazines and the designers upgraded the medium lasers to ER versions; installing an extra 3 in the process with double heat sinks incorporated to balance out the heat spike. The 5 completed prototypes served with distinction on Tukayyid, though the design never reached production status; with only 2 other conversions finished before the Word of Blake seized Terra and the remaining stocks of 9Hb’s. .",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_mackie",
@@ -69,6 +76,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 100,
   "DFAInstability": 50,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -105,6 +115,10 @@
           "Omni": false
         },
         {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -120,6 +134,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -239,15 +257,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "MSK-9Hc",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_mackie_MSK-9Hc.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_mackie_MSK-9Hc.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

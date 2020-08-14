@@ -1,17 +1,15 @@
 {
-  "YangsThoughts": "__/Base_3061.vehiclechassisdef_Nightshade.YangsThoughts/__",
-  "Description": {
-    "Id": "vehiclechassisdef_Nightshade",
-    "Name": "Nightshade ECM VTOL",
-    "Details": "",
-    "Icon": "STRIKER",
-    "Cost": 564,
-    "Rarity": 0,
-    "Purchasable": false
+  "Custom": {
+    "CustomWeights": [
+      {
+        "ComponentDefID": "Tank_CargoCompartment",
+        "Tonnage": 0.5
+      }
+    ]
   },
   "CustomParts": {
     "AOEHeight": 75,
-    "FiringArc": 100,
+    "FiringArc": 120,
     "Unaffected": {
       "DesignMasks": "true",
       "Pathing": "true",
@@ -317,7 +315,18 @@
       }
     ]
   },
+  "Description": {
+    "Id": "vehiclechassisdef_Nightshade",
+    "Name": "Nightshade ECM VTOL",
+    "Details": "",
+    "Icon": "STRIKER",
+    "Cost": 1850751,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "MovementCapDefID": "movedef_14-21cv",
+  "movementType": "Wheeled",
   "PathingCapDefID": "pathingdef_vtol",
   "HardpointDataDefID": "hardpointdatadef_warriorvtol",
   "PrefabIdentifier": "chrprfvhcl_warriorvtol",
@@ -327,7 +336,6 @@
   "BattleValue": 564,
   "TopSpeed": 85,
   "TurnRadius": 90,
-  "movementType": "Wheeled",
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
@@ -392,7 +400,7 @@
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 30,
-      "InternalStructure": 10
+      "InternalStructure": 15
     },
     {
       "Location": "Right",
@@ -400,7 +408,7 @@
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 30,
-      "InternalStructure": 10
+      "InternalStructure": 15
     },
     {
       "Location": "Rear",
@@ -408,7 +416,7 @@
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 40,
-      "InternalStructure": 10
+      "InternalStructure": 15
     },
     {
       "Location": "Turret",
@@ -416,7 +424,7 @@
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 10,
-      "InternalStructure": 10
+      "InternalStructure": 15
     }
   ]
 }

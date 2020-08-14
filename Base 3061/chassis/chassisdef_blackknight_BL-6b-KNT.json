@@ -5,14 +5,14 @@
       "ComponentDefID": "Special_Command_Mech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2146766,
+    "Cost": 2127500.0,
     "Rarity": 5,
     "Purchasable": false,
     "Manufacturer": "",
@@ -20,9 +20,18 @@
     "UIName": "Black Knight",
     "Id": "chassisdef_blackknight_BL-6b-KNT",
     "Name": "Black Knight",
-    "Details": "__/Base_3061.chassisdef_blackknight_BL-6b-KNT.Details/__",
+    "Details": "The Black Knight 6B was the harder-hitting, cooler-running Star League ancestor to the standard BL-6-KNT we have today. It did everything the 6 does, but better. Mostly thanks to its Double Heat Sinks.",
     "Icon": "uixTxrIcon_blackknight"
   },
+  "VariantName": "BL-6b-KNT",
+  "ChassisTags": {
+    "items": [
+      "SLDFMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Brawler & Ranged Assault",
+  "YangsThoughts": "The Black Knight 6B was the harder-hitting, cooler-running Star League ancestor to the standard BL-6-KNT we have today. It did everything the 6 does, but better. Mostly thanks to its Double Heat Sinks.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_blackknight",
@@ -65,6 +74,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -100,10 +113,6 @@
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -160,6 +169,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -233,14 +246,5 @@
       "y": 6,
       "z": 0
     }
-  ],
-  "VariantName": "BL-6b-KNT",
-  "ChassisTags": {
-    "items": [
-      "SLDFMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_blackknight_BL-6b-KNT.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_blackknight_BL-6b-KNT.YangsThoughts/__"
+  ]
 }

@@ -8,7 +8,8 @@
     "BonusDescriptions": {
       "Bonuses": [
         "PPCDEBUFF: 1",
-        "WpnRecoil: 1"
+        "WpnRecoil: 1",
+        "MineClearanceBoom: 1"
       ]
     },
     "InventorySorter": {
@@ -23,7 +24,7 @@
   "RangeSplit": [
     210,
     420,
-    630
+    690
   ],
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
@@ -64,12 +65,13 @@
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "PPC",
-  "BattleValue": 0,
+  "BattleValue": 412,
   "InventorySize": 2,
   "Tonnage": 6,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "ClearMineFieldRadius": 8,
   "statusEffects": [
     {
       "durationData": {

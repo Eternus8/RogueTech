@@ -12,9 +12,9 @@
       "ComponentDefID": "Special_Improved_Cooling_Jacket_Laser",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -26,9 +26,16 @@
     "UIName": "Emperor",
     "Id": "chassisdef_emperor_EMP-6A",
     "Name": "Emperor",
-    "Details": "__/Base_3061.chassisdef_emperor_EMP-6A.Details/__",
+    "Details": "The Emperor is one of the earliest assault BattleMechs, dating back to 2502. The Emperor also bears the distinction of being the first 90+ ton BattleMech to mount jump jets (the famed Highlander began production in 2592). In 2612, StarCorps introduced an upgraded Emperor, EMP-6A designed for and distributed exclusively to Star League Defense Forces Royal Units. The Emperor was produced continuously until Marik forces destroyed StarCorps Industries facility with nuclear arms on Son Hoa during the Second Succession War. Production of the Emperor resumed in 3057 alongside the legendary Highlander. <color=#53ff1a>Restricted Actuators-Right: Lower</color></b>",
     "Icon": "uixTxrIcon_emperor"
   },
+  "VariantName": "EMP-6A",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Heavy Cavalry",
+  "YangsThoughts": "The Emperor is one of the earliest assault BattleMechs, dating back to 2502. The Emperor also bears the distinction of being the first 90+ ton BattleMech to mount jump jets (the famed Highlander began production in 2592). In 2612, StarCorps introduced an upgraded Emperor, EMP-6A designed for and distributed exclusively to Star League Defense Forces Royal Units. The Emperor was produced continuously until Marik forces destroyed StarCorps Industries facility with nuclear arms on Son Hoa during the Second Succession War. Production of the Emperor resumed in 3057 alongside the legendary Highlander. <color=#53ff1a>Restricted Actuators-Right: Lower</color></b>",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_emperor",
@@ -64,6 +71,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 90,
   "DFAInstability": 45,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -83,11 +93,11 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -105,7 +115,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -119,7 +129,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -163,11 +173,11 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -239,15 +249,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "EMP-6A",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_emperor_EMP-6A.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_emperor_EMP-6A.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

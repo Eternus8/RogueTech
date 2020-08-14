@@ -13,7 +13,7 @@
       "Bonuses": [
         "WpnRecoil: 1",
         "WeaponBoom: 50",
-		"HeatPerCharge: 0.3",
+        "HeatPerCharge: 0.3",
         "EvasiveExponent: 0.4",
         "IsLaser"
       ]
@@ -78,7 +78,7 @@
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "Laser",
-  "BattleValue": 0,
+  "BattleValue": 72,
   "InventorySize": 3,
   "Tonnage": 3,
   "AllowedLocations": "All",
@@ -89,8 +89,7 @@
     "Instablility": 0.2,
     "GeneratedHeat": 0.3
   },
-  "Modes": [
-  ],
+  "Modes": [],
   "statusEffects": [],
   "ComponentTags": {
     "items": [

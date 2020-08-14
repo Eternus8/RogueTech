@@ -8,7 +8,6 @@
     "BonusDescriptions": {
       "Bonuses": [
         "IsThunderbolt",
-        "AMSChance: -30%",
         "Indirect"
       ]
     },
@@ -28,7 +27,7 @@
   ],
   "AmmoCategory": "TBOLT10",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 13,
+  "HeatGenerated": 15,
   "Damage": 55,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
@@ -38,7 +37,7 @@
   "AccuracyModifier": 0,
   "CriticalChanceMultiplier": 1,
   "APArmorShardsMod": 0.25,
-  "APMaxArmorThickness": 250,
+  "APMaxArmorThickness": 275,
   "APCriticalChanceMultiplier": 0.25,
   "IndirectFireCapable": true,
   "RefireModifier": 0,
@@ -46,9 +45,8 @@
   "ProjectilesPerShot": 1,
   "AttackRecoil": 1,
   "Instability": 14,
-  "AMSHitChance": -0.3,
   "FireTerrainChance": 0.0625,
-  "ProjectileSpeedMultiplier": 1.4,
+  "ProjectileSpeedMultiplier": 1.2,
   "ImprovedBallistic": true,
   "AOEEffectsFalloff": true,
   "WeaponEffectID": "WeaponEffect-Weapon_LRM10",
@@ -69,7 +67,7 @@
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "lrm10",
-  "BattleValue": 0,
+  "BattleValue": 127,
   "InventorySize": 2,
   "Tonnage": 6,
   "AllowedLocations": "All",

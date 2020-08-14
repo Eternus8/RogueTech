@@ -14,11 +14,12 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-				"LRMDamage: -75%",
-				"AreaOfEffect: 45",
-				"AreaOfEffectDmg: 4",
-				"DFLRMAccuracy: -1",
-				"MissileHP: 3",
+				"LRMDamage: -60%",
+				"AreaOfEffect: 30",
+				"AreaOfEffectDmg: 3",
+                "DFMissileAcc: -1",
+                "WpnCrits: -70%",
+				"MissileHP: 2",
 				"Swarmi",
 				"NoAA",
 				"LRMAmmo: 60"

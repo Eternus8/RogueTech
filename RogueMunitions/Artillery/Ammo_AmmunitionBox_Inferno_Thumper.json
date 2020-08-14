@@ -10,26 +10,29 @@
                 "not_broken"
             ]
         },
-		"VolatileAmmo":{"damageWeighting" : 1.0},
+        "VolatileAmmo": {
+            "damageWeighting": 1.0
+        },
         "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 15,
+            "ExplosionDamagePerAmmo": 35,
             "HeatDamagePerAmmo": 35,
-            "StabilityDamagePerAmmo": 5
+            "StabilityDamagePerAmmo": 20
         },
         "BonusDescriptions": {
             "Bonuses": [
-                "ThumperDamage: -25",
-                "HeatDamage: 10",
-                "AreaOfEffect: 100",
+                "HeatDamage: +25",
+                "AreaOfEffectConversion: 80%",
+                "AreaOfEffect: 45",
                 "AreaOfEffectDmg: 25",
-                "AreaOfEffectHeatDmg: 15",
+                "AreaOfEffectSTABDmg: 12",
+                "AreaOfEffectHeatDmg: 25",
                 "AlwaysStartsFireAnywhere",
                 "FireTerrainSize: 6",
                 "FireTerrainDuration: 4",
                 "FireTerrainStrength: 15",
-				"ScatterRadius: 30, 100",
+                "ScatterRadius: 30, 100",
                 "ThumperAmmo: 20",
-				"VolatileAmmo"
+                "VolatileAmmo"
             ]
         },
         "InventorySorter": {

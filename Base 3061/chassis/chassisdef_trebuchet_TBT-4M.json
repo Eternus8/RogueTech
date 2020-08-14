@@ -11,13 +11,13 @@
       "ComponentDefID": "Special_Easy_To_Maintain",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 835185,
+    "Cost": 827752.0,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -25,9 +25,16 @@
     "UIName": "Trebuchet",
     "Id": "chassisdef_trebuchet_TBT-4M",
     "Name": "Trebuchet",
-    "Details": "__/Base_3061.chassisdef_trebuchet_TBT-4M.Details/__",
+    "Details": "One of the lightest dedicated fire support 'Mechs to be found, the Trebuchet 4M comes with Deadfire ammo and is among the cooler-running 'Trenchbuckets'. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
     "Icon": "uixTxrIcon_trebuchet"
   },
+  "VariantName": "TBT-4M",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fire Support",
+  "YangsThoughts": "One of the lightest dedicated fire support 'Mechs to be found, the Trebuchet 4M comes with Deadfire ammo and is among the cooler-running 'Trenchbuckets'. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_trebuchet",
@@ -99,7 +106,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -112,6 +119,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -233,12 +244,5 @@
       "y": 6,
       "z": 2.5
     }
-  ],
-  "VariantName": "TBT-4M",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_trebuchet_TBT-4M.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_trebuchet_TBT-4M.YangsThoughts/__"
+  ]
 }

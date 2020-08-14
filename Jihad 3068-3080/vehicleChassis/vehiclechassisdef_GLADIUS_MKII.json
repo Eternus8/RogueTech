@@ -1,19 +1,21 @@
 {
   "CustomParts": {
     "MoveCost": "Hover",
-    "MoveClamp": 0.5
+    "MoveClamp": 0.5,
+    "FiringArc": 120
   },
-  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "Description": {
     "Id": "vehiclechassisdef_GLADIUS_MKII",
     "Name": "Gladius Medium Hovertank",
     "Details": "",
     "Icon": "Gladius",
-    "Cost": 564,
+    "Cost": 1675201,
     "Rarity": 0,
     "Purchasable": false
   },
+  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "MovementCapDefID": "movedef_8-12cv",
+  "movementType": "Wheeled",
   "PathingCapDefID": "pathingdef_medium_hover",
   "HardpointDataDefID": "hardpointdatadef_sldfdrone",
   "PrefabIdentifier": "chrPrfVhcl_sldfdrone",
@@ -23,7 +25,6 @@
   "BattleValue": 564,
   "TopSpeed": 125,
   "TurnRadius": 90,
-  "movementType": "Wheeled",
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
@@ -73,19 +74,19 @@
       "Location": "Front",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
           "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -125,14 +126,6 @@
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 90,
-      "InternalStructure": 20
-    },
-    {
-      "Location": "Turret",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 0,
-      "MaxArmor": 95,
       "InternalStructure": 20
     }
   ]

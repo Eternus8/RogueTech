@@ -12,7 +12,8 @@
       "Bonuses": [
         "IsLRM",
         "Indirect",
-        "DoesCluster"
+        "DoesCluster",
+        "ModesCanMisfire"
       ]
     }
   },
@@ -72,7 +73,7 @@
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "lrm20",
-  "BattleValue": 0,
+  "BattleValue": 181,
   "InventorySize": 4,
   "Tonnage": 10,
   "AllowedLocations": "All",

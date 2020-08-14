@@ -5,15 +5,19 @@
     },
     "ChassisDefaults": []
   },
+  "CustomParts": {
+    "FiringArc": 150,
+    "CustomParts": []
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Extended_Torso_Twist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -25,9 +29,16 @@
     "UIName": "Wasp",
     "Id": "chassisdef_wasp_WSP-1D",
     "Name": "Wasp",
-    "Details": "__/Base_3061.chassisdef_wasp_WSP-1D.Details/__",
+    "Details": "Designed as a fast, jump-capable reconnaissance platform, the Wasp has served capably in that role for well over half a millennium, a testament to the utility of the original design. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
     "Icon": "wasp"
   },
+  "VariantName": "WSP-1D",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Scout",
+  "YangsThoughts": "Long history and all, Best to keep these units at range for flanking and spotting. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_wasp",
@@ -97,10 +108,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -137,7 +144,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 50,
@@ -220,16 +232,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "WSP-1D",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_wasp_WSP-1D.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_wasp_WSP-1D.YangsThoughts/__",
-  "CustomParts": {
-    "FiringArc": 150,
-    "CustomParts": []
-  }
+  ]
 }

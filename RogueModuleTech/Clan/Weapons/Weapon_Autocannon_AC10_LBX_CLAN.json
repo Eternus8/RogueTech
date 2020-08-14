@@ -7,7 +7,7 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
-        "WpnRecoil: 3",
+        "WpnRecoil: 2",
         "LBX"
       ]
     },
@@ -41,7 +41,7 @@
   "APCriticalChanceMultiplier": 0.3,
   "AOECapable": false,
   "IndirectFireCapable": false,
-  "RefireModifier": 3,
+  "RefireModifier": 2,
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
   "AttackRecoil": 4,
@@ -68,7 +68,7 @@
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "LBX10",
-  "BattleValue": 0,
+  "BattleValue": 148,
   "InventorySize": 4,
   "Tonnage": 10,
   "AllowedLocations": "All",

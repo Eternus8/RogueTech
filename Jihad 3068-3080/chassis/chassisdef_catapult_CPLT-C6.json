@@ -4,6 +4,11 @@
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
     },
+    "AssemblyVariant": {
+      "PrefabID": "Catapult",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
@@ -12,14 +17,14 @@
       "ComponentDefID": "Special_Accurate_Category_Missiles",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1390741,
+    "Cost": 1403505.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -30,6 +35,13 @@
     "Details": "A field refit of the C5 pressed into service by the Capellans during the Jihad, the C6 removes the artillery and two ER medium lasers to mount paired Plasma Rifles with three tons of ammo and three additional double heat sinks keep heat down. Such was the nature of this refit that even the CASE is still mounted, despite lacking any systems to warrant its use.",
     "Icon": "uixTxrIcon_catapult"
   },
+  "VariantName": "CPLT-C6",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Fire Support",
+  "YangsThoughts": "A field refit of the C5 pressed into service by the Capellans during the Jihad, the C6 removes the artillery and two ER medium lasers to mount paired Plasma Rifles with three tons of ammo and three additional double heat sinks keep heat down. Such was the nature of this refit that even the CASE is still mounted, despite lacking any systems to warrant its use.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_catapult",
@@ -65,6 +77,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 65,
   "DFAInstability": 33,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -78,10 +93,6 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
         {
           "WeaponMount": "Missile",
           "Omni": false
@@ -145,7 +156,7 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -235,15 +246,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "CPLT-C6",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Heavy Fire Support",
-  "YangsThoughts": "A field refit of the C5 pressed into service by the Capellans during the Jihad, the C6 removes the artillery and two ER medium lasers to mount paired Plasma Rifles with three tons of ammo and three additional double heat sinks keep heat down. Such was the nature of this refit that even the CASE is still mounted, despite lacking any systems to warrant its use.",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

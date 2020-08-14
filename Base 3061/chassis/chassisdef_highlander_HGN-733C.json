@@ -11,10 +11,10 @@
       "ComponentDefID": "Special_Reinforced_Legs",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -26,9 +26,16 @@
     "UIName": "Highlander",
     "Id": "chassisdef_highlander_HGN-733C",
     "Name": "Highlander",
-    "Details": "__/Base_3061.chassisdef_highlander_HGN-733C.Details/__",
+    "Details": "The Highlander 733C is a simple variant of the 733 model that removes 2 tons of missile ammunition and upscales its Autocannon 10 to an Autocannon 20.  This sacrifices some of its long range functionality, but give it a true brawler profile. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
     "Icon": "uixTxrIcon_highlander"
   },
+  "VariantName": "HGN-733C",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Heavy Cavalry",
+  "YangsThoughts": "The Highlander 733C sacrifices some of the 733s long range ability, but give it a true brawler profile. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_highlander",
@@ -226,12 +233,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "HGN-733C",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_highlander_HGN-733C.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_highlander_HGN-733C.YangsThoughts/__"
+  ]
 }

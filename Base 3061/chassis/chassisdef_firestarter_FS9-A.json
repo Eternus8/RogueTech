@@ -12,9 +12,9 @@
       "ComponentDefID": "Special_Ubiquitous",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -26,9 +26,16 @@
     "UIName": "Firestarter",
     "Id": "chassisdef_firestarter_FS9-A",
     "Name": "Firestarter",
-    "Details": "__/Base_3061.chassisdef_firestarter_FS9-A.Details/__",
+    "Details": "The original Firestarter model, the FS9-A used Small Lasers instead of Machine Guns and mounted an extra ton of armor.  This caused some heat issues and led to the development of the more familiar FS9-H, with its Machine Guns. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
     "Icon": "uixTxrIcon_firestarter"
   },
+  "VariantName": "FS9-A",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Scout & Disabler",
+  "YangsThoughts": "Don't see many of these older models around these days.  Seems to me that the extra ton should have been used on a Heat Sink instead of armor - I can get the crew on that for you now if you want. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_firestarter",
@@ -98,10 +105,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -149,6 +152,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -238,12 +245,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "FS9-A",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_firestarter_FS9-A.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_firestarter_FS9-A.YangsThoughts/__"
+  ]
 }

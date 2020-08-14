@@ -11,13 +11,13 @@
       "ComponentDefID": "Special_Command_Mech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 12555960,
+    "Cost": 2479955.0,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "",
@@ -25,12 +25,21 @@
     "UIName": "Imp",
     "Id": "chassisdef_imp_IMP-1C",
     "Name": "Imp",
-    "Details": "__/Base_3061.chassisdef_imp_IMP-1C.Details/__",
+    "Details": "Another early version based on the Imp 1B, this variant mounts a Gauss Rifle in the right arm. The Imp 1C uses the head mounted Small Laser of the Imp 1A in place of the Medium Pulse Laser. The Guardian ECM suite is still in the right torso. One heat sink is removed, giving the Imp 1C a total of seventeen double heat sinks.",
     "Icon": "Imp"
   },
   "VariantName": "IMP-1C",
-  "StockRole": "__/Base_3061.chassisdef_imp_IMP-1C.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_imp_IMP-1C.YangsThoughts/__",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.05"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut",
+  "YangsThoughts": "Another early version based on the Imp 1B, this variant mounts a Gauss Rifle in the right arm. The Imp 1C uses the head mounted Small Laser of the Imp 1A in place of the Medium Pulse Laser. The Guardian ECM suite is still in the right torso. One heat sink is removed, giving the Imp 1C a total of seventeen double heat sinks.",
+  "MovementCapDefID": "movedef_assaultmech",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_imp",
   "PrefabIdentifier": "chrprfmech_impbase-001",
   "PrefabBase": "imp",
   "Tonnage": 100,
@@ -56,8 +65,6 @@
   "Signature": 0,
   "Radius": 4,
   "PunchesWithLeftArm": false,
-  "AlwaysPunchIfPossible": false,
-  "EngageRangeModifier": 0,
   "MeleeDamage": 50,
   "MeleeInstability": 25,
   "MeleeToHitModifier": -1,
@@ -65,67 +72,20 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 100,
   "DFAInstability": 50,
-  "ChassisTags": {
-    "items": [
-      "mr-resize-1.05"
-    ],
-    "tagSetSourceFile": ""
-  },
   "MechPartMax": 0,
-  "MovementCapDefID": "movedef_assaultmech",
-  "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_imp",
-  "LOSSourcePositions": [
-    {
-      "x": 0,
-      "y": 9.5,
-      "z": 0.5
-    },
-    {
-      "x": -2.5,
-      "y": 8.5,
-      "z": -0.5
-    },
-    {
-      "x": 2.5,
-      "y": 8.5,
-      "z": -0.5
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0,
-      "y": 9.5,
-      "z": 0.5
-    },
-    {
-      "x": -2.5,
-      "y": 8.5,
-      "z": -0.5
-    },
-    {
-      "x": 2.5,
-      "y": 8.5,
-      "z": -0.5
-    },
-    {
-      "x": -1.5,
-      "y": 3,
-      "z": 0.5
-    },
-    {
-      "x": 1.5,
-      "y": 3,
-      "z": 0.5
-    }
-  ],
   "MechPartCount": 0,
+  "EngageRangeModifier": 0,
+  "AlwaysPunchIfPossible": false,
   "Locations": [
     {
       "Location": "Head",
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -215,10 +175,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -258,6 +214,50 @@
       "MaxArmor": 210,
       "MaxRearArmor": -1,
       "InternalStructure": 105
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 9.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 9.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": -1.5,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 1.5,
+      "y": 3,
+      "z": 0.5
     }
   ]
 }

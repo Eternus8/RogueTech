@@ -14,12 +14,12 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-				"LRMDamage: -3",
+				"LRMDamage: -70%",
 				"ThunderMines: 1",
 				"ThunderRadius: 2",
 				"ThunderChance: 30%",
                 "ThunderDamage: 5",
-                "LRMAccuracy: -5",
+                "WpnAccuracy: -5",
 				"MissileHP: 2",
 				"Thunder",
 				"NoAA",

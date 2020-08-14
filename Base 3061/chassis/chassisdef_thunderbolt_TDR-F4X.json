@@ -5,9 +5,9 @@
       "ComponentDefID": "Special_MultiTrack",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -19,9 +19,18 @@
     "UIName": "Thunderbolt",
     "Id": "chassisdef_thunderbolt_TDR-F4X",
     "Name": "Thunderbolt",
-    "Details": "__/Base_3061.chassisdef_thunderbolt_TDR-F4X.Details/__",
+    "Details": "Build from derelict Thunderbolt chassis abandonded during Amaris Revolt carries this mech a cheap AC10 alongside 2 MRM10.",
     "Icon": "uixTxrIcon_thunderbolt"
   },
+  "VariantName": "TDR-F4X",
+  "ChassisTags": {
+    "items": [
+      "Primitive"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Skirmisher & Brawler",
+  "YangsThoughts": "Build from derelict Thunderbolt chassis abandonded during Amaris Revolt carries this mech a cheap AC10 alongside 2 MRM10.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_thunderbolt",
@@ -87,10 +96,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -144,6 +149,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -215,14 +224,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "TDR-F4X",
-  "ChassisTags": {
-    "items": [
-      "Primitive"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_thunderbolt_TDR-F4X.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_thunderbolt_TDR-F4X.YangsThoughts/__"
+  ]
 }

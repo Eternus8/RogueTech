@@ -7,11 +7,12 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "AMS",
-				"AMSDmg: 1",
+                "AMSSINGLE",
+                "AMSDmg: 1",
                 "AMSAcc: 50%",
                 "AMSShots: 20",
                 "AMSHeat: 0",
-                "OLAMSANY",
+                "OLAMSMULTI",
                 "OLAMSShots: 30",
                 "OLAMSHeat: 2",
                 "OLAMSJam: 40%",
@@ -88,7 +89,7 @@
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "AMS",
-    "BattleValue": 0,
+    "BattleValue": 32,
     "InventorySize": 1,
     "Tonnage": 0.5,
     "AllowedLocations": "All",

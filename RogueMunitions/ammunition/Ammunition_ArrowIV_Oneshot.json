@@ -16,5 +16,24 @@
    "ArmorDamageModifier": 1,
    "ISDamageModifier": 1,
    "CriticalDamageModifier": 1,
-   "HideIfOnlyVariant": true
+   "AOECapable": true,
+   "AOERange": 75,
+   "AOEDamage": 100,
+   "AOEInstability": 50,
+   "DamageMultiplier": 0.2,
+   "ClearMineFieldRadius": 15,
+   "AdditionalImpactVFX": "WFX_ExplosiveSmokeM",
+   "AdditionalImpactVFXScaleX": 2,
+   "AdditionalImpactVFXScaleY": 2,
+   "AdditionalImpactVFXScaleZ": 2,
+   "FireDurationWithoutForest": 0,
+   "FireTerrainChance": 0.02,
+   "FireTerrainStrength": 15,
+   "FireTerrainCellRadius": 6,
+   "FireOnSuccessHit": true,
+   "HideIfOnlyVariant": true,
+   "ChassisTagsAccuracyModifiers": {
+      "unit_vtol": -50
+   },
+   "MissileHealth": 20
 }

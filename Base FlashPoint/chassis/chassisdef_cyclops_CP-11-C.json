@@ -5,14 +5,14 @@
       "ComponentDefID": "Gear_Cockpit_Tacticon_B2000_Battle_Computer",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
+      "SimGameUID": "",
       "prefabName": "",
       "hasPrefabName": true,
-      "SimGameUID": ""
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 10909810,
+    "Cost": 2338084.0,
     "Rarity": 5,
     "Purchasable": false,
     "Manufacturer": "",
@@ -23,6 +23,13 @@
     "Details": "The 11-C is similar to the 11-A in that they carry an almost identical weapons payload. Built in 3050 the only difference is that the 11-C has removed the LRM-10 launcher and replaced it with a C3 Computer, which allows it to share targeting data and coordinate C3 lances. An additional two tons of armor have been added to the design as well. This makes the 11-C a highly effective sniper and command 'Mech.",
     "Icon": "uixTxrIcon_cyclops"
   },
+  "VariantName": "CP-11-C",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Command Mech",
+  "YangsThoughts": "The 11-C is similar to the 11-A in that they carry an almost identical weapons payload. Built in 3050 the only difference is that the 11-C has removed the LRM-10 launcher and replaced it with a C3 Computer, which allows it to share targeting data and coordinate C3 lances. An additional two tons of armor have been added to the design as well. This makes the 11-C a highly effective sniper and command 'Mech.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_cyclops",
@@ -58,10 +65,18 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 90,
   "DFAInstability": 45,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -70,20 +85,7 @@
     },
     {
       "Location": "LeftArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 150,
@@ -94,7 +96,11 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -151,10 +157,6 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -232,15 +234,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "CP-11-C",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Command Mech",
-  "YangsThoughts": "The 11-C is similar to the 11-A in that they carry an almost identical weapons payload. Built in 3050 the only difference is that the 11-C has removed the LRM-10 launcher and replaced it with a C3 Computer, which allows it to share targeting data and coordinate C3 lances. An additional two tons of armor have been added to the design as well. This makes the 11-C a highly effective sniper and command 'Mech.",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

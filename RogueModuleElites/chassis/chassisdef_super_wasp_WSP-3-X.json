@@ -1,18 +1,25 @@
 {
+  "Custom": {
+    "AssemblyVariant": {
+      "PrefabID": "SuperWasp",
+      "Exclude": false,
+      "Include": true
+    }
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_JumpAttack",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": true
+      "IsFixed": true,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 337500,
+    "Cost": 381344.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -23,6 +30,15 @@
     "Details": "Coming from the same project that took a second look at the Phoenix Super Griffin has this Wasp received substantial upgrades to nearly every piece.",
     "Icon": "uixTxrIcon_wasp"
   },
+  "VariantName": "WSP-3-X",
+  "ChassisTags": {
+    "items": [
+      "PrototypeMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Scout",
+  "YangsThoughts": "Coming from the same project that took a second look at the Phoenix Super Griffin has this Wasp received substantial upgrades to nearly every piece.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_wasp",
@@ -119,7 +135,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 60,
@@ -129,6 +150,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -211,12 +236,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "WSP-3-X",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Light Scout",
-  "YangsThoughts": "Coming from the same project that took a second look at the Phoenix Super Griffin has this Wasp received substantial upgrades to nearly every piece."
+  ]
 }

@@ -15,61 +15,61 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Easy_To_Maintain",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_structureslots_endosteel",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_engine_175",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_Gyro_Omnimech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_engine_175",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engineslots_xl_center",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "emod_engineslots_size3",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "emod_engineslots_size3",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Easy_To_Maintain",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -81,9 +81,19 @@
     "UIName": "Raptor",
     "Id": "chassisdef_raptor_RTX1-OD",
     "Name": "Raptor",
-    "Details": "__/Base_3061.chassisdef_raptor_RTX1-OD.Details/__",
+    "Details": "Loaded with advanced electronic equipment, the D configuration carries a TAG laser designator, a Beagle Active Probe, and a C3 Slave unit. The Raptor D is armed with a short-range arsenal of three Streak SRM-2 launchers and two Small Lasers. To deter infantry attacks, the D configuration has two Machine Guns. The combination of a Beagle Active Probe with TAG and a C3 slave make the Raptor D an excellent point 'Mech for light C3 lances, since it is able to share targeting information with allied units and also find hidden units and designate them for highly accurate artillery fire.  ",
     "Icon": "raptor"
   },
+  "VariantName": "RTX1-OD",
+  "ChassisTags": {
+    "items": [
+      "OmniMech",
+      "mr-resize-0.9-0.7-0.5"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Proto OmniMech",
+  "YangsThoughts": "Loaded with advanced electronic equipment, the D configuration carries a TAG laser designator, a Beagle Active Probe, and a C3 Slave unit. The Raptor D is armed with a short-range arsenal of three Streak SRM-2 launchers and two Small Lasers. To deter infantry attacks, the D configuration has two Machine Guns. The combination of a Beagle Active Probe with TAG and a C3 slave make the Raptor D an excellent point 'Mech for light C3 lances, since it is able to share targeting information with allied units and also find hidden units and designate them for highly accurate artillery fire.  ",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_cicada",
@@ -165,23 +175,23 @@
           "Omni": true
         },
         {
-          "WeaponMountID": "Special",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "Special",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "SpecialMelee",
-          "Omni": false
-        },
-        {
-          "WeaponMountID": "SpecialMelee",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "SpecialMelee",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "SpecialMelee",
           "Omni": false
         }
       ],
@@ -285,15 +295,5 @@
       "y": 6,
       "z": 0
     }
-  ],
-  "VariantName": "RTX1-OD",
-  "ChassisTags": {
-    "items": [
-      "OmniMech",
-      "mr-resize-0.9-0.7-0.5"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_raptor_RTX1-OD.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_raptor_RTX1-OD.YangsThoughts/__"
+  ]
 }

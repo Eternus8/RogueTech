@@ -9,26 +9,26 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Special_Narrow_Low_Profile",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "prefabName": "",
-      "hasPrefabName": true
-    },
-    {
-      "MountedLocation": "CenterTorso",
       "ComponentDefID": "emod_engine_170",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
+      "IsFixed": false,
       "prefabName": "",
       "hasPrefabName": true,
-      "IsFixed": false
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Narrow_Low_Profile",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "prefabName": "",
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 286905,
+    "Cost": 284434.0,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -36,9 +36,16 @@
     "UIName": "Locust",
     "Id": "chassisdef_locust_LCT-1E",
     "Name": "Locust",
-    "Details": "__/Base_3061.chassisdef_locust_LCT-1E.Details/__",
+    "Details": "The Locust 1E was an attempt to turn the Locust into a viable front line mech by increasing its firepower with an additional Medium Laser.  Having removed its reliance on ammunition, the Locust is able to operate for an extended amount of time without supplies. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_locust"
   },
+  "VariantName": "LCT-1E",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Striker & Scout",
+  "YangsThoughts": "The Locust 1E was an attempt to turn the Locust into a viable front line mech by increasing its firepower with an additional Medium Laser.  Having removed its reliance on ammunition, the Locust is able to operate for an extended amount of time without supplies. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_locust",
@@ -119,6 +126,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -231,12 +242,5 @@
       "y": 3,
       "z": 0
     }
-  ],
-  "VariantName": "LCT-1E",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_locust_LCT-1E.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_locust_LCT-1E.YangsThoughts/__"
+  ]
 }

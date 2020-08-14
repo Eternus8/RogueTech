@@ -3,17 +3,18 @@
     "MoveCost": "Hover",
     "MoveClamp": 0.5
   },
-  "YangsThoughts": "__/Base_3061.vehiclechassisdef_PEGASUS_MG.YangsThoughts/__",
   "Description": {
     "Id": "vehiclechassisdef_PEGASUS_MG",
     "Name": "Pegasus Scout Hovertank",
     "Details": "",
     "Icon": "Pegasus",
-    "Cost": 993,
+    "Cost": 998325,
     "Rarity": 3,
     "Purchasable": false
   },
+  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "MovementCapDefID": "movedef_8-12cv",
+  "movementType": "Wheeled",
   "PathingCapDefID": "pathingdef_light_hover",
   "HardpointDataDefID": "hardpointdatadef_pegasus",
   "PrefabIdentifier": "chrprfvhcl_pegasusbase",
@@ -23,7 +24,6 @@
   "BattleValue": 993,
   "TopSpeed": 500,
   "TurnRadius": 90,
-  "movementType": "Wheeled",
   "SpotterDistanceMultiplier": 1.25,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1.25,
@@ -75,6 +75,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -84,12 +88,7 @@
     },
     {
       "Location": "Left",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 95,
@@ -97,12 +96,7 @@
     },
     {
       "Location": "Right",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 0,
       "MaxArmor": 95,
@@ -121,6 +115,18 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],

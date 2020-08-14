@@ -17,9 +17,9 @@
       "ComponentDefID": "Special_Easy_To_Maintain",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -31,9 +31,18 @@
     "UIName": "Mackie",
     "Id": "chassisdef_mackie_MSK-6S",
     "Name": "Mackie",
-    "Details": "__/Base_3061.chassisdef_mackie_MSK-6S.Details/__",
+    "Details": "Developed by the Terran Hegemony in the 25th century, the Mackie was the first true BattleMech. Based on advanced technology that the Hegemony Armed Forces (HAF) had been developing for decades under Director-General Jacob Cameron, the Mackie was the ultimate manifestation of Hegemony military might. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "mackie"
   },
+  "VariantName": "MSK-6S",
+  "ChassisTags": {
+    "items": [
+      "Primitive"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Granddady Mech",
+  "YangsThoughts": "Developed by the Terran Hegemony in the 25th century, the Mackie was the first true BattleMech. Based on advanced technology that the Hegemony Armed Forces (HAF) had been developing for decades under Director-General Jacob Cameron, the Mackie was the ultimate manifestation of Hegemony military might. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_mackie",
@@ -69,6 +78,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 100,
   "DFAInstability": 50,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -99,10 +111,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -114,6 +122,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -227,17 +239,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "MSK-6S",
-  "ChassisTags": {
-    "items": [
-      "Primitive"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_mackie_MSK-6S.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_mackie_MSK-6S.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

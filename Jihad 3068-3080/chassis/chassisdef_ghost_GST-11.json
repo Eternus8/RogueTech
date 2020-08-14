@@ -1,17 +1,25 @@
 {
+  "Custom": {
+    "AssemblyVariant": {
+      "PrefabID": "Ghost",
+      "Exclude": false,
+      "Include": true
+    },
+    "ChassisDefaults": []
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Improved_Sensors",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 850472,
+    "Cost": 827752.0,
     "Rarity": 2,
     "Purchasable": false,
     "Manufacturer": "",
@@ -22,6 +30,13 @@
     "Details": "Developed as a complement to the Griffin in the later years of the Jihad, the Ghost is a medium strike 'Mech that saw considerable use in the years after the formation of the Republic of the Sphere. Developed by the Lyran Commonwealth and elements of the former Free Worlds League the Ghost carries an extensive array of electronic warfare equipment into combat. A Beagle Active Probe allows the Ghost to find enemy units, while Stealth Armor and a Guardian ECM Suite allows the 'Mech to live up to its name. With excellent land speed and formidable medium-range weaponry, the Ghost is ideal for hunter-killer and heavy raiding missions, especially when paired with Griffins. This Ghost variant introduced in 3082 is popular with mercenary commands and is available for purchase by anyone. The key difference is the Stealth Armor has been removed and replaced by conventional armor.",
     "Icon": "Ghost"
   },
+  "VariantName": "GST-11",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Scout & Headhunter",
+  "YangsThoughts": "Developed as a complement to the Griffin in the later years of the Jihad, the Ghost is a medium strike 'Mech that saw considerable use in the years after the formation of the Republic of the Sphere. Developed by the Lyran Commonwealth and elements of the former Free Worlds League the Ghost carries an extensive array of electronic warfare equipment into combat. A Beagle Active Probe allows the Ghost to find enemy units, while Stealth Armor and a Guardian ECM Suite allows the 'Mech to live up to its name. With excellent land speed and formidable medium-range weaponry, the Ghost is ideal for hunter-killer and heavy raiding missions, especially when paired with Griffins. This Ghost variant introduced in 3082 is popular with mercenary commands and is available for purchase by anyone. The key difference is the Stealth Armor has been removed and replaced by conventional armor.",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_griffin",
@@ -73,6 +88,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -84,6 +103,10 @@
     {
       "Location": "LeftTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
         {
           "WeaponMount": "Missile",
           "Omni": false
@@ -102,6 +125,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -219,12 +246,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "GST-11",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Scout & Headhunter",
-  "YangsThoughts": "Developed as a complement to the Griffin in the later years of the Jihad, the Ghost is a medium strike 'Mech that saw considerable use in the years after the formation of the Republic of the Sphere. Developed by the Lyran Commonwealth and elements of the former Free Worlds League the Ghost carries an extensive array of electronic warfare equipment into combat. A Beagle Active Probe allows the Ghost to find enemy units, while Stealth Armor and a Guardian ECM Suite allows the 'Mech to live up to its name. With excellent land speed and formidable medium-range weaponry, the Ghost is ideal for hunter-killer and heavy raiding missions, especially when paired with Griffins. This Ghost variant introduced in 3082 is popular with mercenary commands and is available for purchase by anyone. The key difference is the Stealth Armor has been removed and replaced by conventional armor."
+  ]
 }

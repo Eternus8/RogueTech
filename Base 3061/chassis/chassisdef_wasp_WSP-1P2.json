@@ -5,19 +5,23 @@
     },
     "ChassisDefaults": []
   },
+  "CustomParts": {
+    "FiringArc": 150,
+    "CustomParts": []
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Extended_Torso_Twist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 291990,
+    "Cost": 286905.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -25,9 +29,16 @@
     "UIName": "Wasp",
     "Id": "chassisdef_wasp_WSP-1P2",
     "Name": "Wasp",
-    "Details": "__/Base_3061.chassisdef_wasp_WSP-1P2.Details/__",
+    "Details": "An improved 1-P, this upgrade package uses scavenged tech to improve the 1-Ps scouting ability.  Using minimal upgrades, all purchased or acquired at great cost, this refit package is available for anyone with the contacts or cash to afford it. The new active probe is capable of spotting most threats long before they can see the Wasp, whilst the removal of the RL-15 takes away most of it’s offence punch, it allows for the addition of a knock-off AMS system to better protect the mech. Endo Steel is used to provide the weight savings for the probe, though it’s limited availability and high cost limit the number of these conversions produced. Popular among pilots and the chop shop owners refitting them, this upgrade is expected to spread through the Periphery in the near future, as the technology required becomes easier to acquire.",
     "Icon": "wasp"
   },
+  "VariantName": "WSP-1P2",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Sniper & Scout",
+  "YangsThoughts": "An improved 1-P, this upgrade package uses scavenged tech to improve the 1-Ps scouting ability.  Using minimal upgrades, all purchased or acquired at great cost, this refit package is available for anyone with the contacts or cash to afford it. The new active probe is capable of spotting most threats long before they can see the Wasp, whilst the removal of the RL-15 takes away most of it’s offence punch, it allows for the addition of a knock-off AMS system to better protect the mech. Endo Steel is used to provide the weight savings for the probe, though it’s limited availability and high cost limit the number of these conversions produced. Popular among pilots and the chop shop owners refitting them, this upgrade is expected to spread through the Periphery in the near future, as the technology required becomes easier to acquire.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_wasp",
@@ -63,6 +74,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 20,
   "DFAInstability": 10,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -128,7 +142,16 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 50,
@@ -211,19 +234,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "WSP-1P2",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_wasp_WSP-1P2.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_wasp_WSP-1P2.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0,
-  "CustomParts": {
-    "FiringArc": 150,
-    "CustomParts": []
-  }
+  ]
 }

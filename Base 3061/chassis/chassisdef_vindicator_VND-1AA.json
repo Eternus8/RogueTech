@@ -11,9 +11,9 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -25,9 +25,16 @@
     "UIName": "Vindicator",
     "Id": "chassisdef_vindicator_VND-1AA",
     "Name": "Vindicator",
-    "Details": "__/Base_3061.chassisdef_vindicator_VND-1AA.Details/__",
+    "Details": "Known as the 'Avenging Angel', the VND-1AA was an attempt to increase the Vindicator's mobility - which succeeded.  However, the cost was to reduce its armor to that of a Light 'Mech. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
     "Icon": "uixTxrIcon_vindicator"
   },
+  "VariantName": "VND-1AA",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fire Support & Brawler",
+  "YangsThoughts": "Known as the 'Avenging Angel', the VND-1AA was an attempt to increase the Vindicator's mobility - which succeeded.  However, the cost was to reduce its armor to that of a Light 'Mech. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
   "MovementCapDefID": "movedef_mediummech",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_vindicator",
@@ -98,10 +105,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -138,7 +141,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 110,
@@ -221,12 +229,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "VND-1AA",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_vindicator_VND-1AA.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_vindicator_VND-1AA.YangsThoughts/__"
+  ]
 }

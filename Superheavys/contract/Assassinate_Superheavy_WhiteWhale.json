@@ -13,7 +13,7 @@
     "goodFaithStatementOverride": null,
     "shortDescription": "We've had difficulty pinning down a particularly powerful {TEAM_TAR.FactionDef.Name} 'mech. It has destroyed or eluded our forces multiple times. We have a lead on it's current location. Investigate, and if it's there, kill it.",
     "longDescription": "It sounds like we should send in our best on this one, Commander.",
-    "salvagePotential": 10,
+    "salvagePotential": 12,
     "requirementList": [
         {
             "Scope": "StarSystem",
@@ -1259,7 +1259,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Vehicle",
-                        "unitDefId": "vehicledef_FERRET",
+                        "unitDefId": "vehicledef_FERRET_1",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/UnitTags"
@@ -1272,9 +1272,12 @@
                             "items": [],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "Tagged",
                         "pilotTagSet": {
-                            "items": [],
+                            "items": [
+                                "pilot_npc_tanker_d10",
+                                "{CUR_TEAM.faction}"
+                            ],
                             "tagSetSourceFile": "tags/PilotTags"
                         },
                         "pilotExcludedTagSet": {
@@ -1292,7 +1295,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Vehicle",
-                        "unitDefId": "vehicledef_FERRET",
+                        "unitDefId": "vehicledef_FERRET_2",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/UnitTags"
@@ -1305,9 +1308,12 @@
                             "items": [],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "Tagged",
                         "pilotTagSet": {
-                            "items": [],
+                            "items": [
+                                "pilot_npc_tanker_d10",
+                                "{CUR_TEAM.faction}"
+                            ],
                             "tagSetSourceFile": "tags/PilotTags"
                         },
                         "pilotExcludedTagSet": {
@@ -1325,7 +1331,7 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Vehicle",
-                        "unitDefId": "vehicledef_FERRET",
+                        "unitDefId": "vehicledef_FERRET_3",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/UnitTags"
@@ -1338,9 +1344,12 @@
                             "items": [],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "Tagged",
                         "pilotTagSet": {
-                            "items": [],
+                            "items": [
+                                "pilot_npc_tanker_d10",
+                                "{CUR_TEAM.faction}"
+                            ],
                             "tagSetSourceFile": "tags/PilotTags"
                         },
                         "pilotExcludedTagSet": {

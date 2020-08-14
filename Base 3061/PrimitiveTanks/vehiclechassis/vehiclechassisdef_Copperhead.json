@@ -1,15 +1,16 @@
 {
-  "YangsThoughts": "__/Base_3061.vehiclechassisdef_Copperhead.YangsThoughts/__",
   "Description": {
     "Id": "vehiclechassisdef_Copperhead",
     "Name": "Copperhead Tank Destroyer",
     "Details": "",
-    "Icon": "STRIKER",
-    "Cost": 564,
+    "Icon": "Scorpion",
+    "Cost": 430300,
     "Rarity": 0,
     "Purchasable": false
   },
+  "YangsThoughts": "It's a tank, Boss, they all look the same to me.",
   "MovementCapDefID": "movedef_6-9cv",
+  "movementType": "Tracked",
   "PathingCapDefID": "pathingdef_light_tracked",
   "HardpointDataDefID": "hardpointdatadef_scorpion",
   "PrefabIdentifier": "chrPrfVhcl_scorpion",
@@ -19,7 +20,6 @@
   "BattleValue": 564,
   "TopSpeed": 85,
   "TurnRadius": 90,
-  "movementType": "Tracked",
   "SpotterDistanceMultiplier": 1,
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,

@@ -7,11 +7,9 @@
         ],
         "BonusDescriptions": {
             "Bonuses": [
-                "IsArtillery",
                 "Indirect",
-                "NoAA",
-                "VariableDmg: 10",
-                "WpnRecoil: 3"
+                "FLAKmode",
+                "WpnRecoil: 2"
             ]
         },
         "InventorySorter": {
@@ -30,28 +28,26 @@
     ],
     "AmmoCategory": "Thumper",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 20,
-    "Damage": 50,
+    "HeatGenerated": 18,
+    "Damage": 75,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 0,
-    "DamageVariance": 10,
+    "DamageVariance": 0,
     "HeatDamage": 0,
     "AccuracyModifier": 0,
     "CriticalChanceMultiplier": 1,
-    "APArmorShardsMod": 0,
-    "APMaxArmorThickness": 1,
-    "APCriticalChanceMultiplier": 0.1,
+    "APArmorShardsMod": 1,
+    "APMaxArmorThickness": 150,
+    "APCriticalChanceMultiplier": 0.5,
     "IndirectFireCapable": true,
-    "RefireModifier": 3,
+    "RefireModifier": 2,
     "ShotsWhenFired": 1,
     "ProjectilesPerShot": 1,
     "AttackRecoil": 4,
-    "Instability": 21,
+    "Instability": 20,
     "AMSImmune": true,
     "FireTerrainChance": 0.042,
-    "CantHitUnaffecedByPathing": true,
-    "HitGenerator": "Cluster",
     "AOEEffectsFalloff": true,
     "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
     "Description": {
@@ -63,7 +59,7 @@
         "UIName": "Thumper Cannon",
         "Id": "Weapon_Artillery_THUMPER_Cannon",
         "Name": "Thumper Artillery",
-        "Details": "The Thumper Artillery Cannon is a scaled down version of the Thumper Artillery Piece capable of direct fire. When mounted on BattleMechs, combat vehicles, and AeroSpace Fighters, it provides artillery support at much closer ranges than its cousin. Essentially a snub-nosed version of the Thumper Artillery Piece, the Thumper Artillery Cannon fires a shell at an enemy location like an autocannon. \n\n <b><color=#ffcc00>Uses Thumper Ammo.</color></b>",
+        "Details": "The Thumper Artillery Cannon is a scaled down version of the Thumper Artillery Piece capable of direct fire. When mounted on BattleMechs, combat vehicles, and AeroSpace Fighters, it provides artillery support at much closer ranges than its cousin. Essentially a snub-nosed version of the Thumper Artillery Piece, the Thumper Artillery Cannon fires a shell at an enemy location like an autocannon.\n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b> \n\n <b><color=#ffcc00>Uses Thumper Ammo.</color></b>",
         "Icon": "Artillery"
     },
     "BonusValueA": "",
@@ -71,7 +67,7 @@
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "artillery",
-    "BattleValue": 0,
+    "BattleValue": 41,
     "InventorySize": 6,
     "Tonnage": 10,
     "AllowedLocations": "All",
@@ -84,7 +80,21 @@
             "UIName": "Direct",
             "isBaseMode": false,
             "IndirectFireCapable": false,
-            "AlwaysIndirectVisuals": false
+            "AlwaysIndirectVisuals": false,
+            "CantHitUnaffecedByPathing": false
+        },
+        {
+            "Id": "flak",
+            "UIName": "FLAK",
+            "isBaseMode": false,
+            "CantHitUnaffecedByPathing": false,
+            "EvasivePipsIgnored": 15,
+            "DirectFireModifier": 56.0,
+            "MinMissRadius": 10,
+            "MaxMissRadius": 15,
+            "IndirectFireCapable": false,
+            "AlwaysIndirectVisuals": false,
+            "MinRange": -90
         },
         {
             "Id": "indirectfire",
@@ -93,7 +103,8 @@
             "DirectFireModifier": 1.0,
             "AlwaysIndirectVisuals": true,
             "IndirectFireCapable": true,
-            "ForbiddenRange": 120
+            "ForbiddenRange": 120,
+            "CantHitUnaffecedByPathing": true
         }
     ],
     "statusEffects": [],

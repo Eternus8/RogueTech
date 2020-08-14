@@ -39,8 +39,7 @@
 		"EvasivePipsGainedAdditionalRestorer",
 		"VehicleEvasivePipsGainiedAdditionalFix",
 		"HighDifficultyLanceSpawnFixer",
-		"InnerSphereMap",
-		"BetterJuggernaut"
+		"InnerSphereMap"
     ],
 	"ConflictsWith": [
 	],
@@ -277,6 +276,10 @@
 		},
 		{
 			"Type": "WeaponDef",
+			"Path": "Widget/ClanHandHelds"
+		},
+		{
+			"Type": "WeaponDef",
 			"Path": "Widget/Lance"
 		},
 		{
@@ -332,8 +335,28 @@
 			"Path": "Quirks/PositiveQuirks"
 		},
 		{
-			"Type": "UpgradeDef",
-			"Path": "Quirks/NegativeQuirks"
-		}
+            "Type": "UpgradeDef",
+            "Path": "Tanks/carquirks"
+        },
+		{
+            "Type": "HeatSinkDef",
+            "Path": "Tanks/TankEngines"
+        },
+        {
+            "Type": "UpgradeDef",
+            "Path": "Tanks/TankDefaults"
+        },
+		{
+            "Type": "UpgradeDef",
+            "Path": "Turrets/TurretDefaults"
+        },
+        {
+            "Type": "HeatSinkDef",
+            "Path": "Turrets/TurretEngineParts"
+        },
+		{
+			"Type": "WeaponDef",
+			"Path": "Turrets/TurretWeapons"
+		},
 	]
 }

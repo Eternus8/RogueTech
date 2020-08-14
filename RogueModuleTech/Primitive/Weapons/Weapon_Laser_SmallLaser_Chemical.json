@@ -24,15 +24,15 @@
   "Type": "Laser",
   "WeaponSubType": "SmallLaser",
   "MinRange": 0,
-  "MaxRange": 180,
+  "MaxRange": 120,
   "RangeSplit": [
+    30,
     60,
-    90,
-    120
+    90
   ],
   "AmmoCategory": "ChemSmall",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 3,
+  "HeatGenerated": 2,
   "Damage": 15,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
@@ -78,7 +78,7 @@
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "Laser",
-  "BattleValue": 0,
+  "BattleValue": 6,
   "InventorySize": 1,
   "Tonnage": 0.25,
   "AllowedLocations": "All",

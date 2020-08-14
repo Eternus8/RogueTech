@@ -5,14 +5,14 @@
       "ComponentDefID": "Special_Command_Mech",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
+      "SimGameUID": "",
       "prefabName": "",
       "hasPrefabName": true,
-      "SimGameUID": ""
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2356329,
+    "Cost": 2399060.0,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -20,9 +20,18 @@
     "UIName": "BattleMaster",
     "Id": "chassisdef_battlemaster_BLR-1Gbc",
     "Name": "BattleMaster",
-    "Details": "__/Base_3061.chassisdef_battlemaster_BLR-1Gbc.Details/__",
+    "Details": "A variant of the 1Gb introduced in 2763, this model dropped three heat sinks to incorporate a Command Console.",
     "Icon": "uixTxrIcon_battlemaster"
   },
+  "VariantName": "BLR-1Gbc",
+  "ChassisTags": {
+    "items": [
+      "SLDFMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Brawler & Close Assault",
+  "YangsThoughts": "A variant of the 1Gb introduced in 2763, this model dropped three heat sinks to incorporate a Command Console.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_battlemaster",
@@ -58,6 +67,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 85,
   "DFAInstability": 43,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -72,19 +84,11 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -240,17 +244,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "BLR-1Gbc",
-  "ChassisTags": {
-    "items": [
-      "SLDFMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_battlemaster_BLR-1Gbc.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_battlemaster_BLR-1Gbc.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

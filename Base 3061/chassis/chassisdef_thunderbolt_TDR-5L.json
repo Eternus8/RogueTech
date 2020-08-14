@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_MultiTrack",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1378211,
+    "Cost": 1365909.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Thunderbolt",
     "Id": "chassisdef_thunderbolt_TDR-5L",
     "Name": "Thunderbolt",
-    "Details": "__/Base_3061.chassisdef_thunderbolt_TDR-5L.Details/__",
+    "Details": "The so-called \"Lost Thunderbolt\", the 5L was a downgraded version of the Royal 5Sb Thunderbolt developed by Earthwerks Tikonov in 2823. Built on a more basic standard chassis, the now LosTech ER PPC was swapped for a Diverse Optics Sunbeam ER Large Laser but most of the 5Sb's systems were preserved with only the loss of one double heat sink and the head-mounted Small Laser. Production of the design only lasted a mere twenty-seven years before further technology decline resulted in the 5LS.",
     "Icon": "uixTxrIcon_thunderbolt"
   },
+  "VariantName": "TDR-5L",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Skirmisher",
+  "YangsThoughts": "The so-called \"Lost Thunderbolt\", the 5L was a downgraded version of the Royal 5Sb Thunderbolt developed by Earthwerks Tikonov in 2823. Built on a more basic standard chassis, the now LosTech ER PPC was swapped for a Diverse Optics Sunbeam ER Large Laser but most of the 5Sb's systems were preserved with only the loss of one double heat sink and the head-mounted Small Laser. Production of the design only lasted a mere twenty-seven years before further technology decline resulted in the 5LS.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_thunderbolt",
@@ -57,6 +64,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 65,
   "DFAInstability": 33,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -70,6 +80,10 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -98,10 +112,6 @@
         },
         {
           "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -160,6 +170,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -231,15 +245,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "TDR-5L",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_thunderbolt_TDR-5L.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_thunderbolt_TDR-5L.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

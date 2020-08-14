@@ -16,7 +16,6 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-                "MortarDamage: -4",
                 "Airburst",
                 "AccuracyUnit: VTOL",
                 "AccuracyUnit2: +3",

@@ -4,6 +4,11 @@
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
     },
+    "AssemblyVariant": {
+      "PrefabID": "Catapult",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
@@ -12,10 +17,10 @@
       "ComponentDefID": "Special_Accurate_Category_Missiles",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -27,9 +32,16 @@
     "UIName": "Catapult",
     "Id": "chassisdef_catapult_CPLT-C5",
     "Name": "Catapult",
-    "Details": "__/Base_3061.chassisdef_catapult_CPLT-C5.Details/__",
+    "Details": "An upgrade of the C3 model, this variant first appeared during the St. Ives Conflict. It retains the Arrow IV artillery system, but its chassis has been upgraded to Endo Steel and its heat sinks to improved versions. This allows the C5 to increase its armor coverage to twelve and a half tons, upgrade its lasers to ER Medium Lasers, and quadruple the amount of ammo carried with protection provided by CASE.",
     "Icon": "uixTxrIcon_catapult"
   },
+  "VariantName": "CPLT-C5",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Fire Support",
+  "YangsThoughts": "An upgrade of the C3 model, this variant first appeared during the St. Ives Conflict. It retains the Arrow IV artillery system, but its chassis has been upgraded to Endo Steel and its heat sinks to improved versions. This allows the C5 to increase its armor coverage to twelve and a half tons, upgrade its lasers to ER Medium Lasers, and quadruple the amount of ammo carried with protection provided by CASE.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_catapult",
@@ -65,6 +77,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 65,
   "DFAInstability": 33,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -79,7 +94,7 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -93,11 +108,11 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -231,15 +246,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "CPLT-C5",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_catapult_CPLT-C5.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_catapult_CPLT-C5.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

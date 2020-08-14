@@ -5,75 +5,120 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_armorslots_LAM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_structureslots_LAM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "emod_Engine_LAM",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "emod_engineslots_size2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "emod_engineslots_size2",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Quirk_JumpJet_LAM",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Quirk_JumpJet_LAM",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Quirk_JumpJet_LAM",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Quirk_JumpJet_LAM",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "SimGameUID": "",
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Quirk_PartialWing_LAM",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
+      "SimGameUID": "",
+      "IsFixed": false,
       "prefabName": "",
       "hasPrefabName": true,
-      "SimGameUID": "",
-      "IsFixed": false
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Quirk_PartialWing_LAM_LTslot",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
+      "SimGameUID": "",
+      "IsFixed": false,
       "prefabName": "",
       "hasPrefabName": true,
-      "SimGameUID": "",
-      "IsFixed": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Quirk_JumpJet_LAM",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "IsFixed": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Quirk_JumpJet_LAM",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "IsFixed": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Quirk_JumpJet_LAM",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "IsFixed": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Quirk_JumpJet_LAM",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
-      "SimGameUID": "",
-      "IsFixed": false
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 409444,
+    "Cost": 416651.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -81,9 +126,18 @@
     "UIName": "Stinger LAM",
     "Id": "chassisdef_stinger_lam_STG-A1",
     "Name": "Stinger LAM",
-    "Details": "__/Base_3061.chassisdef_stinger_lam_STG-A1.Details/__",
+    "Details": "The original Stinger LAM used by the Star League Defense Force Royal Divisions, this version carried a Medium Pulse Laser and replaced the Machine Guns with Small Pulse Lasers. Double heat sinks kept the temperature manageable. It was also more heavily armored than its forerunner, carrying five tons of protection.",
     "Icon": "StingerLAM"
   },
+  "VariantName": "STG-A1",
+  "ChassisTags": {
+    "items": [
+      "SLDFMech"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Land/Air-Mech",
+  "YangsThoughts": "The original Stinger LAM used by the Star League Defense Force Royal Divisions, this version carried a Medium Pulse Laser and replaced the Machine Guns with Small Pulse Lasers. Double heat sinks kept the temperature manageable. It was also more heavily armored than its forerunner, carrying five tons of protection.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_stingerlam",
@@ -119,15 +173,18 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 30,
   "DFAInstability": 15,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
+  "AssemblyVariant": {
+    "PrefabID": "StingerLAM",
+    "Exclude": false,
+    "Include": true
+  },
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -140,6 +197,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -151,10 +212,6 @@
     {
       "Location": "LeftTorso",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -170,7 +227,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -198,12 +255,7 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 70,
@@ -290,22 +342,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "STG-A1",
-  "ChassisTags": {
-    "items": [
-      "SLDFMech"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_stinger_lam_STG-A1.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_stinger_lam_STG-A1.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0,
-  "AssemblyVariant": {
-    "PrefabID": "StingerLAM",
-    "Exclude": false,
-    "Include": true
-  }
+  ]
 }

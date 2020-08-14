@@ -5,12 +5,12 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1469954,
+    "Cost": 1483333.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -21,6 +21,13 @@
     "Details": "This variant used a 210 Light Engine, which dropped the top speed to 54 km/h, but five Improved Jump Jets were added to compensate for this lack of speed. Built in 3076, the standard weapons were replaced by a Delta Dart LRM-15 with Artemis IV FCS and an Diverse Optics ER Medium Laser in each torso, and a Defiance 250 Light PPC was mounted in each arm. Eleven tons of Light Ferro-Fibrous armor and CASE protected the 'Mech.",
     "Icon": "archerorig"
   },
+  "VariantName": "ARC-9M",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Support",
+  "YangsThoughts": "This variant used a 210 Light Engine, which dropped the top speed to 54 km/h, but five Improved Jump Jets were added to compensate for this lack of speed. Built in 3076, the standard weapons were replaced by a Delta Dart LRM-15 with Artemis IV FCS and an Diverse Optics ER Medium Laser in each torso, and a Defiance 250 Light PPC was mounted in each arm. Eleven tons of Light Ferro-Fibrous armor and CASE protected the 'Mech.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_archer",
@@ -90,10 +97,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -106,11 +109,7 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -145,6 +144,10 @@
         },
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -230,12 +233,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "ARC-9M",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Heavy Support",
-  "YangsThoughts": "This variant used a 210 Light Engine, which dropped the top speed to 54 km/h, but five Improved Jump Jets were added to compensate for this lack of speed. Built in 3076, the standard weapons were replaced by a Delta Dart LRM-15 with Artemis IV FCS and an Diverse Optics ER Medium Laser in each torso, and a Defiance 250 Light PPC was mounted in each arm. Eleven tons of Light Ferro-Fibrous armor and CASE protected the 'Mech."
+  ]
 }

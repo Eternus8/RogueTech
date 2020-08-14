@@ -11,9 +11,9 @@
       "ComponentDefID": "Special_Combat_Computer",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -25,9 +25,16 @@
     "UIName": "Firebee",
     "Id": "chassisdef_firebee_FRB-2E",
     "Name": "Firebee",
-    "Details": "__/Base_3061.chassisdef_firebee_FRB-2E.Details/__",
+    "Details": "The 2E Firebee mounts a Star Cutter 80cm Large Laser, giving it respectable firepower. Up close, four Maui Crossbow SRM-2 launcher can unleash eight missiles. Whether it is using Inferno rounds or not, something that its two tons of ammunition allows MechWarriors to utilize on a regular basis, the Firebee is a potent anti-vehicle platform.",
     "Icon": "Firebee"
   },
+  "VariantName": "FRB-2E",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper & Light Brawler",
+  "YangsThoughts": "The 2E Firebee mounts a Star Cutter 80cm Large Laser, giving it respectable firepower. Up close, four Maui Crossbow SRM-2 launcher can unleash eight missiles. Whether it is using Inferno rounds or not, something that its two tons of ammunition allows MechWarriors to utilize on a regular basis, the Firebee is a potent anti-vehicle platform.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_firebee",
@@ -63,6 +70,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 35,
   "DFAInstability": 18,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -93,10 +103,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -110,6 +116,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -225,15 +235,5 @@
       "y": 4,
       "z": 0.5
     }
-  ],
-  "VariantName": "FRB-2E",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_firebee_FRB-2E.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_firebee_FRB-2E.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

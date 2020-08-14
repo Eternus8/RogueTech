@@ -11,13 +11,13 @@
       "ComponentDefID": "Special_Accurate_Category_Energy",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 638208,
+    "Cost": 632477.0,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "",
@@ -25,9 +25,16 @@
     "UIName": "Wolfhound",
     "Id": "chassisdef_wolfhound_WLF-2",
     "Name": "Wolfhound",
-    "Details": "__/Base_3061.chassisdef_wolfhound_WLF-2.Details/__",
+    "Details": "Introduced in 3052 the WLF-2 Variant upgrades the 10 heat sinks to doubles and the Large laser is upgraded also to an ER version. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
     "Icon": "uixTxrIcon_wolfhound"
   },
+  "VariantName": "WLF-2",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper & Light Brawler",
+  "YangsThoughts": "Introduced in 3052 the WLF-2 Variant upgrades the 10 heat sinks to doubles and the Large laser is upgraded also to an ER version. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_wolfhound",
@@ -66,7 +73,16 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 1,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -87,10 +103,6 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -224,12 +236,5 @@
       "y": 4,
       "z": 0.5
     }
-  ],
-  "VariantName": "WLF-2",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_wolfhound_WLF-2.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_wolfhound_WLF-2.YangsThoughts/__"
+  ]
 }

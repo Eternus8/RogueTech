@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Nimble",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 644048,
+    "Cost": 638208.0,
     "Rarity": 2,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Venom",
     "Id": "chassisdef_venom_SDR-9C",
     "Name": "Venom",
-    "Details": "__/Base_3061.chassisdef_venom_SDR-9C.Details/__",
+    "Details": "The Venom was built in direct response to losses suffered by the Draconis Combine and to boost sales for Nimakachi Fusion Products Limited. The 8C carries only standard jump jets and replaces 3 Pulse Lasers with a Snub Nose PPC.",
     "Icon": "Venom"
   },
+  "VariantName": "SDR-9C",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Extremely Maneuverable Scout",
+  "YangsThoughts": "The Venom was built in direct response to losses suffered by the Draconis Combine and to boost sales for Nimakachi Fusion Products Limited. The 8C carries only standard jump jets and replaces 3 Pulse Lasers with a Snub Nose PPC.",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_spider",
@@ -71,7 +78,7 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -102,6 +109,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -143,7 +154,7 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -215,12 +226,5 @@
       "y": 4,
       "z": 0.5
     }
-  ],
-  "VariantName": "SDR-9C",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_venom_SDR-9C.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_venom_SDR-9C.YangsThoughts/__"
+  ]
 }

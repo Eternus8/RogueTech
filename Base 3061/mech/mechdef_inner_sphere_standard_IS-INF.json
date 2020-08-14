@@ -61,83 +61,83 @@
     "UIName": "Inner Sphere Standard IS-INF",
     "Id": "mechdef_inner_sphere_standard_IS-INF",
     "Name": "Inner Sphere Standard IS-INF",
-    "Details": "__/Base_3061.mechdef_inner_sphere_standard_IS-INF.Details/__",
+    "Details": "The Inner Sphere Standard was developed following the initial thrust of the Clan invasion, as Inner Sphere powers rushed to duplicate the battle armor technology the Clans fielded. Lacking any battlefield salvage on which to base their development though, engineers were forced to work off of ancient rumors of early power armor suits like the Nighthawk, more akin to armored Exoskeletons than the 'Toads' currently rampaging through known space, and these prototypes fared poorly during testing. It took salvage from the first victories over the Clans to truly kick-start the development of battle armor. The New Avalon Institute of Science was the first to reproduce in part the Clans' Elemental armor as the Inner Sphere Standard.",
     "Icon": "uixTxrIcon_expa"
   },
   "simGameMechPartCost": 15273,
   "Version": 1,
   "Locations": [
     {
-      "DamageLevel": "Functional",
       "Location": "Head",
       "CurrentArmor": 15,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 5,
       "AssignedArmor": 15,
-      "AssignedRearArmor": -1
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
     },
     {
-      "DamageLevel": "Functional",
       "Location": "LeftArm",
       "CurrentArmor": 30,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 25,
       "AssignedArmor": 30,
-      "AssignedRearArmor": -1
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
     },
     {
-      "DamageLevel": "Functional",
       "Location": "LeftTorso",
       "CurrentArmor": 65,
       "CurrentRearArmor": 10,
       "CurrentInternalStructure": 30,
       "AssignedArmor": 65,
-      "AssignedRearArmor": 10
+      "AssignedRearArmor": 10,
+      "DamageLevel": "Functional"
     },
     {
-      "DamageLevel": "Functional",
       "Location": "CenterTorso",
       "CurrentArmor": 75,
       "CurrentRearArmor": 20,
       "CurrentInternalStructure": 37,
       "AssignedArmor": 75,
-      "AssignedRearArmor": 20
+      "AssignedRearArmor": 20,
+      "DamageLevel": "Functional"
     },
     {
-      "DamageLevel": "Functional",
       "Location": "RightTorso",
       "CurrentArmor": 65,
       "CurrentRearArmor": 10,
       "CurrentInternalStructure": 30,
       "AssignedArmor": 65,
-      "AssignedRearArmor": 10
+      "AssignedRearArmor": 10,
+      "DamageLevel": "Functional"
     },
     {
-      "DamageLevel": "Functional",
       "Location": "RightArm",
       "CurrentArmor": 30,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 25,
       "AssignedArmor": 30,
-      "AssignedRearArmor": -1
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
     },
     {
-      "DamageLevel": "Functional",
       "Location": "LeftLeg",
       "CurrentArmor": 40,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 30,
       "AssignedArmor": 40,
-      "AssignedRearArmor": -1
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
     },
     {
-      "DamageLevel": "Functional",
       "Location": "RightLeg",
       "CurrentArmor": 40,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 30,
       "AssignedArmor": 40,
-      "AssignedRearArmor": -1
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
     }
   ],
   "inventory": [
@@ -146,80 +146,80 @@
       "ComponentDefID": "Weapon_PowerArmor_Flamer",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_PowerArmor_SRM_Inferno",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_PowerArmor_Flamer",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_PowerArmor_SRM_Inferno",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_PowerArmor_Flamer",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_PowerArmor_SRM_Inferno",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_PowerArmor_Flamer",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_PowerArmor_SRM_Inferno",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Weapon_PowerArmor_Flamer",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Weapon_PowerArmor_SRM_Inferno",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_PowerArmor_Flamer",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_PowerArmor_SRM_Inferno",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_PowerArmor_Flamer",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_PowerArmor_SRM_Inferno",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ]
 }

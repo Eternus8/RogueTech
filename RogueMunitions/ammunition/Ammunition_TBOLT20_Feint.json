@@ -18,11 +18,12 @@
   "DamageMultiplier": 0.9,
   "AccuracyModifier": 1.0,
   "CriticalDamageModifier": 1,
+  "ProjectileSpeedMultiplier": 1.5,
   "AdditionalImpactVFX": "WFX_BESmaller",
   "AdditionalImpactVFXScaleX": 2,
   "AdditionalImpactVFXScaleY": 2,
   "AdditionalImpactVFXScaleZ": 2,
-  "AMSImmune": true,
+  "AMSHitChance": -0.10,
   "ColorsTable": [
     {
       "C": "#B7CD61",
@@ -31,5 +32,5 @@
   ],
   "ColorSpeedChange": 5,
   "ColorChangeRule": "t0",
-  "MissileHealth": 13
+  "MissileHealth": 14
 }

@@ -5,13 +5,13 @@
       "ComponentDefID": "Special_Rugged",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2501190,
+    "Cost": 2454907.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +19,16 @@
     "UIName": "Banshee",
     "Id": "chassisdef_banshee_BNC-3E",
     "Name": "Banshee",
-    "Details": "__/Base_3061.chassisdef_banshee_BNC-3E.Details/__",
+    "Details": "The Banshee 3E was originally designed for close combat, with better speed than most other assault 'Mechs. While it has heavy armor and powerful Melee attack capability, its firepower is severely lacking and it can still be flanked by lighter units.",
     "Icon": "uixTxrIcon_banshee"
   },
+  "VariantName": "BNC-3E",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Brawler & Sniper",
+  "YangsThoughts": "The Banshee 3E was originally designed for close combat, with better speed than most other assault 'Mechs. While it has heavy armor and powerful Melee attack capability, its firepower is severely lacking and it can still be flanked by lighter units.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_banshee",
@@ -104,6 +111,10 @@
       "Location": "CenterTorso",
       "Hardpoints": [
         {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
           "WeaponMountID": "Special",
           "Omni": false
         },
@@ -131,6 +142,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -216,12 +231,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "BNC-3E",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_banshee_BNC-3E.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_banshee_BNC-3E.YangsThoughts/__"
+  ]
 }

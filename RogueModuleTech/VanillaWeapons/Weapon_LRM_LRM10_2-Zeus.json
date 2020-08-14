@@ -11,7 +11,8 @@
         "ZeusLRM",
         "IsLRM",
         "Indirect",
-        "DoesCluster"
+        "DoesCluster",
+        "ModesCanMisfire"
       ]
     },
     "InventorySorter": {
@@ -54,7 +55,7 @@
   "GunneryJammingBase": 5,
   "FireTerrainChance": 0.005,
   "StatusEffectsPerHit": true,
-  "MissileVolleySize": 10,
+  "MissileVolleySize": 5,
   "ImprovedBallistic": true,
   "MissileVolleyIntervalMultiplier": 3.1,
   "FireDelayMultiplier": 0.1,
@@ -77,7 +78,7 @@
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "lrm10",
-  "BattleValue": 0,
+  "BattleValue": 90,
   "InventorySize": 2,
   "Tonnage": 5,
   "AllowedLocations": "All",

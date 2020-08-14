@@ -17,10 +17,10 @@
       "ComponentDefID": "Special_Accurate_Category_Missiles",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
@@ -32,9 +32,16 @@
     "UIName": "Catapult",
     "Id": "chassisdef_catapult_CPLT-C1",
     "Name": "Catapult",
-    "Details": "__/Base_3061.chassisdef_catapult_CPLT-C1.Details/__",
+    "Details": "Ah, the Catapult C1. Just like its namesake, it's good at lobbing large numbers of missiles over terrain without fear of return fire. Surprisingly, it's also not too shabby at closer ranges in a pinch. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
     "Icon": "uixTxrIcon_catapult"
   },
+  "VariantName": "CPLT-C1",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Fire Support",
+  "YangsThoughts": "Ah, the Catapult C1. Just like its namesake, it's good at lobbing large numbers of missiles over terrain without fear of return fire. Surprisingly, it's also not too shabby at closer ranges in a pinch. <b><color=#53ff1a>Restricted Actuators- Left: Upper, Right: Upper</color></b>",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_catapult",
@@ -86,6 +93,10 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -99,10 +110,6 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -236,12 +243,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "CPLT-C1",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_catapult_CPLT-C1.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_catapult_CPLT-C1.YangsThoughts/__"
+  ]
 }

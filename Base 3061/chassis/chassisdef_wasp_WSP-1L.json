@@ -5,19 +5,23 @@
     },
     "ChassisDefaults": []
   },
+  "CustomParts": {
+    "FiringArc": 150,
+    "CustomParts": []
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Extended_Torso_Twist",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 286905,
+    "Cost": 291990.0,
     "Rarity": 6,
     "Purchasable": true,
     "Manufacturer": "",
@@ -25,9 +29,16 @@
     "UIName": "Wasp",
     "Id": "chassisdef_wasp_WSP-1L",
     "Name": "Wasp",
-    "Details": "__/Base_3061.chassisdef_wasp_WSP-1L.Details/__",
+    "Details": "Designed as a fast, jump-capable reconnaissance platform for delivery of special munitions by House Liao, the Wasp 1L have fallen out of favor. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
     "Icon": "wasp"
   },
+  "VariantName": "WSP-1L",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Brawler & Scout",
+  "YangsThoughts": "A big focus on short range missiles and not really much else.  Kind of fell of out favor with none of the specialized munitions anymore. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
   "MovementCapDefID": "movedef_lightmech",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_wasp",
@@ -75,20 +86,7 @@
     },
     {
       "Location": "LeftArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 30,
@@ -99,7 +97,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -137,7 +135,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 50,
@@ -220,16 +223,5 @@
       "y": 3,
       "z": 0.5
     }
-  ],
-  "VariantName": "WSP-1L",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_wasp_WSP-1L.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_wasp_WSP-1L.YangsThoughts/__",
-  "CustomParts": {
-    "FiringArc": 150,
-    "CustomParts": []
-  }
+  ]
 }

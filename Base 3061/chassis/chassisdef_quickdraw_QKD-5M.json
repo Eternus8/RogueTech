@@ -1,17 +1,21 @@
 {
+  "CustomParts": {
+    "FiringArc": 130,
+    "CustomParts": []
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Hyper_Extending_Actuators",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1310047,
+    "Cost": 1298148.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,9 +23,16 @@
     "UIName": "Quickdraw",
     "Id": "chassisdef_quickdraw_QKD-5M",
     "Name": "Quickdraw",
-    "Details": "__/Base_3061.chassisdef_quickdraw_QKD-5M.Details/__",
+    "Details": "Technicron's replacement for the original 4G model, the 5M was introduced in 3049 as an answer to the original's heat problems by replacing the thirteen normal heat sinks with double-strength versions. It also improved the design's defenses by swapping out the regular armor with Kallon FWL Special Ferro-Fibrous and installing CASE for the LRM's ammunition. The space necessary for these upgrades was provided for by removing the SRM launcher for a one-shot Hovertec SRM-4 Launcher, a disposable missile launcher more commonly found on VTOLs, hovercraft and similar combat vehicles. The loss in sheer short-range firepower is more than made up for by the other upgrades to the design.",
     "Icon": "uixTxrIcon_quickdraw"
   },
+  "VariantName": "QKD-5M",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Skirmisher",
+  "YangsThoughts": "Technicron's replacement for the original 4G model, the 5M was introduced in 3049 as an answer to the original's heat problems by replacing the thirteen normal heat sinks with double-strength versions. It also improved the design's defenses by swapping out the regular armor with Kallon FWL Special Ferro-Fibrous and installing CASE for the LRM's ammunition. The space necessary for these upgrades was provided for by removing the SRM launcher for a one-shot Hovertec SRM-4 Launcher, a disposable missile launcher more commonly found on VTOLs, hovercraft and similar combat vehicles. The loss in sheer short-range firepower is more than made up for by the other upgrades to the design.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_quickdraw",
@@ -57,6 +68,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 60,
   "DFAInstability": 30,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -87,10 +101,6 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -104,6 +114,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -150,6 +164,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -223,15 +241,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "QKD-5M",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_quickdraw_QKD-5M.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_quickdraw_QKD-5M.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

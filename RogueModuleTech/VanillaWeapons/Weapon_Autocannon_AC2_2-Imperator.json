@@ -16,6 +16,7 @@
         "WeaponJAMFlat: 2%",
         "RapidFireAC: 30%",
         "DakkaBoom: 25",
+        "ModesCanMisfire",
         "IsAC"
       ]
     },
@@ -74,7 +75,7 @@
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "AC2",
-  "BattleValue": 0,
+  "BattleValue": 37,
   "InventorySize": 1,
   "Tonnage": 6,
   "AllowedLocations": "All",

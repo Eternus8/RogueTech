@@ -16,16 +16,15 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-				"AreaOfEffect: 90",
+				"AreaOfEffect: 45",
 				"AreaOfEffectDmg: 2",
 				"AreaOfEffectHeatDmg: 2",
 				"HeatDamage: 2",
 				"AlwaysStartsFireAnywhere",
-				"FireTerrainSize: 1",
 				"FireTerrainDuration: 2",
 				"FireTerrainStrength: 2",
-				"Inferno: 4",
-				"MortarDamage: -25%",
+				"Inferno: 2",
+				"MortarDamage: -50%",
 				"MortarAmmo: 40",
 				"VolatileAmmo"
             ]

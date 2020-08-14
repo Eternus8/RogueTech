@@ -6,19 +6,23 @@
     },
     "ChassisDefaults": []
   },
+  "CustomParts": {
+    "FiringArc": 130,
+    "CustomParts": []
+  },
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Special_Hyper_Extending_Actuators",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2025000,
+    "Cost": 2006132.0,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +30,18 @@
     "UIName": "Marauder",
     "Id": "chassisdef_marauder_MAD-4X",
     "Name": "Marauder",
-    "Details": "__/Base_3061.chassisdef_marauder_MAD-4X.Details/__",
+    "Details": "This experimental variant was made at Ronin Incorporated's facility on Wallis in 3039. Techs removed the standard weaponry from a Marauder and replaced the arm mounted weapons with a Binary Laser Cannon in each arm, while the torso mounted autocannon was replaced by twin SRM-6 launchers backed by one ton of ammunition. The Marauder-4X was also noteworthy because it used a Prototype Endo Steel chassis. To keep the heat under control, technicians installed twelve single heat sinks and six prototype Double Heat Sinks. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
     "Icon": "uixTxrIcon_marauder"
   },
+  "VariantName": "MAD-4X",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-0.76-0.9-0.93"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper & Ranged Assault",
+  "YangsThoughts": "This experimental variant was made at Ronin Incorporated's facility on Wallis in 3039. Techs removed the standard weaponry from a Marauder and replaced the arm mounted weapons with a Binary Laser Cannon in each arm, while the torso mounted autocannon was replaced by twin SRM-6 launchers backed by one ton of ammunition. The Marauder-4X was also noteworthy because it used a Prototype Endo Steel chassis. To keep the heat under control, technicians installed twelve single heat sinks and six prototype Double Heat Sinks. <b><color=#53ff1a>Restricted Actuators- Left: Lower, Right: Lower</color></b>",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_marauder",
@@ -64,10 +77,18 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 75,
   "DFAInstability": 38,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -97,10 +118,6 @@
         },
         {
           "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -138,7 +155,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 12,
       "MaxArmor": 160,
@@ -221,21 +243,5 @@
       "y": 6,
       "z": 0
     }
-  ],
-  "VariantName": "MAD-4X",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-0.76-0.9-0.93"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_marauder_MAD-4X.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_marauder_MAD-4X.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0,
-  "CustomParts": {
-    "FiringArc": 130,
-    "CustomParts": []
-  }
+  ]
 }

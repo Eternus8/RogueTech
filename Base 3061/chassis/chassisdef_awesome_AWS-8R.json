@@ -11,14 +11,14 @@
       "ComponentDefID": "Special_Battle_Fists",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2144048,
+    "Cost": 2124057.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,16 @@
     "UIName": "Awesome",
     "Id": "chassisdef_awesome_AWS-8R",
     "Name": "Awesome",
-    "Details": "__/Base_3061.chassisdef_awesome_AWS-8R.Details/__",
+    "Details": "The AWS-8R replaces the more expensive PPCs with a Large Laser and paired LRM-15s.  While this variant can still dish out a similar amount of damage, it suffers from its dependency on a limited supply of ammunition. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
     "Icon": "uixTxrIcon_awesome"
   },
+  "VariantName": "AWS-8R",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Fire Support & Defender",
+  "YangsThoughts": "The main benefit of this variant is its ability to lob indirect fire.  Otherwise this is a case where I prefer the original recipe. <b><color=#53ff1a>Restricted Actuators- Right: Lower</color></b>",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_awesome",
@@ -110,6 +117,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -223,12 +234,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "AWS-8R",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_awesome_AWS-8R.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_awesome_AWS-8R.YangsThoughts/__"
+  ]
 }

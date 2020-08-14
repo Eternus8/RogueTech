@@ -4,6 +4,11 @@
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
     },
+    "AssemblyVariant": {
+      "PrefabID": "Catapult",
+      "Exclude": false,
+      "Include": true
+    },
     "ChassisDefaults": []
   },
   "FixedEquipment": [
@@ -12,14 +17,14 @@
       "ComponentDefID": "Special_Accurate_Category_Missiles",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1429762,
+    "Cost": 1416509.0,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "",
@@ -27,9 +32,16 @@
     "UIName": "Catapult",
     "Id": "chassisdef_catapult_CPLT-C4C",
     "Name": "Catapult",
-    "Details": "__/Base_3061.chassisdef_catapult_CPLT-C4C.Details/__",
+    "Details": "An upgrade of the C4 model. The standard fusion engine is replaced with an extralight engine. With the extra freed tonnage, a large laser and Beagle Active Probe can be mounted. The two Small Lasers are replaced with a single pulse version. The heat sinks are upgraded to double strength models.",
     "Icon": "uixTxrIcon_catapult"
   },
+  "VariantName": "CPLT-C4C",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Fire Support",
+  "YangsThoughts": "An upgrade of the C4 model. The standard fusion engine is replaced with an extralight engine. With the extra freed tonnage, a large laser and Beagle Active Probe can be mounted. The two Small Lasers are replaced with a single pulse version. The heat sinks are upgraded to double strength models.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_catapult",
@@ -65,6 +77,9 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 65,
   "DFAInstability": 33,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
@@ -93,7 +108,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -108,6 +123,10 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -223,15 +242,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "CPLT-C4C",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_catapult_CPLT-C4C.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_catapult_CPLT-C4C.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }

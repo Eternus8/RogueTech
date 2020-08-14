@@ -1,15 +1,4 @@
 {
-  "Version": 1,
-  "Description": {
-    "Id": "vehicledef_YellowJacket_Pirate",
-    "Name": "Yellow Jacket",
-    "Details": "",
-    "Icon": "",
-    "Cost": 564,
-    "Rarity": 0,
-    "Purchasable": false
-  },
-  "ChassisID": "vehiclechassisdef_YellowJacket_Pirate",
   "VehicleTags": {
     "items": [
       "mr-resize-1.50",
@@ -20,8 +9,6 @@
       "unit_lance_support",
       "unit_advanced",
       "unit_bracket_med",
-      "NoBiome_lunarVacuum",
-      "NoBiome_martianVacuum",
       "unit_noconvoy",
       "unit_stealth",
       "locals",
@@ -41,26 +28,37 @@
     ],
     "tagSetSourceFile": ""
   },
+  "ChassisID": "vehiclechassisdef_YellowJacket_Pirate",
+  "Description": {
+    "Id": "vehicledef_YellowJacket_Pirate",
+    "Name": "Yellow Jacket",
+    "Details": "",
+    "Icon": "",
+    "Cost": 6180002,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Version": 1,
   "Locations": [
     {
       "Location": "Front",
-      "CurrentArmor": 80,
+      "CurrentArmor": 100,
       "CurrentInternalStructure": 15,
-      "AssignedArmor": 80,
+      "AssignedArmor": 100,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Left",
-      "CurrentArmor": 60,
+      "CurrentArmor": 65,
       "CurrentInternalStructure": 15,
-      "AssignedArmor": 60,
+      "AssignedArmor": 65,
       "DamageLevel": "Functional"
     },
     {
       "Location": "Right",
-      "CurrentArmor": 60,
+      "CurrentArmor": 65,
       "CurrentInternalStructure": 15,
-      "AssignedArmor": 60,
+      "AssignedArmor": 65,
       "DamageLevel": "Functional"
     },
     {
@@ -80,37 +78,72 @@
   ],
   "inventory": [
     {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_Chemical_Internal",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Weapon_MINE_DISPENSER10",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 2,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
       "ComponentDefID": "Weapon_MML_20_Pirate",
       "ComponentDefType": "Weapon",
-      "MountedLocation": "Front",
       "HardpointSlot": 0,
       "DamageLevel": "Functional"
     },
     {
-      "ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
-      "ComponentDefType": "Weapon",
       "MountedLocation": "Front",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
-      "ComponentDefType": "Weapon",
-      "MountedLocation": "Front",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
       "ComponentDefID": "Ammo_AmmunitionBox_Hydra_LRM",
       "ComponentDefType": "AmmunitionBox",
-      "MountedLocation": "Front",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
+      "MountedLocation": "Front",
       "ComponentDefID": "Ammo_AmmunitionBox_ListenKill_SRM",
       "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
       "MountedLocation": "Front",
+      "ComponentDefID": "Gear_Vehicle_STEALTH",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Tank_CrewCompartment",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Front",
+      "ComponentDefID": "Tank_FCS_Generic",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Left",
+      "ComponentDefID": "Gear_Pirate_ECM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "Turret",
+      "ComponentDefID": "Gear_VTOL",
+      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -123,57 +156,15 @@
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "Tank_Coolant_System",
+      "ComponentDefID": "emod_engineslots_std_center",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "Rear",
-      "ComponentDefID": "emod_engineslots_ICE_vtol",
+      "ComponentDefID": "Tank_Coolant_System",
       "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gear_VTOL",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "Turret",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Tank_CrewCompartment",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "Front",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Tank_Sensors_Generic",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "Front",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Tank_FCS_Generic",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "Front",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gear_Vehicle_STEALTH",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "Front",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "ComponentDefID": "Gear_Pirate_ECM",
-      "ComponentDefType": "Upgrade",
-      "MountedLocation": "Left",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

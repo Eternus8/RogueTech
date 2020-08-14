@@ -12,13 +12,13 @@
       "ComponentDefID": "Special_Modular_Weapons",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
       "prefabName": "",
-      "hasPrefabName": true
+      "hasPrefabName": true,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 2124057,
+    "Cost": 2104439.0,
     "Rarity": 6,
     "Purchasable": true,
     "Manufacturer": "",
@@ -26,9 +26,18 @@
     "UIName": "O-Bakemono",
     "Id": "chassisdef_O-Bakemono_OBK-M10",
     "Name": "O-Bakemono",
-    "Details": "__/Base_3061.chassisdef_O-Bakemono_OBK-M10.Details/__",
+    "Details": "The O-Bakemono weighs in at eighty tons and has a top speed of 64.8 km/h, which is considered a good ground speed for an assault 'Mech.",
     "Icon": "uixTxrIcon_obakemono"
   },
+  "VariantName": "OBK-M10",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.34-1.34-1.31"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Fire Support & Defender",
+  "YangsThoughts": "The primary weapons on the O-Bakemono are a pair of Shigunga Arrow IV Systems. The Arrow IVs have an effective range of up to three kilometers, allowing the O-Bakemono to stay at extreme ranges and rain missiles onto the battlefield while friendly units spot for it.",
   "MovementCapDefID": "movedef_assaultmech",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_blackjack",
@@ -99,10 +108,6 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -114,6 +119,10 @@
     {
       "Location": "CenterTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMountID": "Special",
           "Omni": false
@@ -154,6 +163,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Missile",
           "Omni": false
@@ -227,14 +240,5 @@
       "y": 5.5,
       "z": 1
     }
-  ],
-  "VariantName": "OBK-M10",
-  "ChassisTags": {
-    "items": [
-      "mr-resize-1.34-1.34-1.31"
-    ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_O-Bakemono_OBK-M10.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_O-Bakemono_OBK-M10.YangsThoughts/__"
+  ]
 }

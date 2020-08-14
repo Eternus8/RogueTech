@@ -15,16 +15,16 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-				"SniperDamage: -25",
-				"HeatDamage: 15",
-				"AreaOfEffect: 120",
-				"AreaOfEffectDmg: 35",
-				"AreaOfEffectHeatDmg: 20",
+				"HeatDamage: +30",
+                "AreaOfEffectConversion: 80%",
+                "AreaOfEffect: 75",
+                "AreaOfEffectDmg: 35",
+                "AreaOfEffectSTABDmg: 15",
+                "AreaOfEffectHeatDmg: 35",
 				"AlwaysStartsFireAnywhere",
-				"FireTerrainSize: 9",
+				"FireTerrainSize: 60",
 				"FireTerrainDuration: 4",
 				"FireTerrainStrength: 15",
-				"ScatterRadius: 35, 120",
 				"SniperAmmo: 10",
 				"VolatileAmmo"
             ]

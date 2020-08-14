@@ -12,14 +12,14 @@
       "ComponentDefID": "Special_Protected_Actuators",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false,
       "SimGameUID": "",
-      "IsFixed": false
+      "IsFixed": false,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
     }
   ],
   "Description": {
-    "Cost": 1496963,
+    "Cost": 1483333.0,
     "Rarity": 5,
     "Purchasable": true,
     "Manufacturer": "",
@@ -27,9 +27,16 @@
     "UIName": "Cataphract",
     "Id": "chassisdef_cataphract_CTF-3L",
     "Name": "Cataphract",
-    "Details": "__/Base_3061.chassisdef_cataphract_CTF-3L.Details/__",
+    "Details": "Produced by the Capellans based on stolen Davion designs, the 3L is an upgraded version of the Cataphract that follows more in line with the prototype 1X model. It is propelled by an XL Engine with MASC instead of jump jets allowing it to reach speeds of 86.4 km/h in short bursts. While it is also armed with an LB-X Autocannon/10 as its primary weapon this is instead matched with a Ceres Arms Warrior ER PPC for powerful striking capabilities at long range. Other differences include the use of four Medium Pulse Lasers and double heat sinks in place of the standard models. This design was produced by the Confederation at Grand Base following the ascension of Chancellor Romano Liao.",
     "Icon": "uixTxrIcon_cataphract"
   },
+  "VariantName": "CTF-3L",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Sniper",
+  "YangsThoughts": "Produced by the Capellans based on stolen Davion designs, the 3L is an upgraded version of the Cataphract that follows more in line with the prototype 1X model. It is propelled by an XL Engine with MASC instead of jump jets allowing it to reach speeds of 86.4 km/h in short bursts. While it is also armed with an LB-X Autocannon/10 as its primary weapon this is instead matched with a Ceres Arms Warrior ER PPC for powerful striking capabilities at long range. Other differences include the use of four Medium Pulse Lasers and double heat sinks in place of the standard models. This design was produced by the Confederation at Grand Base following the ascension of Chancellor Romano Liao.",
   "MovementCapDefID": "movedef_heavymech",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_cataphract",
@@ -65,10 +72,18 @@
   "DFAToHitModifier": 0,
   "DFASelfDamage": 70,
   "DFAInstability": 35,
+  "MechPartMax": 0,
+  "MechPartCount": 0,
+  "EngageRangeModifier": 0,
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 6,
       "MaxArmor": 45,
@@ -137,11 +152,11 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -231,15 +246,5 @@
       "y": 5,
       "z": 0
     }
-  ],
-  "VariantName": "CTF-3L",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "__/Base_3061.chassisdef_cataphract_CTF-3L.StockRole/__",
-  "YangsThoughts": "__/Base_3061.chassisdef_cataphract_CTF-3L.YangsThoughts/__",
-  "MechPartMax": 0,
-  "MechPartCount": 0,
-  "EngageRangeModifier": 0
+  ]
 }
